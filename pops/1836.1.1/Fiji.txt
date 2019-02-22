@@ -1,0 +1,102 @@
+2454 = {
+	soldiers=
+	{
+		culture = polynesian
+		religion = animist
+		size=220
+	}
+
+	artisans=
+	{
+		culture = polynesian
+		religion = animist
+		size=880
+	}
+
+	clergymen=
+	{
+		culture = polynesian
+		religion = animist
+		size=143
+	}
+
+	bureaucrats=
+	{
+		culture = polynesian
+		religion = animist
+		size=37
+	}
+
+	officers=
+	{
+		culture = polynesian
+		religion = animist
+		size=22
+	}
+
+	aristocrats=
+	{
+		culture = polynesian
+		religion = animist
+		size=185
+	}
+
+	farmers=
+	{
+		culture = polynesian
+		religion = animist
+		size=20513
+	}
+
+}
+2520 = {
+	soldiers=
+	{
+		culture = polynesian
+		religion = animist
+		size=20
+	}
+
+	artisans=
+	{
+		culture = polynesian
+		religion = animist
+		size=80
+	}
+
+	clergymen=
+	{
+		culture = polynesian
+		religion = animist
+		size=13
+	}
+
+	bureaucrats=
+	{
+		culture = polynesian
+		religion = animist
+		size=3
+	}
+
+	officers=
+	{
+		culture = polynesian
+		religion = animist
+		size=2
+	}
+
+	aristocrats=
+	{
+		culture = polynesian
+		religion = animist
+		size=17
+	}
+
+	farmers=
+	{
+		culture = polynesian
+		religion = animist
+		size=1865
+	}
+
+}

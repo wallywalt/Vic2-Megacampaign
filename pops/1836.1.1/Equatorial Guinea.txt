@@ -1,0 +1,165 @@
+1955 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = catholic
+		size=1100
+	}
+
+	soldiers=
+	{
+		culture = portuguese
+		religion = catholic
+		size=28
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = catholic
+		size=113
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = catholic
+		size=20
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size=5
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = catholic
+		size=3
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size=24
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size=1527
+	}
+
+	slaves=
+	{
+		culture = afro_caribeno
+		religion = catholic
+		size=118
+	}
+
+	soldiers=
+	{
+		culture = spanish
+		religion = catholic
+		size=3
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = catholic
+		size=69
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = catholic
+		size=12
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=3
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = catholic
+		size=2
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=14
+	}
+
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size=82
+	}
+
+}
+1973 = {
+	soldiers=
+	{
+		culture = fang
+		religion = shamanism
+		size=340
+	}
+
+	artisans=
+	{
+		culture = fang
+		religion = shamanism
+		size=1360
+	}
+
+	clergymen=
+	{
+		culture = fang
+		religion = shamanism
+		size=221
+	}
+
+	bureaucrats=
+	{
+		culture = fang
+		religion = shamanism
+		size=58
+	}
+
+	officers=
+	{
+		culture = fang
+		religion = shamanism
+		size=34
+	}
+
+	aristocrats=
+	{
+		culture = fang
+		religion = shamanism
+		size=286
+	}
+
+	farmers=
+	{
+		culture = fang
+		religion = shamanism
+		size=31701
+	}
+
+}

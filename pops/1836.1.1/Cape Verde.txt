@@ -1,0 +1,51 @@
+1876 = {
+	soldiers=
+	{
+		culture = portuguese
+		religion = catholic
+		size=191
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = catholic
+		size=762
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = catholic
+		size=137
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size=19
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = catholic
+		size=19
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size=160
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size=17762
+	}
+
+}

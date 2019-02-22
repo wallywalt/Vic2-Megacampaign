@@ -1,0 +1,204 @@
+2193 = {
+	soldiers=
+	{
+		culture = spanish
+		religion = catholic
+		size=900
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = catholic
+		size=1800
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = catholic
+		size=324
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=23
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = catholic
+		size=36
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=378
+	}
+
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size=41539
+	}
+
+}
+2194 = {
+	soldiers=
+	{
+		culture = spanish
+		religion = catholic
+		size=230
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = catholic
+		size=920
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = catholic
+		size=150
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=55
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = catholic
+		size=25
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=193
+	}
+
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size=21427
+	}
+
+}
+2195 = {
+	soldiers=
+	{
+		culture = spanish
+		religion = catholic
+		size=340
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = catholic
+		size=680
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = catholic
+		size=122
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=9
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = catholic
+		size=14
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=143
+	}
+
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size=15692
+	}
+
+}
+2196 = {
+	soldiers=
+	{
+		culture = spanish
+		religion = catholic
+		size=60
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = catholic
+		size=120
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = catholic
+		size=22
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=2
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = catholic
+		size=2
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=25
+	}
+
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size=2769
+	}
+
+}

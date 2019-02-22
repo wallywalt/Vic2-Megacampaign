@@ -1,0 +1,253 @@
+2186 = {
+	soldiers=
+	{
+		culture = spanish
+		religion = catholic
+		size=690
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = catholic
+		size=2760
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = catholic
+		size=449
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=117
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = catholic
+		size=76
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=580
+	}
+
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size=64328
+	}
+
+}
+2187 = {
+	soldiers=
+	{
+		culture = spanish
+		religion = catholic
+		size=281
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = catholic
+		size=1124
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = catholic
+		size=183
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=48
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = catholic
+		size=31
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=236
+	}
+
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size=26197
+	}
+
+}
+2188 = {
+	soldiers=
+	{
+		culture = spanish
+		religion = catholic
+		size=180
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = catholic
+		size=720
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = catholic
+		size=117
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=31
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = catholic
+		size=20
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=151
+	}
+
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size=16781
+	}
+
+}
+2189 = {
+	soldiers=
+	{
+		culture = mayan
+		religion = mayan
+		size=40
+	}
+
+	artisans=
+	{
+		culture = mayan
+		religion = mayan
+		size=160
+	}
+
+	clergymen=
+	{
+		culture = mayan
+		religion = mayan
+		size=26
+	}
+
+	bureaucrats=
+	{
+		culture = mayan
+		religion = mayan
+		size=7
+	}
+
+	officers=
+	{
+		culture = mayan
+		religion = mayan
+		size=4
+	}
+
+	aristocrats=
+	{
+		culture = mayan
+		religion = mayan
+		size=34
+	}
+
+	farmers=
+	{
+		culture = mayan
+		religion = mayan
+		size=3729
+	}
+
+	soldiers=
+	{
+		culture = spanish
+		religion = catholic
+		size=12
+	}
+
+	artisans=
+	{
+		culture = spanish
+		religion = catholic
+		size=128
+	}
+
+	clergymen=
+	{
+		culture = spanish
+		religion = catholic
+		size=21
+	}
+
+	bureaucrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=5
+	}
+
+	officers=
+	{
+		culture = spanish
+		religion = catholic
+		size=4
+	}
+
+	aristocrats=
+	{
+		culture = spanish
+		religion = catholic
+		size=27
+	}
+
+	farmers=
+	{
+		culture = spanish
+		religion = catholic
+		size=1013
+	}
+
+}

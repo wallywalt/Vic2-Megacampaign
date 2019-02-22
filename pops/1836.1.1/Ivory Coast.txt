@@ -1,0 +1,564 @@
+1892 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = shamanism
+		size=5000
+	}
+
+	soldiers=
+	{
+		culture = akan
+		religion = shamanism
+		size=270
+	}
+
+	artisans=
+	{
+		culture = akan
+		religion = shamanism
+		size=1080
+	}
+
+	clergymen=
+	{
+		culture = akan
+		religion = shamanism
+		size=176
+	}
+
+	bureaucrats=
+	{
+		culture = akan
+		religion = shamanism
+		size=46
+	}
+
+	officers=
+	{
+		culture = akan
+		religion = shamanism
+		size=27
+	}
+
+	aristocrats=
+	{
+		culture = akan
+		religion = shamanism
+		size=227
+	}
+
+	farmers=
+	{
+		culture = akan
+		religion = shamanism
+		size=20174
+	}
+
+}
+1893 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = shamanism
+		size=13000
+	}
+
+	soldiers=
+	{
+		culture = akan
+		religion = shamanism
+		size=470
+	}
+
+	artisans=
+	{
+		culture = akan
+		religion = shamanism
+		size=1880
+	}
+
+	clergymen=
+	{
+		culture = akan
+		religion = shamanism
+		size=306
+	}
+
+	bureaucrats=
+	{
+		culture = akan
+		religion = shamanism
+		size=80
+	}
+
+	officers=
+	{
+		culture = akan
+		religion = shamanism
+		size=47
+	}
+
+	aristocrats=
+	{
+		culture = akan
+		religion = shamanism
+		size=395
+	}
+
+	farmers=
+	{
+		culture = akan
+		religion = shamanism
+		size=30822
+	}
+
+}
+1894 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = catholic
+		size=4000
+	}
+
+	soldiers=
+	{
+		culture = portuguese
+		religion = catholic
+		size=220
+	}
+
+	artisans=
+	{
+		culture = portuguese
+		religion = catholic
+		size=880
+	}
+
+	clergymen=
+	{
+		culture = portuguese
+		religion = catholic
+		size=143
+	}
+
+	bureaucrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size=37
+	}
+
+	officers=
+	{
+		culture = portuguese
+		religion = catholic
+		size=22
+	}
+
+	aristocrats=
+	{
+		culture = portuguese
+		religion = catholic
+		size=185
+	}
+
+	farmers=
+	{
+		culture = portuguese
+		religion = catholic
+		size=16513
+	}
+
+}
+1895 = {
+	aristocrats=
+	{
+		culture = akan
+		religion = animist
+		size=225
+	}
+
+	clergymen=
+	{
+		culture = akan
+		religion = animist
+		size=125
+	}
+
+	artisans=
+	{
+		culture = akan
+		religion = animist
+		size=600
+	}
+
+	soldiers=
+	{
+		culture = akan
+		religion = animist
+		size=125
+	}
+
+	farmers=
+	{
+		culture = akan
+		religion = animist
+		size=8925
+	}
+
+	slaves=
+	{
+		culture = akan
+		religion = animist
+		size=2000
+	}
+
+	aristocrats=
+	{
+		culture = mande
+		religion = sunni
+		size=50
+	}
+
+	clergymen=
+	{
+		culture = mande
+		religion = sunni
+		size=75
+	}
+
+	artisans=
+	{
+		culture = mande
+		religion = sunni
+		size=150
+	}
+
+	soldiers=
+	{
+		culture = mande
+		religion = sunni
+		size=25
+	}
+
+	farmers=
+	{
+		culture = mande
+		religion = sunni
+		size=2700
+	}
+
+}
+1896 = {
+	aristocrats=
+	{
+		culture = mande
+		religion = sunni
+		size=150
+	}
+
+	clergymen=
+	{
+		culture = mande
+		religion = sunni
+		size=75
+	}
+
+	artisans=
+	{
+		culture = mande
+		religion = sunni
+		size=400
+	}
+
+	soldiers=
+	{
+		culture = mande
+		religion = sunni
+		size=75
+	}
+
+	farmers=
+	{
+		culture = mande
+		religion = sunni
+		size=7300
+	}
+
+	aristocrats=
+	{
+		culture = kru
+		religion = animist
+		size=425
+	}
+
+	clergymen=
+	{
+		culture = kru
+		religion = animist
+		size=225
+	}
+
+	artisans=
+	{
+		culture = kru
+		religion = animist
+		size=1100
+	}
+
+	soldiers=
+	{
+		culture = kru
+		religion = animist
+		size=225
+	}
+
+	farmers=
+	{
+		culture = kru
+		religion = animist
+		size=15025
+	}
+
+	slaves=
+	{
+		culture = kru
+		religion = animist
+		size=5000
+	}
+
+}
+1897 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = shamanism
+		size=3000
+	}
+
+	soldiers=
+	{
+		culture = akan
+		religion = shamanism
+		size=230
+	}
+
+	artisans=
+	{
+		culture = akan
+		religion = shamanism
+		size=920
+	}
+
+	clergymen=
+	{
+		culture = akan
+		religion = shamanism
+		size=150
+	}
+
+	bureaucrats=
+	{
+		culture = akan
+		religion = shamanism
+		size=12
+	}
+
+	officers=
+	{
+		culture = akan
+		religion = shamanism
+		size=18
+	}
+
+	aristocrats=
+	{
+		culture = akan
+		religion = shamanism
+		size=193
+	}
+
+	farmers=
+	{
+		culture = akan
+		religion = shamanism
+		size=18477
+	}
+
+}
+1898 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = shamanism
+		size=4000
+	}
+
+	soldiers=
+	{
+		culture = dyula
+		religion = shamanism
+		size=220
+	}
+
+	artisans=
+	{
+		culture = dyula
+		religion = shamanism
+		size=880
+	}
+
+	clergymen=
+	{
+		culture = dyula
+		religion = shamanism
+		size=143
+	}
+
+	bureaucrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size=11
+	}
+
+	officers=
+	{
+		culture = dyula
+		religion = shamanism
+		size=18
+	}
+
+	aristocrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size=185
+	}
+
+	farmers=
+	{
+		culture = dyula
+		religion = shamanism
+		size=16543
+	}
+
+}
+1899 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = shamanism
+		size=3000
+	}
+
+	soldiers=
+	{
+		culture = akan
+		religion = shamanism
+		size=180
+	}
+
+	artisans=
+	{
+		culture = akan
+		religion = shamanism
+		size=720
+	}
+
+	clergymen=
+	{
+		culture = akan
+		religion = shamanism
+		size=117
+	}
+
+	bureaucrats=
+	{
+		culture = akan
+		religion = shamanism
+		size=9
+	}
+
+	officers=
+	{
+		culture = akan
+		religion = shamanism
+		size=14
+	}
+
+	aristocrats=
+	{
+		culture = akan
+		religion = shamanism
+		size=151
+	}
+
+	farmers=
+	{
+		culture = akan
+		religion = shamanism
+		size=13809
+	}
+
+}
+1900 = {
+	slaves=
+	{
+		culture = african_minor
+		religion = shamanism
+		size=3000
+	}
+
+	soldiers=
+	{
+		culture = dyula
+		religion = shamanism
+		size=240
+	}
+
+	artisans=
+	{
+		culture = dyula
+		religion = shamanism
+		size=958
+	}
+
+	clergymen=
+	{
+		culture = dyula
+		religion = shamanism
+		size=156
+	}
+
+	bureaucrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size=12
+	}
+
+	officers=
+	{
+		culture = dyula
+		religion = shamanism
+		size=19
+	}
+
+	aristocrats=
+	{
+		culture = dyula
+		religion = shamanism
+		size=201
+	}
+
+	farmers=
+	{
+		culture = dyula
+		religion = shamanism
+		size=19364
+	}
+
+}

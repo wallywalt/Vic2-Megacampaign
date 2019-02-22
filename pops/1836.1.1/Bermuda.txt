@@ -1,0 +1,51 @@
+203 = {
+	soldiers=
+	{
+		culture = english
+		religion = protestant
+		size=23
+	}
+
+	artisans=
+	{
+		culture = english
+		religion = protestant
+		size=90
+	}
+
+	clergymen=
+	{
+		culture = english
+		religion = protestant
+		size=15
+	}
+
+	bureaucrats=
+	{
+		culture = english
+		religion = protestant
+		size=4
+	}
+
+	officers=
+	{
+		culture = english
+		religion = protestant
+		size=2
+	}
+
+	aristocrats=
+	{
+		culture = english
+		religion = protestant
+		size=19
+	}
+
+	farmers=
+	{
+		culture = english
+		religion = protestant
+		size=2107
+	}
+
+}
