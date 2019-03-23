@@ -1,0 +1,7 @@
+owner=ABB
+controller=ABB
+add_core=NUB
+add_core=ABB
+add_core=X00
+trade_goods = tropical_wood
+life_rating = 30

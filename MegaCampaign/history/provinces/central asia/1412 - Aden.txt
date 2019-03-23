@@ -1,0 +1,7 @@
+owner=RAS
+controller=RAS
+add_core=ADE
+add_core=RAS
+add_core=ARA
+trade_goods = fish
+life_rating = 35

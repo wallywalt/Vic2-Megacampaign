@@ -1,0 +1,51 @@
+#Sphere of Influence
+
+	KOJ=
+	{
+		value=0
+		level=2
+	}
+	MNG=
+	{
+		value=0
+		level=2
+	}
+	POL=
+	{
+		value=0
+		level=2
+	}
+	RUS=
+	{
+		value=0
+		level=2
+	}
+	SCA=
+	{
+		value=0
+		level=2
+	}
+	TKI=
+	{
+		value=0
+		level=2
+	}
+	X03=
+	{
+		value=0
+		level=2
+	}
+	X07=
+	{
+		value=0
+		level=2
+	}
+	X10=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

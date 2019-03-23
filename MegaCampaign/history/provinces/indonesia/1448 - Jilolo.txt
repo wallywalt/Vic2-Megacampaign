@@ -1,0 +1,5 @@
+owner=ENG
+controller=ENG
+add_core=TNT
+trade_goods = fish
+life_rating = 30

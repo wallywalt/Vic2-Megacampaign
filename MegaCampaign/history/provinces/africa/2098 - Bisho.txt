@@ -1,0 +1,4 @@
+owner=KOJ
+controller=KOJ
+trade_goods = wool
+life_rating = 35

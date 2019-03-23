@@ -1,0 +1,61 @@
+#Sphere of Influence
+
+	AYR=
+	{
+		value=0
+		level=2
+	}
+	FRA=
+	{
+		value=0
+		level=2
+	}
+	HAU=
+	{
+		value=0
+		level=2
+	}
+	KAN=
+	{
+		value=0
+		level=2
+	}
+	KBO=
+	{
+		value=0
+		level=2
+	}
+	KTS=
+	{
+		value=0
+		level=2
+	}
+	POR=
+	{
+		value=0
+		level=2
+	}
+	SGU=
+	{
+		value=0
+		level=2
+	}
+	TMB=
+	{
+		value=0
+		level=2
+	}
+	YAO=
+	{
+		value=0
+		level=2
+	}
+	ZZZ=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

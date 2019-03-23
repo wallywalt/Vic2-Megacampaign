@@ -1,0 +1,7 @@
+owner=OMA
+controller=OMA
+add_core=OMA
+add_core=MHR
+add_core=ARA
+trade_goods = fish
+life_rating = 35

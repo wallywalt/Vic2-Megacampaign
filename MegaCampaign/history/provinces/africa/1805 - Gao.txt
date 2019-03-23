@@ -1,0 +1,6 @@
+owner=TMB
+controller=TMB
+add_core=SON
+add_core=TMB
+trade_goods = wool
+life_rating = 10

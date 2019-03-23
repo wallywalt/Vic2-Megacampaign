@@ -1,0 +1,4 @@
+owner=MNG
+controller=MNG
+trade_goods = fish
+life_rating = 40

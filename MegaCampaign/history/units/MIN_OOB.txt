@@ -1,0 +1,41 @@
+#Sphere of Influence
+
+	BNG=
+	{
+		value=0
+		level=2
+	}
+	KOR=
+	{
+		value=0
+		level=2
+	}
+	MNG=
+	{
+		value=0
+		level=2
+	}
+	POR=
+	{
+		value=0
+		level=2
+	}
+	UTS=
+	{
+		value=0
+		level=2
+	}
+	X08=
+	{
+		value=0
+		level=2
+	}
+	X10=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

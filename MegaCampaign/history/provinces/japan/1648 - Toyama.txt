@@ -1,0 +1,6 @@
+owner=TKI
+controller=TKI
+add_core=MAE
+add_core=JAP
+trade_goods = tea
+life_rating = 35

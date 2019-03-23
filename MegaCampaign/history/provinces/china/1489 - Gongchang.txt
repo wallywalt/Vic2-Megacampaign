@@ -1,0 +1,6 @@
+owner=X10
+controller=X10
+add_core=CSH
+add_core=CHI
+trade_goods = timber
+life_rating = 32

@@ -1,0 +1,41 @@
+#Sphere of Influence
+
+	ENG=
+	{
+		value=0
+		level=2
+	}
+	FRA=
+	{
+		value=0
+		level=2
+	}
+	MNG=
+	{
+		value=0
+		level=2
+	}
+	POR=
+	{
+		value=0
+		level=2
+	}
+	SCA=
+	{
+		value=0
+		level=2
+	}
+	SPA=
+	{
+		value=0
+		level=2
+	}
+	X05=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

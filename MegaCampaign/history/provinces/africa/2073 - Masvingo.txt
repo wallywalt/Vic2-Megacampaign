@@ -1,0 +1,6 @@
+owner=FRA
+controller=FRA
+add_core=ZIM
+add_core=RZW
+trade_goods = iron
+life_rating = 15

@@ -1,0 +1,6 @@
+owner=LND
+controller=LND
+add_core=YAK
+add_core=LND
+trade_goods = fruit
+life_rating = 15

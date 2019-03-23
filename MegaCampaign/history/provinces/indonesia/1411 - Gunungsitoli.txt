@@ -1,0 +1,5 @@
+owner=KOJ
+controller=KOJ
+add_core=MSA
+trade_goods = fish
+life_rating = 30

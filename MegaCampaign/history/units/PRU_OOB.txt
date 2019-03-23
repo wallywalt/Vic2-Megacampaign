@@ -1,0 +1,1485 @@
+#Sphere of Influence
+
+	ABB=
+	{
+		value=0
+		level=2
+	}
+	ABU=
+	{
+		value=0
+		level=2
+	}
+	ADE=
+	{
+		value=0
+		level=2
+	}
+	AFA=
+	{
+		value=0
+		level=2
+	}
+	AFG=
+	{
+		value=0
+		level=2
+	}
+	ALH=
+	{
+		value=0
+		level=2
+	}
+	ALS=
+	{
+		value=0
+		level=2
+	}
+	ANN=
+	{
+		value=0
+		level=2
+	}
+	ANS=
+	{
+		value=0
+		level=2
+	}
+	ANZ=
+	{
+		value=0
+		level=2
+	}
+	APA=
+	{
+		value=0
+		level=2
+	}
+	ARD=
+	{
+		value=0
+		level=2
+	}
+	ARL=
+	{
+		value=0
+		level=2
+	}
+	ARM=
+	{
+		value=0
+		level=2
+	}
+	ASH=
+	{
+		value=4
+		level=2
+	}
+	ASS=
+	{
+		value=0
+		level=2
+	}
+	ATJ=
+	{
+		value=0
+		level=2
+	}
+	AUS=
+	{
+		value=0
+		level=2
+	}
+	AWA=
+	{
+		value=0
+		level=2
+	}
+	AYR=
+	{
+		value=0
+		level=2
+	}
+	BAL=
+	{
+		value=8
+		level=2
+	}
+	BAN=
+	{
+		value=0
+		level=2
+	}
+	BCS=
+	{
+		value=0
+		level=2
+	}
+	BHU=
+	{
+		value=0
+		level=2
+	}
+	BIK=
+	{
+		value=0
+		level=2
+	}
+	BLA=
+	{
+		value=0
+		level=2
+	}
+	BNG=
+	{
+		value=0
+		level=2
+	}
+	BNJ=
+	{
+		value=0
+		level=2
+	}
+	BNY=
+	{
+		value=0
+		level=2
+	}
+	BRU=
+	{
+		value=0
+		level=2
+	}
+	BSG=
+	{
+		value=0
+		level=2
+	}
+	BTN=
+	{
+		value=8
+		level=2
+	}
+	BUG=
+	{
+		value=0
+		level=2
+	}
+	BUN=
+	{
+		value=0
+		level=2
+	}
+	BUR=
+	{
+		value=0
+		level=2
+	}
+	BUU=
+	{
+		value=0
+		level=2
+	}
+	CAM=
+	{
+		value=0
+		level=2
+	}
+	CHA=
+	{
+		value=0
+		level=2
+	}
+	CHK=
+	{
+		value=0
+		level=2
+	}
+	CNK=
+	{
+		value=0
+		level=2
+	}
+	DAH=
+	{
+		value=10
+		level=2
+	}
+	DAI=
+	{
+		value=0
+		level=2
+	}
+	DAR=
+	{
+		value=0
+		level=2
+	}
+	DEC=
+	{
+		value=0
+		level=2
+	}
+	DGB=
+	{
+		value=0
+		level=2
+	}
+	DGL=
+	{
+		value=0
+		level=2
+	}
+	ENG=
+	{
+		value=-15
+		level=2
+	}
+	ETH=
+	{
+		value=0
+		level=2
+	}
+	FLA=
+	{
+		value=0
+		level=2
+	}
+	FRA=
+	{
+		value=-89
+		level=2
+	}
+	FRM=
+	{
+		value=3
+		level=2
+	}
+	GLE=
+	{
+		value=0
+		level=2
+	}
+	GWA=
+	{
+		value=0
+		level=2
+	}
+	HAR=
+	{
+		value=0
+		level=2
+	}
+	HAU=
+	{
+		value=0
+		level=2
+	}
+	HDA=
+	{
+		value=0
+		level=2
+	}
+	HDJ=
+	{
+		value=0
+		level=2
+	}
+	HDR=
+	{
+		value=0
+		level=2
+	}
+	HOB=
+	{
+		value=0
+		level=2
+	}
+	HOL=
+	{
+		value=0
+		level=2
+	}
+	HUN=
+	{
+		value=0
+		level=2
+	}
+	ITA=
+	{
+		value=0
+		level=2
+	}
+	JAS=
+	{
+		value=0
+		level=2
+	}
+	JJI=
+	{
+		value=0
+		level=2
+	}
+	JNN=
+	{
+		value=0
+		level=2
+	}
+	JOD=
+	{
+		value=0
+		level=2
+	}
+	JOH=
+	{
+		value=0
+		level=2
+	}
+	KAC=
+	{
+		value=0
+		level=2
+	}
+	KAF=
+	{
+		value=0
+		level=2
+	}
+	KAN=
+	{
+		value=0
+		level=2
+	}
+	KED=
+	{
+		value=0
+		level=2
+	}
+	KGR=
+	{
+		value=0
+		level=2
+	}
+	KMT=
+	{
+		value=0
+		level=2
+	}
+	KNG=
+	{
+		value=0
+		level=2
+	}
+	KNI=
+	{
+		value=0
+		level=2
+	}
+	KOC=
+	{
+		value=0
+		level=2
+	}
+	KOJ=
+	{
+		value=0
+		level=2
+	}
+	KON=
+	{
+		value=0
+		level=2
+	}
+	KOR=
+	{
+		value=0
+		level=2
+	}
+	KRK=
+	{
+		value=0
+		level=2
+	}
+	KRW=
+	{
+		value=0
+		level=2
+	}
+	KSJ=
+	{
+		value=0
+		level=2
+	}
+	KTI=
+	{
+		value=10
+		level=2
+	}
+	KTS=
+	{
+		value=0
+		level=2
+	}
+	KUB=
+	{
+		value=0
+		level=2
+	}
+	KZB=
+	{
+		value=0
+		level=2
+	}
+	LAU=
+	{
+		value=0
+		level=2
+	}
+	LBX=
+	{
+		value=0
+		level=2
+	}
+	LDK=
+	{
+		value=0
+		level=2
+	}
+	LDU=
+	{
+		value=0
+		level=2
+	}
+	LFA=
+	{
+		value=0
+		level=2
+	}
+	LNA=
+	{
+		value=0
+		level=2
+	}
+	LND=
+	{
+		value=0
+		level=2
+	}
+	LOA=
+	{
+		value=0
+		level=2
+	}
+	LUA=
+	{
+		value=0
+		level=2
+	}
+	LUN=
+	{
+		value=0
+		level=2
+	}
+	LUW=
+	{
+		value=4
+		level=2
+	}
+	MAG=
+	{
+		value=0
+		level=2
+	}
+	MAI=
+	{
+		value=0
+		level=2
+	}
+	MAR=
+	{
+		value=0
+		level=2
+	}
+	MBA=
+	{
+		value=0
+		level=2
+	}
+	MED=
+	{
+		value=0
+		level=2
+	}
+	MEM=
+	{
+		value=0
+		level=2
+	}
+	MEW=
+	{
+		value=0
+		level=2
+	}
+	MFL=
+	{
+		value=0
+		level=2
+	}
+	MGR=
+	{
+		value=0
+		level=2
+	}
+	MHR=
+	{
+		value=0
+		level=2
+	}
+	MJE=
+	{
+		value=0
+		level=2
+	}
+	MKS=
+	{
+		value=8
+		level=2
+	}
+	MKU=
+	{
+		value=0
+		level=2
+	}
+	MLB=
+	{
+		value=0
+		level=2
+	}
+	MLC=
+	{
+		value=0
+		level=2
+	}
+	MLK=
+	{
+		value=0
+		level=2
+	}
+	MON=
+	{
+		value=0
+		level=2
+	}
+	MRA=
+	{
+		value=0
+		level=2
+	}
+	MSI=
+	{
+		value=0
+		level=2
+	}
+	MSY=
+	{
+		value=0
+		level=2
+	}
+	MUG=
+	{
+		value=0
+		level=2
+	}
+	MUN=
+	{
+		value=0
+		level=2
+	}
+	MYS=
+	{
+		value=0
+		level=2
+	}
+	NAG=
+	{
+		value=0
+		level=2
+	}
+	NAH=
+	{
+		value=0
+		level=2
+	}
+	NDO=
+	{
+		value=0
+		level=2
+	}
+	NEJ=
+	{
+		value=0
+		level=2
+	}
+	NEP=
+	{
+		value=0
+		level=2
+	}
+	NJR=
+	{
+		value=0
+		level=2
+	}
+	NKO=
+	{
+		value=0
+		level=2
+	}
+	NUB=
+	{
+		value=0
+		level=2
+	}
+	NUM=
+	{
+		value=0
+		level=2
+	}
+	NUP=
+	{
+		value=0
+		level=2
+	}
+	OLD=
+	{
+		value=5
+		level=2
+	}
+	OMA=
+	{
+		value=0
+		level=2
+	}
+	OYO=
+	{
+		value=0
+		level=2
+	}
+	PAL=
+	{
+		value=0
+		level=2
+	}
+	PAN=
+	{
+		value=0
+		level=2
+	}
+	PAT=
+	{
+		value=0
+		level=2
+	}
+	PER=
+	{
+		value=0
+		level=2
+	}
+	PGR=
+	{
+		value=0
+		level=2
+	}
+	PIM=
+	{
+		value=0
+		level=2
+	}
+	PLB=
+	{
+		value=0
+		level=2
+	}
+	POL=
+	{
+		value=0
+		level=2
+	}
+	POM=
+	{
+		value=0
+		level=2
+	}
+	POR=
+	{
+		value=-15
+		level=2
+	}
+	PRK=
+	{
+		value=0
+		level=2
+	}
+	PRU=
+	{
+		value=0
+		level=2
+	}
+	PTE=
+	{
+		value=0
+		level=2
+	}
+	PUE=
+	{
+		value=0
+		level=2
+	}
+	RAJ=
+	{
+		value=0
+		level=2
+	}
+	RAS=
+	{
+		value=0
+		level=2
+	}
+	RWA=
+	{
+		value=0
+		level=2
+	}
+	RYU=
+	{
+		value=0
+		level=2
+	}
+	RZW=
+	{
+		value=0
+		level=2
+	}
+	SAK=
+	{
+		value=0
+		level=2
+	}
+	SAL=
+	{
+		value=0
+		level=2
+	}
+	SAV=
+	{
+		value=0
+		level=2
+	}
+	SCA=
+	{
+		value=-30
+		level=2
+	}
+	SGU=
+	{
+		value=0
+		level=2
+	}
+	SHO=
+	{
+		value=0
+		level=2
+	}
+	SIA=
+	{
+		value=0
+		level=2
+	}
+	SON=
+	{
+		value=0
+		level=2
+	}
+	SUL=
+	{
+		value=0
+		level=2
+	}
+	SYO=
+	{
+		value=0
+		level=2
+	}
+	TBK=
+	{
+		value=0
+		level=2
+	}
+	TKI=
+	{
+		value=0
+		level=2
+	}
+	TMB=
+	{
+		value=0
+		level=2
+	}
+	TNT=
+	{
+		value=4
+		level=2
+	}
+	TPR=
+	{
+		value=0
+		level=2
+	}
+	TRA=
+	{
+		value=0
+		level=2
+	}
+	UBH=
+	{
+		value=0
+		level=2
+	}
+	ULM=
+	{
+		value=0
+		level=2
+	}
+	UTS=
+	{
+		value=0
+		level=2
+	}
+	VER=
+	{
+		value=0
+		level=2
+	}
+	WAR=
+	{
+		value=0
+		level=2
+	}
+	WBG=
+	{
+		value=0
+		level=2
+	}
+	WIA=
+	{
+		value=0
+		level=2
+	}
+	WLY=
+	{
+		value=0
+		level=2
+	}
+	X03=
+	{
+		value=0
+		level=2
+	}
+	X04=
+	{
+		value=0
+		level=2
+	}
+	X05=
+	{
+		value=0
+		level=2
+	}
+	X06=
+	{
+		value=0
+		level=2
+	}
+	X07=
+	{
+		value=0
+		level=2
+	}
+	X10=
+	{
+		value=0
+		level=2
+	}
+	X14=
+	{
+		value=0
+		level=2
+	}
+	YAK=
+	{
+		value=0
+		level=2
+	}
+	YAO=
+	{
+		value=0
+		level=2
+	}
+	YAT=
+	{
+		value=0
+		level=2
+	}
+	ZIM=
+	{
+		value=0
+		level=2
+	}
+	ZZZ=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies
+army = {
+	name="KÃ¶nigliche Armee"
+	location=549
+	regiment = {
+		name="1st Allenstein Infantry"
+		type=infantry
+		home=696
+	}
+	regiment = {
+		name="1st Dessau Infantry"
+		type=infantry
+		home=555
+	}
+	regiment = {
+		name="2nd Dessau Infantry"
+		type=infantry
+		home=555
+	}
+	regiment = {
+		name="1st Dessau Cavalry"
+		type=cavalry
+		home=555
+	}
+	regiment = {
+		name="1st Neustrelitz Artillery"
+		type=artillery
+		home=545
+	}
+}
+
+army = {
+	name="1st Army"
+	location=708
+	regiment = {
+		name="1st Stettin Infantry"
+		type=infantry
+		home=546
+	}
+	regiment = {
+		name="1st Allenstein Cavalry"
+		type=cavalry
+		home=696
+	}
+	regiment = {
+		name="1st Suwalki Cavalry"
+		type=cavalry
+		home=707
+	}
+	regiment = {
+		name="1st Tuchel Infantry"
+		type=infantry
+		home=691
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=2707
+	ship = {
+		name="2nd Prenzlau Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd Prenzlau Frigate"
+		type=frigate
+	}
+}
+
+army = {
+	name="Armia z Warszawa"
+	location=706
+	regiment = {
+		name="1st Lodz Infantry"
+		type=infantry
+		home=712
+	}
+	regiment = {
+		name="1st Lublin Infantry"
+		type=infantry
+		home=715
+	}
+	regiment = {
+		name="1st Gniezno Cavalry"
+		type=cavalry
+		home=701
+	}
+	regiment = {
+		name="1st Plock Artillery"
+		type=artillery
+		home=708
+	}
+}
+
+army = {
+	name="Armia z Czerkasy"
+	location=961
+	regiment = {
+		name="1st Siauliai Infantry"
+		type=infantry
+		home=364
+	}
+	regiment = {
+		name="1st Radom Cavalry"
+		type=cavalry
+		home=713
+	}
+	regiment = {
+		name="1st Palanga Infantry"
+		type=infantry
+		home=365
+	}
+	regiment = {
+		name="1st Siauliai Cavalry"
+		type=cavalry
+		home=364
+	}
+}
+
+navy = {
+	name="3rd Fleet"
+	location=2708
+	ship = {
+		name="1st Prussian Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Prussian Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd Prussian Frigate"
+		type=frigate
+	}
+}
+
+navy = {
+	name="1st Fleet"
+	location=2712
+	ship = {
+		name="1st Prussian Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Prussian Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Prussian Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="4th Prussian Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+army = {
+	name="KurfÃ¼rstliche Garde"
+	location=552
+	regiment = {
+		name="1st Dresden Infantry"
+		type=infantry
+		home=558
+	}
+	regiment = {
+		name="1st Dresden Cavalry"
+		type=cavalry
+		home=558
+	}
+	regiment = {
+		name="1st Halle Artillery"
+		type=artillery
+		home=556
+	}
+}
+
+army = {
+	name="Armee von Braunschweig"
+	location=551
+	regiment = {
+		name="1st Göttingen Infantry"
+		type=infantry
+		home=537
+	}
+	regiment = {
+		name="1st Brunswick Artillery"
+		type=artillery
+		home=536
+	}
+}
+
+army = {
+	name="Armee von LÃ¼neburg"
+	location=551
+	regiment = {
+		name="1st Brunswick Infantry"
+		type=infantry
+		home=536
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=2723
+	ship = {
+		name="1st Göttingen Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Göttingen Frigate"
+		type=frigate
+	}
+}
+
+army = {
+	name="Armee von Nassau"
+	location=537
+	regiment = {
+		name="1st Wiesbaden Infantry"
+		type=infantry
+		home=565
+	}
+}
+
+army = {
+	name="Armee von Cassel"
+	location=551
+	regiment = {
+		name="1st Giessen Infantry"
+		type=infantry
+		home=567
+	}
+	regiment = {
+		name="1st Kassel Cavalry"
+		type=cavalry
+		home=566
+	}
+}
+
+army = {
+	name="Armee von ThÃ¼ringen"
+	location=550
+	regiment = {
+		name="1st Weimar Infantry"
+		type=infantry
+		home=561
+	}
+}
+
+army = {
+	name="Staatse Leger"
+	location=581
+	regiment = {
+		name="1st Arnhem Infantry"
+		type=infantry
+		home=382
+	}
+	regiment = {
+		name="1st Zwolle Cavalry"
+		type=cavalry
+		home=384
+	}
+}
+
+army = {
+	name="1st Army"
+	location=2119
+	regiment = {
+		name="1st Fianarantsoa Infantry"
+		type=infantry
+		home=2116
+	}
+	regiment = {
+		name="1st Antsiranana Cavalry"
+		type=cavalry
+		home=2120
+	}
+	regiment = {
+		name="1st Fianarantsoa Artillery"
+		type=artillery
+		home=2116
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=2117
+	ship = {
+		name="1st Toamasina Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Toamasina Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Toamasina Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd Toamasina Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th Toamasina Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Toamasina Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Toamasina Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+army = {
+	name="1st Army"
+	location=2116
+	regiment = {
+		name="1st Toliara Infantry"
+		type=infantry
+		home=2122
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=2909
+	ship = {
+		name="1st Toliara Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Toliara Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Toliara Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Toliara Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th Toliara Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Toliara Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Toliara Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+army = {
+	name="1st Army"
+	location=2117
+	regiment = {
+		name="1st Ampanihy Infantry"
+		type=infantry
+		home=2117
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=2909
+	ship = {
+		name="1st Ampanihy Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Ampanihy Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Ampanihy Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Ampanihy Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th Ampanihy Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Ampanihy Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="Ost See Squadron"
+	location=2710
+	ship = {
+		name="1st Prenzlau Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Prenzlau Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Prenzlau Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Prenzlau Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="4th Prenzlau Frigate"
+		type=frigate
+	}
+	ship = {
+		name="4th Prenzlau Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="5th Prenzlau Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="4th Fleet"
+	location=2710
+	ship = {
+		name="1st Prussian Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Prussian Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Prussian Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Prussian Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th Prussian Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="6th Prussian Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="7th Prussian Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="8th Prussian Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="9th Prussian Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="10th Prussian Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="11th Prussian Man'o'war"
+		type=manowar
+	}
+}
+
+army = {
+	name="1st Army"
+	location=2120
+	regiment = {
+		name="1st Antsiranana Infantry"
+		type=infantry
+		home=2120
+	}
+}
+
+army = {
+	name="1st Army"
+	location=2121
+	regiment = {
+		name="1st Mahajanga Infantry"
+		type=infantry
+		home=2121
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=2118
+	ship = {
+		name="1st Tolanaro Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Tolanaro Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Tolanaro Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd Tolanaro Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Tolanaro Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="5th Fleet"
+	location=2732
+	ship = {
+		name="1st Göttingen Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Göttingen Clipper Transport"
+		type=clipper_transport
+	}
+}
+

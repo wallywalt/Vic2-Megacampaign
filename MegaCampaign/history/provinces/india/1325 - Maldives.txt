@@ -1,0 +1,19 @@
+owner=DGL
+controller=DGL
+add_core=DGL
+add_core=NET
+add_core=HND
+trade_goods = fish
+life_rating = 32
+state_building=
+{
+	level=1
+	building = cement_factory
+	upgrade = yes
+}
+state_building=
+{
+	level=1
+	building = luxury_furniture_factory
+	upgrade = yes
+}

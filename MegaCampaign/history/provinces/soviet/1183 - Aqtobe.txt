@@ -1,0 +1,6 @@
+owner=X10
+controller=X10 
+add_core=X10
+add_core=KZH
+trade_goods = wool
+life_rating = 35

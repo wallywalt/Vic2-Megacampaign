@@ -1,0 +1,6 @@
+owner=POR
+controller=POR
+add_core=JOL
+add_core=FUL
+trade_goods = wool
+life_rating = 15

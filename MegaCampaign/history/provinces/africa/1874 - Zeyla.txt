@@ -1,0 +1,6 @@
+owner=ADE
+controller=ADE
+add_core=ADA
+add_core=ADE
+trade_goods = grain
+life_rating = 15

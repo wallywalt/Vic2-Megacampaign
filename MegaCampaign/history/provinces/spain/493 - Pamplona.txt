@@ -1,0 +1,6 @@
+owner=FRA
+controller=FRA
+add_core=SPA
+add_core=NAV
+trade_goods = fruit
+life_rating = 35

@@ -1,0 +1,66 @@
+#Sphere of Influence
+
+	ASH=
+	{
+		value=0
+		level=2
+	}
+	BEN=
+	{
+		value=0
+		level=2
+	}
+	BNG=
+	{
+		value=0
+		level=2
+	}
+	DAH=
+	{
+		value=0
+		level=2
+	}
+	DGB=
+	{
+		value=0
+		level=2
+	}
+	FRA=
+	{
+		value=0
+		level=2
+	}
+	MSI=
+	{
+		value=0
+		level=2
+	}
+	NUP=
+	{
+		value=0
+		level=2
+	}
+	OYO=
+	{
+		value=0
+		level=2
+	}
+	POR=
+	{
+		value=0
+		level=2
+	}
+	UTS=
+	{
+		value=0
+		level=2
+	}
+	YAT=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

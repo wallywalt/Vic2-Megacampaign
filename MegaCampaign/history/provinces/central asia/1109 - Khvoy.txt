@@ -1,0 +1,6 @@
+owner=X14
+controller=X14
+add_core=X14
+add_core=AZB
+trade_goods = cotton
+life_rating = 35

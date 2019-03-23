@@ -1,0 +1,8 @@
+owner=MNG
+controller=MNG
+add_core=CXI
+add_core=SHU
+add_core=MCK
+add_core=CHI
+trade_goods = fruit
+life_rating = 32

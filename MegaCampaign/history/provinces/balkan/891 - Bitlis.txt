@@ -1,0 +1,6 @@
+owner=KOJ
+controller=KOJ
+add_core=KOJ
+add_core=ARM
+trade_goods = grain
+life_rating = 35

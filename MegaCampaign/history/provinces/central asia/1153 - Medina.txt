@@ -1,0 +1,8 @@
+owner=HDJ
+controller=HDJ
+add_core=HDJ
+add_core=EGY
+add_core=ANZ
+add_core=ARA
+trade_goods = grain
+life_rating = 35

@@ -1,0 +1,5 @@
+owner=BTN
+controller=BTN
+add_core=BTN
+trade_goods = fish
+life_rating = 30

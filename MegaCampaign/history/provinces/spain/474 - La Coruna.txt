@@ -1,0 +1,18 @@
+owner=POR
+controller=POR
+add_core=SPA
+add_core=GAL
+trade_goods = fish
+life_rating = 35
+state_building=
+{
+	level=1
+	building = artillery_factory
+	upgrade = yes
+}
+state_building=
+{
+	level=1
+	building = steel_factory
+	upgrade = yes
+}

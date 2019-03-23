@@ -1,0 +1,14 @@
+owner=X10
+controller=X10 
+add_core=X10
+add_core=PLC
+add_core=BYE
+add_core=RUS
+trade_goods = cattle
+life_rating = 35
+state_building=
+{
+	level=1
+	building = small_arms_factory
+	upgrade = yes
+}

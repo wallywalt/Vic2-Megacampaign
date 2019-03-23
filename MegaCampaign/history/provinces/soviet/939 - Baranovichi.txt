@@ -1,0 +1,8 @@
+owner=POL
+controller=POL
+add_core=PLC
+add_core=UKR
+add_core=BYE
+add_core=RUS
+trade_goods = grain
+life_rating = 35

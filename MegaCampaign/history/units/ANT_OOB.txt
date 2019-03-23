@@ -1,0 +1,61 @@
+#Sphere of Influence
+
+	ANT=
+	{
+		value=0
+		level=2
+	}
+	BNG=
+	{
+		value=0
+		level=2
+	}
+	ENG=
+	{
+		value=0
+		level=2
+	}
+	FRA=
+	{
+		value=0
+		level=2
+	}
+	KRW=
+	{
+		value=0
+		level=2
+	}
+	MBA=
+	{
+		value=0
+		level=2
+	}
+	MKU=
+	{
+		value=0
+		level=2
+	}
+	OMA=
+	{
+		value=0
+		level=2
+	}
+	PRU=
+	{
+		value=0
+		level=2
+	}
+	PTE=
+	{
+		value=0
+		level=2
+	}
+	UTS=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

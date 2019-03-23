@@ -1,0 +1,6 @@
+owner=FRA
+controller=FRA
+add_core=KBA
+add_core=ARA
+trade_goods = wool
+life_rating = 35

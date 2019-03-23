@@ -1,0 +1,7 @@
+owner=POR
+controller=POR
+add_core=YUE
+add_core=ZHO
+add_core=POR
+trade_goods = tea
+life_rating = 32

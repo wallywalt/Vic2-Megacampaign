@@ -1,0 +1,7 @@
+owner=X03
+controller=X03
+add_core=SWI
+add_core=HRE
+trade_goods = cattle
+life_rating = 40
+fort = 1

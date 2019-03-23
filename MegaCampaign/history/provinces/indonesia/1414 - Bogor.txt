@@ -1,0 +1,7 @@
+owner=BAN
+controller=BAN
+add_core=CRB
+add_core=BAN
+add_core=JAV
+trade_goods = coffee
+life_rating = 30

@@ -1,0 +1,7 @@
+owner=SGU
+controller=SGU
+add_core=KBU
+add_core=FUL
+add_core=SGU
+trade_goods = wool
+life_rating = 15

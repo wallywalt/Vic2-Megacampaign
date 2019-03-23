@@ -1,0 +1,8 @@
+owner=ENG
+controller=ENG
+add_core=NOR
+add_core=DEN
+add_core=SCA
+add_core=ICL
+trade_goods = fish
+life_rating = 35
