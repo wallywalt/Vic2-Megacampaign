@@ -1,0 +1,7 @@
+owner=BHU
+controller=BHU
+add_core=UTS
+add_core=BHU
+add_core=TIB
+trade_goods = wool
+life_rating = 25

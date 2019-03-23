@@ -1,0 +1,7 @@
+owner=POR
+controller=POR
+add_core=SPA
+add_core=MOR
+add_core=ARA
+trade_goods = fish
+life_rating = 35

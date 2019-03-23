@@ -1,0 +1,7 @@
+owner=NEJ
+controller=NEJ
+add_core=SHM
+add_core=NEJ
+add_core=ARA
+trade_goods = wool
+life_rating = 10

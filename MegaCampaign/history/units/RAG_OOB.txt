@@ -1,0 +1,31 @@
+#Sphere of Influence
+
+	KOJ=
+	{
+		value=0
+		level=2
+	}
+	MON=
+	{
+		value=0
+		level=2
+	}
+	MSY=
+	{
+		value=0
+		level=2
+	}
+	RAG=
+	{
+		value=0
+		level=2
+	}
+	X03=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

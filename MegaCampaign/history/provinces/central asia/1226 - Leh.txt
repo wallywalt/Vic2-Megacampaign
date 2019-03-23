@@ -1,0 +1,6 @@
+owner=LDK
+controller=LDK
+add_core=LDK
+add_core=HND
+trade_goods = wool
+life_rating = 35

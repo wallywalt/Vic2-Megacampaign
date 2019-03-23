@@ -1,0 +1,21 @@
+#Sphere of Influence
+
+	ENG=
+	{
+		value=0
+		level=2
+	}
+	SCA=
+	{
+		value=0
+		level=2
+	}
+	WCR=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

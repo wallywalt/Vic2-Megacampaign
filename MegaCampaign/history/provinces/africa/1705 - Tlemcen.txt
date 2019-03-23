@@ -1,0 +1,7 @@
+owner=FRA
+controller=FRA
+add_core=TLC
+add_core=ALD
+add_core=ARA
+trade_goods = iron
+life_rating = 35

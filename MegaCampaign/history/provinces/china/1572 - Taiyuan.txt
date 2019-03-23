@@ -1,0 +1,7 @@
+owner=X10
+controller=X10
+add_core=MNG
+add_core=JIN
+add_core=CHI
+trade_goods = coal
+life_rating = 32

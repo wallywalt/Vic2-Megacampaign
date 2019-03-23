@@ -1,0 +1,9 @@
+owner=X10
+controller=X10
+add_core=CHG
+add_core=YRK
+add_core=ZUN
+add_core=BUK
+add_core=KOK
+trade_goods = wool
+life_rating = 35

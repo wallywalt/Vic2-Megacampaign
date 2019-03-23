@@ -1,0 +1,5 @@
+owner=KOJ
+controller=KOJ
+add_core=KOJ
+trade_goods = cattle
+life_rating = 35

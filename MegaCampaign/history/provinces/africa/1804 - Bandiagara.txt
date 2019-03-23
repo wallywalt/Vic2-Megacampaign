@@ -1,0 +1,5 @@
+owner=SGU
+controller=SGU
+add_core=SGU
+trade_goods = cattle
+life_rating = 15

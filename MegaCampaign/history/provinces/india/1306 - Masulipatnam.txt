@@ -1,0 +1,8 @@
+owner=DEC
+controller=DEC
+add_core=GOC
+add_core=DEC
+add_core=ENG
+add_core=HND
+trade_goods = grain
+life_rating = 32

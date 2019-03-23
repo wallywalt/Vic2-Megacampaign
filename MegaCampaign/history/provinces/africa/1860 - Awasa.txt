@@ -1,0 +1,5 @@
+owner=JJI
+controller=JJI
+add_core=JJI
+trade_goods = cattle
+life_rating = 30

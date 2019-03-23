@@ -1,0 +1,5 @@
+owner=HAU
+controller=HAU
+add_core=HAU
+trade_goods = cattle
+life_rating = 35

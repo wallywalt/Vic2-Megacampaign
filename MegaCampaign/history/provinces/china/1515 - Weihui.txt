@@ -1,0 +1,7 @@
+owner=X08
+controller=X08
+add_core=JIN
+add_core=X08
+add_core=CHI
+trade_goods = iron
+life_rating = 32

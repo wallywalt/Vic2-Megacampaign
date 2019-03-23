@@ -1,0 +1,5 @@
+owner=LUW
+controller=LUW
+add_core=LUW
+trade_goods = grain
+life_rating = 30

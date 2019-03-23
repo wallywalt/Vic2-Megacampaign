@@ -1,0 +1,6 @@
+owner=HOB
+controller=HOB
+add_core=AJU
+add_core=HOB
+trade_goods = cotton
+life_rating = 15

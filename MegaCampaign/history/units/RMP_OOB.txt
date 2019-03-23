@@ -1,0 +1,61 @@
+#Sphere of Influence
+
+	AFG=
+	{
+		value=0
+		level=2
+	}
+	AWA=
+	{
+		value=0
+		level=2
+	}
+	BUN=
+	{
+		value=0
+		level=2
+	}
+	FRA=
+	{
+		value=0
+		level=2
+	}
+	GWA=
+	{
+		value=0
+		level=2
+	}
+	KGR=
+	{
+		value=0
+		level=2
+	}
+	LDK=
+	{
+		value=0
+		level=2
+	}
+	MUG=
+	{
+		value=0
+		level=2
+	}
+	NAG=
+	{
+		value=0
+		level=2
+	}
+	PAN=
+	{
+		value=0
+		level=2
+	}
+	RMP=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

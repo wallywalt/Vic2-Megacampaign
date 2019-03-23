@@ -1,0 +1,8 @@
+owner=X10
+controller=X10
+add_core=YRK
+add_core=ZUN
+add_core=KHA
+add_core=MGL
+trade_goods = grain
+life_rating = 32

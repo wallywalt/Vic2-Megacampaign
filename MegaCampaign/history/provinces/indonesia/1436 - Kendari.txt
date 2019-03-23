@@ -1,0 +1,5 @@
+owner=LUW
+controller=LUW
+add_core=NET
+trade_goods = dye
+life_rating = 30

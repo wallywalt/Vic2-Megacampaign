@@ -1,0 +1,7 @@
+owner=X08
+controller=X08
+add_core=QIC
+add_core=X08
+add_core=CHI
+trade_goods = fruit
+life_rating = 32

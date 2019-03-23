@@ -1,0 +1,5 @@
+owner=KOJ
+controller=KOJ
+add_core=RUS
+trade_goods = fish
+life_rating = 35

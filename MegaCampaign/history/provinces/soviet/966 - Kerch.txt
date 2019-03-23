@@ -1,0 +1,6 @@
+owner=KOJ
+controller=KOJ
+add_core=RUS
+add_core=TUR
+trade_goods = iron
+life_rating = 35

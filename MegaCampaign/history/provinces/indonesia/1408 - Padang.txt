@@ -1,0 +1,6 @@
+owner=PGR
+controller=PGR
+add_core=PGR
+add_core=MSA
+trade_goods = tobacco
+life_rating = 30

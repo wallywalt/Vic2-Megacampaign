@@ -1,0 +1,7 @@
+owner=ENG
+controller=ENG
+add_core=SCO
+add_core=ENG
+add_core=HSC
+trade_goods = coal
+life_rating = 35

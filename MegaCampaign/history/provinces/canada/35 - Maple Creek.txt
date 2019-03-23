@@ -1,0 +1,5 @@
+owner=BLA
+controller=BLA
+add_core=ASI
+trade_goods = grain
+life_rating = 35

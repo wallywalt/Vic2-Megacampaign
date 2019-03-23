@@ -1,0 +1,6 @@
+owner=RZW
+controller=RZW
+add_core=ZIM
+add_core=POR
+trade_goods = tobacco
+life_rating = 15

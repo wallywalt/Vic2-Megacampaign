@@ -1,0 +1,6 @@
+owner=FRA
+controller=FRA
+add_core=BUR
+add_core=PEG
+trade_goods = grain
+life_rating = 30

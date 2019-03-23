@@ -1,0 +1,6 @@
+owner=POR
+controller=POR
+add_core=POT
+add_core=USA
+trade_goods = timber
+life_rating = 35

@@ -1,0 +1,20 @@
+owner=X04
+controller=X04
+add_core=HOL
+add_core=DEN
+add_core=GER
+add_core=HRE
+trade_goods = cattle
+life_rating = 40
+state_building=
+{
+	level=1
+	building = lumber_mill
+	upgrade = yes
+}
+state_building=
+{
+	level=1
+	building = luxury_clothes_factory
+	upgrade = yes
+}

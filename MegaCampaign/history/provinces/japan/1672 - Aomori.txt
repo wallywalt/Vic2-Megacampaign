@@ -1,0 +1,6 @@
+owner=TKI
+controller=TKI
+add_core=RFR
+add_core=JAP
+trade_goods = iron
+life_rating = 35

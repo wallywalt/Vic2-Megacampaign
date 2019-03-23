@@ -1,0 +1,21 @@
+#Sphere of Influence
+
+	ARP=
+	{
+		value=0
+		level=2
+	}
+	BLA=
+	{
+		value=0
+		level=2
+	}
+	ENG=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

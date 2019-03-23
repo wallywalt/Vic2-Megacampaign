@@ -1,0 +1,6 @@
+owner=X08
+controller=X08
+add_core=X08
+add_core=CHI
+trade_goods = grain
+life_rating = 32

@@ -1,0 +1,5 @@
+owner=HOB
+controller=HOB
+add_core=HOB
+trade_goods = grain
+life_rating = 15
