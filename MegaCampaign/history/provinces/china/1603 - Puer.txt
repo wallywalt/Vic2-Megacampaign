@@ -1,0 +1,8 @@
+owner=MNG
+controller=MNG
+add_core=CDL
+add_core=MCK
+add_core=SST
+add_core=BUR
+trade_goods = tea
+life_rating = 32

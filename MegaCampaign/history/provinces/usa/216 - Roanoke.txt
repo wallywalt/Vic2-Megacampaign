@@ -1,0 +1,7 @@
+owner=POR
+controller=POR
+add_core=USA
+add_core=CHE
+trade_goods = tobacco
+life_rating = 35
+colonial=2

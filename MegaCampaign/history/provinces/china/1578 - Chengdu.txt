@@ -1,0 +1,7 @@
+owner=MNG
+controller=MNG
+add_core=CXI
+add_core=SHU
+add_core=CHI
+trade_goods = tea
+life_rating = 32

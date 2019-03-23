@@ -1,0 +1,7 @@
+owner=PAN
+controller=PAN
+add_core=PAN
+add_core=GWA
+add_core=HND
+trade_goods = fruit
+life_rating = 32

@@ -1,0 +1,8 @@
+owner=GWA
+controller=GWA
+add_core=MLW
+add_core=GWA
+add_core=GUJ
+add_core=HND
+trade_goods = cotton
+life_rating = 32

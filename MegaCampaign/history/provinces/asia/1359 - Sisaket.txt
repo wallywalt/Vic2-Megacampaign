@@ -1,0 +1,7 @@
+owner=CHK
+controller=CHK
+add_core=SIA
+add_core=CHK
+add_core=LUA
+trade_goods = tea
+life_rating = 30

@@ -1,0 +1,8 @@
+owner=PRU
+controller=PRU
+add_core=POM
+add_core=SCA
+add_core=GER
+add_core=HRE
+trade_goods = fruit
+life_rating = 40

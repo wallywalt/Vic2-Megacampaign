@@ -1,0 +1,7 @@
+owner=TKI
+controller=TKI
+add_core=RUS
+add_core=JAP
+add_core=MCK
+trade_goods = fish
+life_rating = 35

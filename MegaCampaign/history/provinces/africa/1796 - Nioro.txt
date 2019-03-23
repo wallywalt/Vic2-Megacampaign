@@ -1,0 +1,6 @@
+owner=SGU
+controller=SGU
+add_core=ZAF
+add_core=SGU
+trade_goods = fruit
+life_rating = 15

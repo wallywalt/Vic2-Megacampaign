@@ -1,0 +1,6 @@
+owner=YAO
+controller=YAO
+add_core=AYR
+add_core=KBO
+trade_goods = cattle
+life_rating = 10

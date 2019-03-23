@@ -1,0 +1,227 @@
+vassal=
+{
+	first="SCA"
+	second="X04"
+	start_date="1792.9.28"
+	end_date="1936.1.1"
+}
+
+
+vassal=
+{
+	first="FRA"
+	second="KMT"
+	start_date="1774.4.25"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="FRA"
+	second="TRA"
+	start_date="1788.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="FRA"
+	second="KOC"
+	start_date="1792.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="FRA"
+	second="X05"
+	start_date="1792.9.28"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="RAS"
+	second="MFL"
+	start_date="1728.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="AFG"
+	second="LDK"
+	start_date="1752.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="PER"
+	second="MSY"
+	start_date="1504.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="PER"
+	second="ARD"
+	start_date="1730.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="PER"
+	second="ARL"
+	start_date="1747.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="PER"
+	second="X14"
+	start_date="1792.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="MRA"
+	second="LDU"
+	start_date="1630.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="SIA"
+	second="PAT"
+	start_date="1636.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="SIA"
+	second="LNA"
+	start_date="1775.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="SIA"
+	second="CHK"
+	start_date="1776.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="SIA"
+	second="WIA"
+	start_date="1779.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="SIA"
+	second="LUA"
+	start_date="1779.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="SIA"
+	second="CAM"
+	start_date="1779.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="DAI"
+	second="CHA"
+	start_date="1777.1.1"
+	end_date="1936.1.1"
+}
+
+
+
+vassal=
+{
+	first="MNG"
+	second="UTS"
+	start_date="1724.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="KOR"
+	second="X08"
+	start_date="1792.10.14"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="KOR"
+	second="X09"
+	start_date="1792.10.14"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="GWA"
+	second="JOD"
+	start_date="1738.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="GWA"
+	second="MEW"
+	start_date="1738.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="GWA"
+	second="MUG"
+	start_date="1785.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="KOJ"
+	second="ABB"
+	start_date="1540.1.1"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="KOJ"
+	second="X06"
+	start_date="1792.9.28"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="X10"
+	second="X07"
+	start_date="1792.9.30"
+	end_date="1936.1.1"
+}
+

@@ -1,0 +1,7 @@
+owner=BNG
+controller=BNG
+add_core=ASS
+add_core=ENG
+add_core=HND
+trade_goods = tea
+life_rating = 32

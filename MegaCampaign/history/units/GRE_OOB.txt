@@ -1,0 +1,16 @@
+#Sphere of Influence
+
+	GRE=
+	{
+		value=0
+		level=2
+	}
+	KOJ=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

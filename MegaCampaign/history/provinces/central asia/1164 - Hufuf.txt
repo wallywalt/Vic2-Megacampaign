@@ -1,0 +1,7 @@
+owner=NEJ
+controller=NEJ
+add_core=DAW
+add_core=NEJ
+add_core=ARA
+trade_goods = grain
+life_rating = 35

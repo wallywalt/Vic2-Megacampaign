@@ -1,0 +1,6 @@
+owner=PRU
+controller=PRU
+add_core=SKA
+add_core=MAD
+trade_goods = fruit
+life_rating = 35

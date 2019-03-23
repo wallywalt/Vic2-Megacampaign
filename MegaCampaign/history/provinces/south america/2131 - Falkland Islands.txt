@@ -1,0 +1,6 @@
+owner=ENG
+controller=ENG
+add_core=SPA
+trade_goods = wool
+life_rating = 30
+colonial=2

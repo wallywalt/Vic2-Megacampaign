@@ -1,0 +1,9 @@
+owner=NAG
+controller=NAG
+add_core=ORI
+add_core=DEC
+add_core=ENG
+add_core=GRJ
+add_core=NAG
+trade_goods = tobacco
+life_rating = 32

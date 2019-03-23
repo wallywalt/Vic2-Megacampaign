@@ -1,0 +1,1620 @@
+#Sphere of Influence
+
+	ABB=
+	{
+		value=0
+		level=2
+	}
+	ABU=
+	{
+		value=0
+		level=2
+	}
+	ADE=
+	{
+		value=0
+		level=2
+	}
+	AFA=
+	{
+		value=0
+		level=2
+	}
+	AFG=
+	{
+		value=0
+		level=2
+	}
+	ALH=
+	{
+		value=0
+		level=2
+	}
+	ANN=
+	{
+		value=0
+		level=2
+	}
+	ANZ=
+	{
+		value=0
+		level=2
+	}
+	APA=
+	{
+		value=3
+		level=2
+	}
+	ARD=
+	{
+		value=0
+		level=2
+	}
+	ARL=
+	{
+		value=0
+		level=2
+	}
+	ARM=
+	{
+		value=0
+		level=2
+	}
+	ASH=
+	{
+		value=0
+		level=2
+	}
+	ASS=
+	{
+		value=0
+		level=2
+	}
+	ATJ=
+	{
+		value=0
+		level=2
+	}
+	AUS=
+	{
+		value=0
+		level=2
+	}
+	AWA=
+	{
+		value=-15
+		level=5
+	}
+	AYR=
+	{
+		value=0
+		level=2
+	}
+	BAL=
+	{
+		value=0
+		level=2
+	}
+	BAN=
+	{
+		value=0
+		level=2
+	}
+	BCS=
+	{
+		value=0
+		level=2
+	}
+	BHU=
+	{
+		value=8
+		level=2
+	}
+	BIK=
+	{
+		value=0
+		level=2
+	}
+	BLA=
+	{
+		value=0
+		level=2
+	}
+	BNG=
+	{
+		value=0
+		level=2
+	}
+	BNJ=
+	{
+		value=0
+		level=2
+	}
+	BNY=
+	{
+		value=0
+		level=2
+	}
+	BRU=
+	{
+		value=0
+		level=2
+	}
+	BSG=
+	{
+		value=0
+		level=2
+	}
+	BTN=
+	{
+		value=0
+		level=2
+	}
+	BUG=
+	{
+		value=0
+		level=2
+	}
+	BUN=
+	{
+		value=4
+		level=2
+	}
+	BUR=
+	{
+		value=4
+		level=2
+	}
+	BUU=
+	{
+		value=0
+		level=2
+	}
+	CAM=
+	{
+		value=0
+		level=2
+	}
+	CHA=
+	{
+		value=0
+		level=2
+	}
+	CHK=
+	{
+		value=0
+		level=2
+	}
+	CNK=
+	{
+		value=0
+		level=2
+	}
+	DAH=
+	{
+		value=0
+		level=2
+	}
+	DAI=
+	{
+		value=0
+		level=2
+	}
+	DAR=
+	{
+		value=0
+		level=2
+	}
+	DEC=
+	{
+		value=-15
+		level=2
+	}
+	DGB=
+	{
+		value=0
+		level=2
+	}
+	DGL=
+	{
+		value=0
+		level=2
+	}
+	ENG=
+	{
+		value=0
+		level=2
+	}
+	ENL=
+	{
+		value=0
+		level=2
+	}
+	ETH=
+	{
+		value=0
+		level=2
+	}
+	FRA=
+	{
+		value=-115
+		level=2
+	}
+	FRM=
+	{
+		value=0
+		level=2
+	}
+	GLE=
+	{
+		value=0
+		level=2
+	}
+	GWA=
+	{
+		value=-15
+		level=2
+	}
+	HAR=
+	{
+		value=0
+		level=2
+	}
+	HAU=
+	{
+		value=0
+		level=2
+	}
+	HDA=
+	{
+		value=0
+		level=2
+	}
+	HDJ=
+	{
+		value=0
+		level=2
+	}
+	HDR=
+	{
+		value=0
+		level=2
+	}
+	HOB=
+	{
+		value=0
+		level=2
+	}
+	HUN=
+	{
+		value=0
+		level=2
+	}
+	IRO=
+	{
+		value=0
+		level=2
+	}
+	ITA=
+	{
+		value=0
+		level=2
+	}
+	JAS=
+	{
+		value=0
+		level=2
+	}
+	JJI=
+	{
+		value=0
+		level=2
+	}
+	JNN=
+	{
+		value=0
+		level=2
+	}
+	JOD=
+	{
+		value=0
+		level=2
+	}
+	JOH=
+	{
+		value=0
+		level=2
+	}
+	KAC=
+	{
+		value=10
+		level=2
+	}
+	KAF=
+	{
+		value=0
+		level=2
+	}
+	KAN=
+	{
+		value=0
+		level=2
+	}
+	KED=
+	{
+		value=0
+		level=2
+	}
+	KGR=
+	{
+		value=0
+		level=2
+	}
+	KMT=
+	{
+		value=0
+		level=5
+	}
+	KNG=
+	{
+		value=0
+		level=2
+	}
+	KNI=
+	{
+		value=0
+		level=2
+	}
+	KOC=
+	{
+		value=0
+		level=5
+	}
+	KOJ=
+	{
+		value=0
+		level=2
+	}
+	KON=
+	{
+		value=0
+		level=2
+	}
+	KOR=
+	{
+		value=0
+		level=2
+	}
+	KRK=
+	{
+		value=-15
+		level=5
+	}
+	KRW=
+	{
+		value=0
+		level=2
+	}
+	KSJ=
+	{
+		value=0
+		level=2
+	}
+	KTI=
+	{
+		value=0
+		level=2
+	}
+	KTS=
+	{
+		value=0
+		level=2
+	}
+	KUB=
+	{
+		value=0
+		level=2
+	}
+	KZB=
+	{
+		value=0
+		level=2
+	}
+	LBX=
+	{
+		value=0
+		level=2
+	}
+	LDK=
+	{
+		value=0
+		level=2
+	}
+	LDU=
+	{
+		value=0
+		level=2
+	}
+	LFA=
+	{
+		value=0
+		level=2
+	}
+	LNA=
+	{
+		value=0
+		level=2
+	}
+	LND=
+	{
+		value=0
+		level=2
+	}
+	LOA=
+	{
+		value=0
+		level=2
+	}
+	LUA=
+	{
+		value=0
+		level=2
+	}
+	LUW=
+	{
+		value=0
+		level=2
+	}
+	MAI=
+	{
+		value=0
+		level=2
+	}
+	MAR=
+	{
+		value=-15
+		level=2
+	}
+	MBA=
+	{
+		value=0
+		level=2
+	}
+	MED=
+	{
+		value=0
+		level=2
+	}
+	MEW=
+	{
+		value=10
+		level=2
+	}
+	MFL=
+	{
+		value=0
+		level=2
+	}
+	MGR=
+	{
+		value=0
+		level=2
+	}
+	MHR=
+	{
+		value=0
+		level=2
+	}
+	MJE=
+	{
+		value=0
+		level=2
+	}
+	MKS=
+	{
+		value=0
+		level=2
+	}
+	MKU=
+	{
+		value=0
+		level=2
+	}
+	MLB=
+	{
+		value=6
+		level=2
+	}
+	MLC=
+	{
+		value=0
+		level=2
+	}
+	MLK=
+	{
+		value=0
+		level=2
+	}
+	MNG=
+	{
+		value=0
+		level=2
+	}
+	MON=
+	{
+		value=0
+		level=2
+	}
+	MRA=
+	{
+		value=0
+		level=2
+	}
+	MSI=
+	{
+		value=0
+		level=2
+	}
+	MSY=
+	{
+		value=0
+		level=2
+	}
+	MUG=
+	{
+		value=-15
+		level=2
+	}
+	MYS=
+	{
+		value=-30
+		level=2
+	}
+	NAG=
+	{
+		value=0
+		level=2
+	}
+	NAH=
+	{
+		value=0
+		level=2
+	}
+	NDO=
+	{
+		value=0
+		level=2
+	}
+	NEJ=
+	{
+		value=0
+		level=2
+	}
+	NEP=
+	{
+		value=0
+		level=2
+	}
+	NJR=
+	{
+		value=0
+		level=2
+	}
+	NKO=
+	{
+		value=0
+		level=2
+	}
+	NUB=
+	{
+		value=0
+		level=2
+	}
+	NUM=
+	{
+		value=0
+		level=2
+	}
+	NUP=
+	{
+		value=0
+		level=2
+	}
+	OLD=
+	{
+		value=0
+		level=2
+	}
+	OMA=
+	{
+		value=0
+		level=2
+	}
+	OYO=
+	{
+		value=0
+		level=2
+	}
+	PAN=
+	{
+		value=6
+		level=2
+	}
+	PAT=
+	{
+		value=0
+		level=2
+	}
+	PER=
+	{
+		value=0
+		level=2
+	}
+	PGR=
+	{
+		value=0
+		level=2
+	}
+	PIM=
+	{
+		value=0
+		level=2
+	}
+	PLB=
+	{
+		value=8
+		level=2
+	}
+	POL=
+	{
+		value=0
+		level=2
+	}
+	POR=
+	{
+		value=0
+		level=2
+	}
+	PRK=
+	{
+		value=0
+		level=2
+	}
+	PRU=
+	{
+		value=-15
+		level=2
+	}
+	PTE=
+	{
+		value=0
+		level=2
+	}
+	PUE=
+	{
+		value=0
+		level=2
+	}
+	RAJ=
+	{
+		value=0
+		level=2
+	}
+	RAS=
+	{
+		value=0
+		level=2
+	}
+	RWA=
+	{
+		value=0
+		level=2
+	}
+	RYU=
+	{
+		value=0
+		level=2
+	}
+	RZW=
+	{
+		value=0
+		level=2
+	}
+	SAK=
+	{
+		value=5
+		level=2
+	}
+	SAL=
+	{
+		value=0
+		level=2
+	}
+	SCA=
+	{
+		value=-15
+		level=2
+	}
+	SCO=
+	{
+		value=0
+		level=2
+	}
+	SGU=
+	{
+		value=0
+		level=2
+	}
+	SHO=
+	{
+		value=0
+		level=2
+	}
+	SIA=
+	{
+		value=0
+		level=2
+	}
+	SON=
+	{
+		value=0
+		level=2
+	}
+	SUL=
+	{
+		value=0
+		level=2
+	}
+	SYO=
+	{
+		value=0
+		level=2
+	}
+	TBK=
+	{
+		value=0
+		level=2
+	}
+	TKI=
+	{
+		value=0
+		level=2
+	}
+	TMB=
+	{
+		value=0
+		level=2
+	}
+	TNT=
+	{
+		value=0
+		level=2
+	}
+	TPR=
+	{
+		value=5
+		level=2
+	}
+	TRA=
+	{
+		value=0
+		level=5
+	}
+	UBH=
+	{
+		value=0
+		level=2
+	}
+	ULM=
+	{
+		value=0
+		level=2
+	}
+	UTS=
+	{
+		value=0
+		level=2
+	}
+	WAR=
+	{
+		value=0
+		level=2
+	}
+	WBG=
+	{
+		value=0
+		level=2
+	}
+	WIA=
+	{
+		value=0
+		level=2
+	}
+	WLY=
+	{
+		value=0
+		level=2
+	}
+	X03=
+	{
+		value=0
+		level=2
+	}
+	X04=
+	{
+		value=0
+		level=2
+	}
+	X05=
+	{
+		value=0
+		level=2
+	}
+	X06=
+	{
+		value=0
+		level=2
+	}
+	X07=
+	{
+		value=4
+		level=2
+	}
+	X08=
+	{
+		value=0
+		level=2
+	}
+	X09=
+	{
+		value=0
+		level=2
+	}
+	X10=
+	{
+		value=0
+		level=2
+	}
+	X14=
+	{
+		value=0
+		level=2
+	}
+	YAK=
+	{
+		value=0
+		level=2
+	}
+	YAO=
+	{
+		value=0
+		level=2
+	}
+	YAT=
+	{
+		value=0
+		level=2
+	}
+	ZIM=
+	{
+		value=0
+		level=2
+	}
+	ZZZ=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies
+army = {
+	name="Royal Army"
+	location=300
+	regiment = {
+		name="1st Kildare Infantry"
+		type=infantry
+		home=264
+	}
+	regiment = {
+		name="1st Glasgow Infantry"
+		type=infantry
+		home=271
+	}
+	regiment = {
+		name="1st Belfast Infantry"
+		type=infantry
+		home=254
+	}
+	regiment = {
+		name="1st Brighton Cavalry"
+		type=cavalry
+		home=302
+	}
+	regiment = {
+		name="1st Cork Artillery"
+		type=artillery
+		home=260
+	}
+}
+
+army = {
+	name="Army of Scotland"
+	location=267
+	regiment = {
+		name="1st Bristol Cavalry"
+		type=cavalry
+		home=296
+	}
+	regiment = {
+		name="1st Liverpool Cavalry"
+		type=cavalry
+		home=277
+	}
+	regiment = {
+		name="1st Southampton Infantry"
+		type=infantry
+		home=303
+	}
+	regiment = {
+		name="1st London Infantry"
+		type=infantry
+		home=300
+	}
+	regiment = {
+		name="1st Holyhead Cavalry"
+		type=cavalry
+		home=276
+	}
+}
+
+navy = {
+	name="Blue Squadron"
+	location=2744
+	ship = {
+		name="1st British Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd British Frigate"
+		type=frigate
+	}
+	ship = {
+		name="3rd British Frigate"
+		type=frigate
+	}
+	ship = {
+		name="15th British Frigate"
+		type=frigate
+	}
+}
+
+army = {
+	name="1st Army"
+	location=238
+	regiment = {
+		name="1st Staunton Infantry"
+		type=infantry
+		home=215
+	}
+	regiment = {
+		name="1st Tuscaloosa Infantry"
+		type=infantry
+		home=196
+	}
+}
+
+navy = {
+	name="1st Fleet"
+	location=3036
+	ship = {
+		name="4th British Frigate"
+		type=frigate
+	}
+	ship = {
+		name="5th British Frigate"
+		type=frigate
+	}
+	ship = {
+		name="6th British Frigate"
+		type=frigate
+	}
+}
+
+army = {
+	name="1st Army"
+	location=198
+	regiment = {
+		name="1st Mobile Cavalry"
+		type=cavalry
+		home=197
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=2973
+	ship = {
+		name="1st St Augustine Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd St Augustine Frigate"
+		type=frigate
+	}
+}
+
+army = {
+	name="1st Army"
+	location=2149
+	regiment = {
+		name="1st Morelia Infantry"
+		type=infantry
+		home=2170
+	}
+	regiment = {
+		name="1st Los Albañiles Infantry"
+		type=infantry
+		home=2171
+	}
+	regiment = {
+		name="1st Rosarito Infantry"
+		type=infantry
+		home=2139
+	}
+	regiment = {
+		name="1st San Luis Potosí Cavalry"
+		type=cavalry
+		home=2159
+	}
+	regiment = {
+		name="1st Aguascalientes Infantry"
+		type=infantry
+		home=2160
+	}
+	regiment = {
+		name="1st Ciudad Victoria Cavalry"
+		type=cavalry
+		home=2150
+	}
+	regiment = {
+		name="1st Chihuahua Artillery"
+		type=artillery
+		home=2142
+	}
+}
+
+navy = {
+	name="1st Fleet"
+	location=2977
+	ship = {
+		name="3rd Matamoros Frigate"
+		type=frigate
+	}
+}
+
+army = {
+	name="1st Army"
+	location=2415
+	regiment = {
+		name="1st Aganja Infantry"
+		type=infantry
+		home=2422
+	}
+	regiment = {
+		name="1st Januária Infantry"
+		type=infantry
+		home=2443
+	}
+	regiment = {
+		name="1st Salvador de Bahia Cavalry"
+		type=cavalry
+		home=2436
+	}
+	regiment = {
+		name="2nd Januária Infantry"
+		type=infantry
+		home=2443
+	}
+	regiment = {
+		name="1st Santos Cavalry"
+		type=cavalry
+		home=2451
+	}
+	regiment = {
+		name="1st Porto Alegre Artillery"
+		type=artillery
+		home=2463
+	}
+}
+
+navy = {
+	name="1st Fleet"
+	location=2984
+	ship = {
+		name="1st Amapá Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Amapá Frigate"
+		type=frigate
+	}
+}
+
+navy = {
+	name="White Squadron"
+	location=2726
+	ship = {
+		name="7th British Frigate"
+		type=frigate
+	}
+	ship = {
+		name="8th British Frigate"
+		type=frigate
+	}
+	ship = {
+		name="9th British Frigate"
+		type=frigate
+	}
+	ship = {
+		name="17th British Frigate"
+		type=frigate
+	}
+}
+
+navy = {
+	name="North Sea Squadron"
+	location=2727
+	ship = {
+		name="1st British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="4th British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="5th British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="6th British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="7th British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="8th British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="9th British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="10th British Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+army = {
+	name="1st Army"
+	location=2303
+	regiment = {
+		name="1st Puno Infantry"
+		type=infantry
+		home=2303
+	}
+	regiment = {
+		name="2nd Puno Infantry"
+		type=infantry
+		home=2303
+	}
+	regiment = {
+		name="1st Huancavelica Cavalry"
+		type=cavalry
+		home=2296
+	}
+}
+
+navy = {
+	name="4th Fleet"
+	location=2997
+	ship = {
+		name="11th British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="12th British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="13th British Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="16th British Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="14th British Frigate"
+		type=frigate
+	}
+}
+
+army = {
+	name="1st Army"
+	location=202
+	regiment = {
+		name="1st Montgomery Infantry"
+		type=infantry
+		home=195
+	}
+}
+
+army = {
+	name="1st Army"
+	location=171
+	regiment = {
+		name="1st Champaign Infantry"
+		type=infantry
+		home=165
+	}
+}
+
+navy = {
+	name="Channel Squadron"
+	location=2961
+	ship = {
+		name="1st St Augustine Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="3rd Fleet"
+	location=2726
+	ship = {
+		name="10th British Frigate"
+		type=frigate
+	}
+	ship = {
+		name="11th British Frigate"
+		type=frigate
+	}
+	ship = {
+		name="12th British Frigate"
+		type=frigate
+	}
+	ship = {
+		name="16th British Frigate"
+		type=frigate
+	}
+}
+
+navy = {
+	name="Red Squadron"
+	location=2959
+	ship = {
+		name="1st Matamoros Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Matamoros Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Matamoros Frigate"
+		type=frigate
+	}
+	ship = {
+		name="2nd Matamoros Frigate"
+		type=frigate
+	}
+	ship = {
+		name="1st Matamoros Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Matamoros Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Matamoros Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="4th Matamoros Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="5th Matamoros Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="6th Matamoros Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Matamoros Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Matamoros Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="7th Matamoros Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="5th Fleet"
+	location=2954
+	ship = {
+		name="13th British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="14th British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="15th British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="16th British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="17th British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="18th British Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="6th Fleet"
+	location=2981
+	ship = {
+		name="1st Amapá Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="1st Amapá Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Amapá Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="3rd Amapá Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="4th Amapá Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Amapá Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="3rd Amapá Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="4th Amapá Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="5th Amapá Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+navy = {
+	name="8th Fleet"
+	location=3025
+	ship = {
+		name="10th British Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="11th British Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="19th British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="14th British Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="17th British Man'o'war"
+		type=manowar
+	}
+}
+
+army = {
+	name="1st Army"
+	location=194
+	regiment = {
+		name="1st Shreveport Infantry"
+		type=infantry
+		home=142
+	}
+}
+
+navy = {
+	name="1st Fleet"
+	location=194
+	ship = {
+		name="1st Biloxi Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="2nd Biloxi Man'o'war"
+		type=manowar
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=2961
+	ship = {
+		name="1st Biloxi Frigate"
+		type=frigate
+	}
+}
+
+navy = {
+	name="3rd Fleet"
+	location=194
+	ship = {
+		name="1st Biloxi Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="2nd Biloxi Clipper Transport"
+		type=clipper_transport
+	}
+}
+
+army = {
+	name="1st Army"
+	location=105
+	regiment = {
+		name="2nd London Infantry"
+		type=infantry
+		home=300
+	}
+}
+
+army = {
+	name="1st Army"
+	location=149
+	regiment = {
+		name="1st Topeka Infantry"
+		type=infantry
+		home=126
+	}
+}
+
+army = {
+	name="1st Army"
+	location=125
+	regiment = {
+		name="1st North Platte Infantry"
+		type=infantry
+		home=125
+	}
+}
+
+army = {
+	name="1st Army"
+	location=159
+	regiment = {
+		name="1st Milwaukee Infantry"
+		type=infantry
+		home=159
+	}
+}
+
+army = {
+	name="1st Army"
+	location=110
+	regiment = {
+		name="1st Cheyenne Infantry"
+		type=infantry
+		home=110
+	}
+}
+
+army = {
+	name="1st Army"
+	location=2337
+	regiment = {
+		name="1st Bahía Blanca Infantry"
+		type=infantry
+		home=2354
+	}
+	regiment = {
+		name="1st Paysandú Infantry"
+		type=infantry
+		home=2345
+	}
+	regiment = {
+		name="1st Salta Cavalry"
+		type=cavalry
+		home=2368
+	}
+	regiment = {
+		name="1st Iquique Artillery"
+		type=artillery
+		home=2307
+	}
+}
+
+navy = {
+	name="1st Fleet"
+	location=2347
+	ship = {
+		name="12th British Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="15th British Man'o'war"
+		type=manowar
+	}
+	ship = {
+		name="18th British Man'o'war"
+		type=manowar
+	}
+}
+
+navy = {
+	name="2nd Fleet"
+	location=2992
+	ship = {
+		name="13th British Frigate"
+		type=frigate
+	}
+}
+
+navy = {
+	name="4th Fleet"
+	location=2347
+	ship = {
+		name="20th British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="21st British Clipper Transport"
+		type=clipper_transport
+	}
+	ship = {
+		name="22nd British Clipper Transport"
+		type=clipper_transport
+	}
+}
+

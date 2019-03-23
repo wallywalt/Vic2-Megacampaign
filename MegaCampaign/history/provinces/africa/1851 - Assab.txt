@@ -1,0 +1,6 @@
+owner=AFA
+controller=AFA
+add_core=AFA
+add_core=KOJ
+trade_goods = fruit
+life_rating = 35

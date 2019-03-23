@@ -1,0 +1,7 @@
+owner=KOR
+controller=KOR
+add_core=MRI
+add_core=JAP
+add_core=IKE
+trade_goods = cotton
+life_rating = 35

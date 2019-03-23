@@ -1,0 +1,51 @@
+#Sphere of Influence
+
+	BUR=
+	{
+		value=0
+		level=2
+	}
+	CHK=
+	{
+		value=0
+		level=2
+	}
+	DAI=
+	{
+		value=0
+		level=2
+	}
+	LNA=
+	{
+		value=0
+		level=2
+	}
+	LUA=
+	{
+		value=0
+		level=2
+	}
+	MNG=
+	{
+		value=0
+		level=2
+	}
+	MPH=
+	{
+		value=0
+		level=2
+	}
+	SIA=
+	{
+		value=0
+		level=2
+	}
+	WIA=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

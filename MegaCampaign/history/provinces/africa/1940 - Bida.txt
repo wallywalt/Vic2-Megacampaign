@@ -1,0 +1,6 @@
+owner=ZZZ
+controller=ZZZ
+add_core=OYO
+add_core=ZZZ
+trade_goods = grain
+life_rating = 35

@@ -1,0 +1,7 @@
+owner=ATJ
+controller=ATJ
+add_core=ATJ
+add_core=NET
+add_core=MSA
+trade_goods = tea
+life_rating = 30

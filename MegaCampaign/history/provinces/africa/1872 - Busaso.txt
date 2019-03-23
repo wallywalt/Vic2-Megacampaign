@@ -1,0 +1,7 @@
+owner=MJE
+controller=MJE
+add_core=MJE
+add_core=WAR
+trade_goods = grain
+life_rating = 15
+fort = 2

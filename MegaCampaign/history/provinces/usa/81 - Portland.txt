@@ -1,0 +1,4 @@
+owner=MNG
+controller=MNG
+trade_goods = timber
+life_rating = 35

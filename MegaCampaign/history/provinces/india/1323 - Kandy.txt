@@ -1,0 +1,7 @@
+owner=FRA
+controller=FRA
+add_core=KTH
+add_core=NET
+add_core=HND
+trade_goods = tea
+life_rating = 32

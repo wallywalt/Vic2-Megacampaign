@@ -1,0 +1,8 @@
+owner=X10
+controller=X10 
+add_core=X10
+add_core=RUS
+add_core=RUT
+add_core=UKR
+trade_goods = coal
+life_rating = 35

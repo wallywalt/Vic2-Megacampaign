@@ -1,0 +1,7 @@
+owner=MKU
+controller=MKU
+add_core=SWA
+add_core=POR
+add_core=MKU
+trade_goods = cotton
+life_rating = 35

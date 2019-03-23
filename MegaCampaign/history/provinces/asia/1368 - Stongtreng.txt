@@ -1,0 +1,7 @@
+owner=CHK
+controller=CHK
+add_core=CAM
+add_core=ANN
+add_core=CHK
+trade_goods = grain
+life_rating = 30

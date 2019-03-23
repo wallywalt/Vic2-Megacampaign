@@ -1,0 +1,8 @@
+owner=MNG
+controller=MNG
+add_core=MNG
+add_core=YUE
+add_core=ZHO
+add_core=MCK
+trade_goods = timber
+life_rating = 32

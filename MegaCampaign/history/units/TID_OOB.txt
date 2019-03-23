@@ -1,0 +1,26 @@
+#Sphere of Influence
+
+	BAL=
+	{
+		value=0
+		level=2
+	}
+	ENG=
+	{
+		value=0
+		level=2
+	}
+	TID=
+	{
+		value=0
+		level=2
+	}
+	UTS=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

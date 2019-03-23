@@ -1,0 +1,5 @@
+owner=SGU
+controller=SGU
+add_core=SGU
+trade_goods = grain
+life_rating = 10

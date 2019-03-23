@@ -1,0 +1,7 @@
+owner=BUR
+controller=BUR
+add_core=PEG
+add_core=BUR
+add_core=SIA
+trade_goods = grain
+life_rating = 30

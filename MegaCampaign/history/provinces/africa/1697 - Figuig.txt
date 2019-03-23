@@ -1,0 +1,8 @@
+owner=POR
+controller=POR
+add_core=TLC
+add_core=TFL
+add_core=MOR
+add_core=ARA
+trade_goods = fruit
+life_rating = 35

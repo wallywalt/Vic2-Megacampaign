@@ -1,0 +1,5 @@
+owner=ENG
+controller=ENG
+add_core=GRI
+trade_goods = tobacco
+life_rating = 35

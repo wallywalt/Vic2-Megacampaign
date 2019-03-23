@@ -1,0 +1,6 @@
+owner=TKI
+controller=TKI
+add_core=DTE
+add_core=JAP
+trade_goods = fish
+life_rating = 35

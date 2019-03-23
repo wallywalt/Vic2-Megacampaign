@@ -1,0 +1,6 @@
+owner=BLA
+controller=BLA
+add_core=ARP
+add_core=ASI
+trade_goods = coal
+life_rating = 35

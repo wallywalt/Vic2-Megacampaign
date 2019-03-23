@@ -1,0 +1,6 @@
+owner=MBA
+controller=MBA
+add_core=MBA
+add_core=SWA
+trade_goods = grain
+life_rating = 35

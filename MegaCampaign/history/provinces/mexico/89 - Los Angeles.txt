@@ -1,0 +1,6 @@
+owner=MNG
+controller=MNG
+add_core=SPA
+trade_goods = grain
+life_rating = 40
+colonial=2

@@ -1,0 +1,8 @@
+owner=X09
+controller=X09
+add_core=MYR
+add_core=X09
+add_core=CHI
+add_core=MCK
+trade_goods = grain
+life_rating = 32

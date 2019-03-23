@@ -1,0 +1,6 @@
+owner=KOC
+controller=KOC
+add_core=KOC
+add_core=HND
+trade_goods = grain
+life_rating = 32

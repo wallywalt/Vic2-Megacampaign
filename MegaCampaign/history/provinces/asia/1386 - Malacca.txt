@@ -1,0 +1,19 @@
+owner=MLC
+controller=MLC
+add_core=MLC
+add_core=NET
+add_core=MSA
+trade_goods = tropical_wood
+life_rating = 30
+state_building=
+{
+	level=1
+	building = cement_factory
+	upgrade = yes
+}
+state_building=
+{
+	level=1
+	building = liquor_distillery
+	upgrade = yes
+}

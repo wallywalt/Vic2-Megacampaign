@@ -1,0 +1,6 @@
+owner=FRA
+controller=FRA
+add_core=SWA
+add_core=POR
+trade_goods = tobacco
+life_rating = 35

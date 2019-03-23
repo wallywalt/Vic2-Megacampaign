@@ -1,0 +1,51 @@
+#Sphere of Influence
+
+	ASS=
+	{
+		value=0
+		level=2
+	}
+	AWA=
+	{
+		value=0
+		level=2
+	}
+	BNG=
+	{
+		value=0
+		level=2
+	}
+	FRA=
+	{
+		value=0
+		level=2
+	}
+	GHR=
+	{
+		value=0
+		level=2
+	}
+	KMT=
+	{
+		value=0
+		level=2
+	}
+	NAG=
+	{
+		value=0
+		level=2
+	}
+	NEP=
+	{
+		value=0
+		level=2
+	}
+	X03=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

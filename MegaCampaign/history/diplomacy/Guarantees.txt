@@ -1,0 +1,40 @@
+guarantee=
+{
+	first="OMA"
+	second="MKU"
+	start_date="1792.10.10"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="AFG"
+	second="JAS"
+	start_date="1792.10.19"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="ETH"
+	second="MED"
+	start_date="1.1.1"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="NUB"
+	second="KAF"
+	start_date="1792.10.20"
+	end_date="1936.1.1"
+}
+
+guarantee=
+{
+	first="ASS"
+	second="KAC"
+	start_date="1792.10.10"
+	end_date="1936.1.1"
+}
+

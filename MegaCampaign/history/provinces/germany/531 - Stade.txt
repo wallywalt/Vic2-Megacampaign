@@ -1,0 +1,8 @@
+owner=PRU
+controller=PRU
+add_core=VER
+add_core=HAN
+add_core=GER
+add_core=HRE
+trade_goods = cattle
+life_rating = 40

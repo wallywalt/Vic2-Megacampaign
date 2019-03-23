@@ -1,0 +1,56 @@
+#Sphere of Influence
+
+	BNG=
+	{
+		value=0
+		level=2
+	}
+	FRA=
+	{
+		value=0
+		level=2
+	}
+	JNN=
+	{
+		value=0
+		level=2
+	}
+	KNG=
+	{
+		value=0
+		level=2
+	}
+	MAL=
+	{
+		value=0
+		level=2
+	}
+	SGU=
+	{
+		value=0
+		level=2
+	}
+	SON=
+	{
+		value=0
+		level=2
+	}
+	TMB=
+	{
+		value=0
+		level=2
+	}
+	UTS=
+	{
+		value=0
+		level=2
+	}
+	YAT=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

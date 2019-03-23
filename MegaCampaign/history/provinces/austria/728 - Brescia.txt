@@ -1,0 +1,8 @@
+owner=X03
+controller=X03
+add_core=MTA
+add_core=AUS 
+add_core=X03
+add_core=ITA
+trade_goods = silk
+life_rating = 35

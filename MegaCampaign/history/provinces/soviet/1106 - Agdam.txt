@@ -1,0 +1,8 @@
+owner=MLK
+controller=MLK
+add_core=MLK
+add_core=PER
+add_core=ARM
+trade_goods = wool
+life_rating = 35
+fort = 2

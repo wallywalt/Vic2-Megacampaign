@@ -1,0 +1,8 @@
+owner=X10
+controller=X10
+add_core=YRK
+add_core=OIR
+add_core=ZUN
+add_core=XIN
+trade_goods = cotton
+life_rating = 32

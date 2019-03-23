@@ -1,0 +1,8 @@
+owner=X09
+controller=X09
+add_core=X09
+add_core=MYR
+add_core=MCK
+add_core=CHI
+trade_goods = coal
+life_rating = 32

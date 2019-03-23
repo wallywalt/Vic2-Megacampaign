@@ -1,0 +1,56 @@
+#Sphere of Influence
+
+	BNG=
+	{
+		value=0
+		level=2
+	}
+	HUN=
+	{
+		value=0
+		level=2
+	}
+	KOR=
+	{
+		value=0
+		level=2
+	}
+	RYU=
+	{
+		value=0
+		level=2
+	}
+	SHN=
+	{
+		value=0
+		level=2
+	}
+	TKI=
+	{
+		value=0
+		level=2
+	}
+	UTS=
+	{
+		value=0
+		level=2
+	}
+	X08=
+	{
+		value=0
+		level=2
+	}
+	X09=
+	{
+		value=0
+		level=2
+	}
+	X10=
+	{
+		value=0
+		level=2
+	}
+
+#Leaders
+
+#Armies

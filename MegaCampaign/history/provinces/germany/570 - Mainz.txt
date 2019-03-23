@@ -1,0 +1,13 @@
+owner=MAI
+controller=MAI
+add_core=MAI
+add_core=GER
+add_core=HRE
+trade_goods = sulphur
+life_rating = 40
+state_building=
+{
+	level=1
+	building = small_arms_factory
+	upgrade = yes
+}
