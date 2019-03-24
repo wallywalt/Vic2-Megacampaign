@@ -1,5 +1,6 @@
 capital=749
 primary_culture = north_italian
+culture = south_italian
 religion = coptic
 government = absolute_monarchy
 plurality=0.000000

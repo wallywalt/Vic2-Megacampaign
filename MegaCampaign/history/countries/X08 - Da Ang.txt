@@ -1,5 +1,5 @@
 capital=1569
-primary_culture = beifaren
+primary_culture = korean
 religion = mahayana
 government = absolute_monarchy
 plurality=0.000000

@@ -1,6 +1,6 @@
-owner=TKI
-controller=TKI
-add_core=RUS
+owner=MNG
+controller=MNG
+add_core=MNG
 add_core=JAP
 trade_goods = fish
 life_rating = 20

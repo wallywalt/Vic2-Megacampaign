@@ -1,8 +1,10 @@
-owner=X09
-controller=X09
+owner=KOR
+controller=KOR
 add_core=X09
+add_core=KOR
 add_core=MYR
-add_core=MCK
+add_core=CXI
 add_core=CHI
+add_core=MNG
 trade_goods = coal
 life_rating = 32

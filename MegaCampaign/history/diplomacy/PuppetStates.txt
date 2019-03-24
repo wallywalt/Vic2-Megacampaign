@@ -33,6 +33,14 @@ vassal=
 
 vassal=
 {
+	first="KOJ"
+	second="HUN"
+	start_date="1774.4.25"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
 	first="FRA"
 	second="X05"
 	start_date="1792.9.28"
@@ -172,7 +180,7 @@ vassal=
 vassal=
 {
 	first="KOR"
-	second="X09"
+	second="JIN"
 	start_date="1792.10.14"
 	end_date="1936.1.1"
 }
@@ -198,14 +206,6 @@ vassal=
 	first="GWA"
 	second="MUG"
 	start_date="1785.1.1"
-	end_date="1936.1.1"
-}
-
-vassal=
-{
-	first="KOJ"
-	second="ABB"
-	start_date="1540.1.1"
 	end_date="1936.1.1"
 }
 

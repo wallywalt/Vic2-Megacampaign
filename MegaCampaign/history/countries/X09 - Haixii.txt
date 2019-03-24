@@ -1,5 +1,5 @@
 capital=1533
-primary_culture = mongol
+primary_culture = manchu
 religion = mahayana
 government = absolute_monarchy
 plurality=0.000000

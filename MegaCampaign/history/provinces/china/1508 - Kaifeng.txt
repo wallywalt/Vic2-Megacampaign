@@ -1,7 +1,8 @@
 owner=MNG
 controller=MNG
 add_core=LNG
-add_core=MCK
+add_core=CXI
 add_core=CHI
+add_core=MNG
 trade_goods = grain
 life_rating = 32

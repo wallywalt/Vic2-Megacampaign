@@ -3,7 +3,7 @@ controller=KRK
 add_core=MDR
 add_core=BIJ
 add_core=KRK
-add_core=ENG
+
 add_core=VIJ
 add_core=HND
 trade_goods = grain
