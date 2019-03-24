@@ -1,11 +1,10 @@
 capital=1573
-primary_culture = beifaren
+primary_culture = korean
 religion = mahayana
 government = absolute_monarchy
 plurality=0.000000
 nationalvalue=nv_order
 literacy=0.050000
-civilized=yes
 
 # Social Reforms
 wage_reform = no_minimum_wage

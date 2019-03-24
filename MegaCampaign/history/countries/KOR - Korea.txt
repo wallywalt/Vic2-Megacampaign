@@ -25,7 +25,7 @@ press_rights=censored_press
 trade_unions=no_trade_unions
 political_parties=underground_parties
 
-ruling_party=KOR_liberal_3
+ruling_party=KOR_liberal
 upper_house=
 {
 	fascist = 0

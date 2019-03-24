@@ -2,5 +2,6 @@ owner=X10
 controller=X10
 add_core=MNG
 add_core=CHI
+add_core=MNG
 trade_goods = coal
 life_rating = 32

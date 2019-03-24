@@ -1,7 +1,7 @@
 owner=NAG
 controller=NAG
 add_core=BNG
-add_core=ENG
+
 add_core=ORI
 add_core=NAG
 add_core=HND

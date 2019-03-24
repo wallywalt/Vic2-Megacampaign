@@ -1,5 +1,11 @@
 capital=2612
 primary_culture = kazak
+culture = tatar
+culture = mongol
+culture = uzbek
+culture = tajik
+culture = turkmen
+culture = uighur
 religion = orthodox
 government = absolute_monarchy
 plurality=0.000000
