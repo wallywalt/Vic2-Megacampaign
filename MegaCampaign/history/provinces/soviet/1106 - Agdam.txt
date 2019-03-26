@@ -1,5 +1,5 @@
-owner=MLK
-controller=MLK
+owner=KOJ
+controller=KOJ
 add_core=MLK
 add_core=PER
 add_core=ARM

@@ -1,5 +1,6 @@
-owner=MON
-controller=MON
+owner=KOJ
+controller=KOJ
+add_core=KOJ
 add_core=MON
 add_core=YUG
 add_core=SER

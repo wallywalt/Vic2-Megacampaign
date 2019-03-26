@@ -1,7 +1,6 @@
 owner=POL
 controller=POL
 add_core=AUS 
-add_core=X03
 add_core=RUT
 add_core=UKR
 add_core=HRE

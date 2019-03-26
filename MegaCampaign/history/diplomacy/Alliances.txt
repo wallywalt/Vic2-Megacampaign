@@ -774,11 +774,4 @@ alliance=
 	end_date="1936.1.1"
 }
 
-alliance=
-{
-	first="X09"
-	second="UTS"
-	start_date="1792.10.19"
-	end_date="1936.1.1"
-}
 

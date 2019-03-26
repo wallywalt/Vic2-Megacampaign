@@ -1,5 +1,5 @@
-owner=ARL
-controller=ARL
+owner=KOJ
+controller=KOJ
 add_core=ARL
 add_core=AZB
 trade_goods = coal

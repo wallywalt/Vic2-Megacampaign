@@ -1,5 +1,5 @@
-owner=ARM
-controller=ARM
+owner=KOJ
+controller=KOJ
 add_core=PER
 add_core=AZB
 trade_goods = wool

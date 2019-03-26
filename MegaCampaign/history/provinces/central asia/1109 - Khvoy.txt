@@ -1,5 +1,5 @@
-owner=X14
-controller=X14
+owner=KOJ
+controller=KOJ
 add_core=X14
 add_core=AZB
 trade_goods = cotton

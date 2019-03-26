@@ -1,6 +1,6 @@
 owner=MNG
 controller=MNG
-add_core=MCK
+add_core=CXI
 add_core=CDL
 trade_goods = timber
 life_rating = 32

@@ -1,6 +1,7 @@
 owner=KOJ
 controller=KOJ
 add_core=KOJ
+add_core=KOJ
 add_core=BHT
 trade_goods = iron
 life_rating = 35

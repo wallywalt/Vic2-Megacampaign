@@ -16,3 +16,17 @@ The United Kingdom of England, Scotland, and Ireland has spent the last few cent
 The Kingdom of Jerusalem has cemented itself in the void left by the Eastern Roman Empire. By accepting the Hungarian prince as a guest in Constantinople, peace in Eastern Europe seems fleeting at best. 
 
 In the East, China and India have suffered massive blows from both East and West, with the Korean Hwaryeong Kingdom pushing southward and the French pushing along the coast of the Bay of Bengal. 
+
+Note: Add more lore here.
+
+Work (at least mostly) finished: cleaning up cores and European+North African+Middle Eastern borders, using prettier map textures, editing nation colours, fixing tech levels in Europe, adding different classes of acquire state CBs (so 10K POP Gibraltar doesn't cost as much as all of Bohemia in terms of infamy)
+
+WIP: cleaning up borders and tags (especially in South+East+SE Asia, the New World, Africa), adding in flavour events and decisions, borrowing the reforms structure and UI from HPM, reworking westernisation, adding in army and navy units, POPs in general, Congress system for determining infamy and army attrition, etc. 
+
+
+Work borrowed from other mods:
+Unit stats and river texture map from sighpie's HFM
+
+Geography map texture from Corndog's MP mod
+
+Different acquire state CBs from sdrasmu12

@@ -1,14 +1,16 @@
 political_decisions = {
 	the_post_colonialism = { #This decision adds cores to those post-colonial countries
 		potential = {
-			ai = no #Better let the player decide if they are willing to, as it may be not related to their campaign
-			NOT = {
-				has_global_flag = der_postcolonialism #To avoid having it spammed
-			}
-			NOT = { year = 1862 } #To avoid having that decision check forever
+			#ai = no #Better let the player decide if they are willing to, as it may be not related to their campaign
+			#NOT = {
+			#	has_global_flag = der_postcolonialism #To avoid having it spammed
+			#}
+			#NOT = { year = 1862 } #To avoid having that decision check forever
+			tag = KOJ
 		}
 		allow = {
-			ai = no
+			#ai = no
+			tag = KOJ
 		}
 
 		effect = {
@@ -218,13 +220,27 @@ political_decisions = {
 			EGY_921 = { add_core = ISR } #Israel
 			CHI_1476 = { add_core = TPG } #Taiping Heavenly Kingdom (for event)
 			TUR_806 = { add_core = MKD } #FYR Macedonia (if not working properly)
-			
+			enable_canal = 1
+			369 = { set_province_flag = kiel_canal }
+			enable_canal = 2
+			1755 = { set_province_flag = suez_canal }
+			set_global_flag = suez_canal_built
+			enable_canal = 3
+			1723 = { set_province_flag = panama_canal }
 			set_global_flag = der_postcolonialism
 		}
+		FRA = {
+				any_owned = {
+					add_province_modifier = {
+						name = baby_boom
+						duration = 3650
+					}
+				}
+			}
 		
-		ai_will_do = {
-			factor = 1
-		}
+		#ai_will_do = {
+		#	factor = 1
+		#}
 	}
 	
 	## Post-colonial country changes

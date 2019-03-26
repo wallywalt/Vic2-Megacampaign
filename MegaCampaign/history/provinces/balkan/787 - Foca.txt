@@ -1,6 +1,5 @@
 owner=X03
 controller=X03
-add_core=KOJ
 add_core=YUG
 add_core=SER
 trade_goods = coal

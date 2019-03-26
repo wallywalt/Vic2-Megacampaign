@@ -3,7 +3,7 @@ controller=MYS
 add_core=BIJ
 add_core=DEC
 add_core=KLN
-add_core=ENG
+
 add_core=HND
 trade_goods = fruit
 life_rating = 32

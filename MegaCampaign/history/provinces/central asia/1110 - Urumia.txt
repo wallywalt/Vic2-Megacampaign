@@ -1,5 +1,5 @@
-owner=MGR
-controller=MGR
+owner=KOJ
+controller=KOJ
 add_core=MGR
 add_core=PER
 add_core=BHT

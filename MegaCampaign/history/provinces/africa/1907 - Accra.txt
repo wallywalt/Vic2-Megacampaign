@@ -1,7 +1,5 @@
 owner=FRA
 controller=FRA
-add_core=DEN
-add_core=SCA
 trade_goods = cattle
 life_rating = 15
 colonial=2

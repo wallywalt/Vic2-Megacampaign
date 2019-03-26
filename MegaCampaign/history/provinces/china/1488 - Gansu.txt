@@ -4,5 +4,6 @@ add_core=CSH
 add_core=YRK
 add_core=ZUN
 add_core=CHI
+add_core=MNG
 trade_goods = cotton
 life_rating = 32
