@@ -1,3 +1,9 @@
+FRA = {
+	truce_until = 1826.1.1
+}
+SCA = {
+	truce_until = 1826.1.1
+}
 #Sphere of Influence
 
 	ABB=

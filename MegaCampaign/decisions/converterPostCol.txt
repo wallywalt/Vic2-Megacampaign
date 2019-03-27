@@ -7,6 +7,7 @@ political_decisions = {
 			#}
 			#NOT = { year = 1862 } #To avoid having that decision check forever
 			tag = KOJ
+			always = no
 		}
 		allow = {
 			#ai = no

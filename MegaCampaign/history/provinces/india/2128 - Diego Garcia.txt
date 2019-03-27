@@ -1,5 +1,4 @@
 owner=KOJ
 controller=KOJ
-add_core=FRA
 trade_goods = fish
 life_rating = 32

@@ -1,3 +1,9 @@
+PRU = {
+	truce_until = 1826.1.1
+}
+ENG = {
+	truce_until = 1826.1.1
+}
 #Sphere of Influence
 
 	ABB=
