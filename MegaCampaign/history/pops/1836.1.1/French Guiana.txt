@@ -1,39 +1,39 @@
-#French Guiana (20000)
+#portuguese Guiana (20000)
 #Ruled by France 1836
 #Cayenne (17000/4250 POPS)
 2241 = {
 	aristocrats = {
-		culture = french
+		culture = portuguese
 		religion = catholic
 		size = 150
 	}
 
 	bureaucrats = {
-		culture = french
+		culture = portuguese
 		religion = catholic
 		size = 10
 	}
 
 	clergymen = {
-		culture = french
+		culture = portuguese
 		religion = catholic
 		size = 10
 	}
 
 	artisans = {
-		culture = french
+		culture = portuguese
 		religion = catholic
 		size = 100
 	}
 
 	soldiers = {
-		culture = french
+		culture = portuguese
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = french
+		culture = portuguese
 		religion = catholic
 		size = 80
 	}

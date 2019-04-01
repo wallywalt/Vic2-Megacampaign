@@ -394,26 +394,26 @@
 	}
 
 	clergymen = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 75
 	}
 
 	artisans = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 150
 	}
 
 	soldiers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 25
 	}
 
 	farmers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 2750
 	}
 }
@@ -524,32 +524,32 @@
 	}
 
 	aristocrats = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 50
 	}
 
 	clergymen = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 75
 	}
 
 	artisans = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 150
 	}
 
 	soldiers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 25
 	}
 
 	farmers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 2700
 	}
 }
@@ -732,32 +732,32 @@
 #Resistencia (16000/4000 POPS)
 2364 = {
 	aristocrats = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 50
 	}
 
 	clergymen = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 75
 	}
 
 	artisans = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 150
 	}
 
 	soldiers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 25
 	}
 
 	farmers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 2700
 	}
 
@@ -794,32 +794,32 @@
 #Villa Angela (16000/4000 POPS)
 2365 = {
 	aristocrats = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 50
 	}
 
 	clergymen = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 75
 	}
 
 	artisans = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 150
 	}
 
 	soldiers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 25
 	}
 
 	farmers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 2700
 	}
 
@@ -851,32 +851,32 @@
 #Formosa (24000/6000 POPS) #now part of Argentina
 2366 = {
 	aristocrats = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 75
 	}
 
 	clergymen = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 75
 	}
 
 	artisans = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 250
 	}
 
 	soldiers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 50
 	}
 
 	farmers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 4575
 	}
 
@@ -913,32 +913,32 @@
 #Xolotas (20000/5000 POPS) #now part of Argentina
 2367 = {
 	aristocrats = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 75
 	}
 
 	clergymen = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 75
 	}
 
 	artisans = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 250
 	}
 
 	soldiers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 50
 	}
 
 	farmers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 4575
 	}
 }
@@ -1299,32 +1299,32 @@
 	}
 
 	aristocrats = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 50
 	}
 
 	clergymen = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 75
 	}
 
 	artisans = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 150
 	}
 
 	soldiers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 25
 	}
 
 	farmers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 2700
 	}
 }
@@ -2237,32 +2237,32 @@
 	}
 
 	aristocrats = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 50
 	}
 
 	clergymen = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 75
 	}
 
 	artisans = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 150
 	}
 
 	soldiers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 25
 	}
 
 	farmers = {
-		culture = guarani
-		religion = animist
+		culture = italian
+		religion = coptic
 		size = 2700
 	}
 

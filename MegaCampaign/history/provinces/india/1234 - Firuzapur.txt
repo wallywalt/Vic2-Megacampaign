@@ -6,3 +6,4 @@ add_core=MUG
 add_core=BIK
 trade_goods = wool
 life_rating = 32
+colonial=2

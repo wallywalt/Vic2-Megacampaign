@@ -5,3 +5,4 @@ add_core=KHA
 add_core=MGL
 trade_goods = grain
 life_rating = 32
+colonial=2

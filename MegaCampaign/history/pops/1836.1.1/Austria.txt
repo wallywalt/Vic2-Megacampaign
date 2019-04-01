@@ -363,13 +363,13 @@
 	}
 
 	clergymen = {
-		culture = hungarian
+		culture = croatian
 		religion = orthodox
 		size = 20 
 	}
 
 	artisans = {
-		culture = hungarian
+		culture = croatian
 		religion = orthodox
 		size = 980
 	}
@@ -523,49 +523,49 @@
 	}
 
 	clergymen = {
-		culture = hungarian
+		culture = croatian
 		religion = orthodox
 		size = 60 
 	}
 
 	artisans = {
-		culture = hungarian
+		culture = croatian
 		religion = orthodox
 		size = 150
 	}
 
 	soldiers = {
-		culture = hungarian
+		culture = croatian
 		religion = orthodox
 		size = 25 
 	}
 
 	farmers = {
-		culture = hungarian
+		culture = croatian
 		religion = orthodox
 		size = 2765  
 	}
 
 	clergymen = {
-		culture = hungarian
+		culture = croatian
 		religion = protestant
 		size = 35 
 	}
 
 	artisans = {
-		culture = hungarian
+		culture = croatian
 		religion = protestant
 		size = 150
 	}
 
 	soldiers = {
-		culture = hungarian
+		culture = croatian
 		religion = protestant
 		size = 25 
 	}
 
 	farmers = {
-		culture = hungarian
+		culture = croatian
 		religion = protestant
 		size = 1790   
 	}

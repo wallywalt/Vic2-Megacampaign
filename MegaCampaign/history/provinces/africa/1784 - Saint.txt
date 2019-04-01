@@ -3,3 +3,4 @@ controller=POR
 add_core=JOL
 trade_goods = fruit
 life_rating = 30
+colonial=2

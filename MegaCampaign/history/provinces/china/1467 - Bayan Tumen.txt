@@ -5,3 +5,4 @@ add_core=KLK
 add_core=MGL
 trade_goods = cattle
 life_rating = 32
+colonial=2

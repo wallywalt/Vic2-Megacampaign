@@ -6,3 +6,4 @@ add_core=ZUN
 add_core=XIN
 trade_goods = cotton
 life_rating = 32
+colonial=2

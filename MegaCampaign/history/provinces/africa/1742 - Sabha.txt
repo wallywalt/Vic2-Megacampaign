@@ -4,3 +4,4 @@ add_core=FZA
 add_core=ARA
 trade_goods = wool
 life_rating = 25
+colonial=2

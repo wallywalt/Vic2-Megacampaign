@@ -2,6 +2,6 @@ owner=X10
 controller=X10 
 add_core=X10
 add_core=KZH
-add_core=X10
 trade_goods = coal
 life_rating = 25
+colonial=2

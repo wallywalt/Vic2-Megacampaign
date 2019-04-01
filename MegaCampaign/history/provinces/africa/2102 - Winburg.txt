@@ -2,3 +2,4 @@ owner=KOJ
 controller=KOJ
 trade_goods = coal
 life_rating = 35
+colonial=2

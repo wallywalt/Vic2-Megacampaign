@@ -1,6 +1,5 @@
 owner=KOR
 controller=KOR
-
 add_core=CXI
 add_core=YAN
 add_core=CHI

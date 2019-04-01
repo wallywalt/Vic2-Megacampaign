@@ -1,6 +1,5 @@
 owner=X08
 controller=X08
-
 add_core=X08
 add_core=CHI
 add_core=MNG

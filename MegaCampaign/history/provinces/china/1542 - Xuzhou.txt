@@ -4,6 +4,5 @@ add_core=MNG
 add_core=X08
 add_core=CXI
 add_core=CHI
-add_core=MNG
 trade_goods = silk
 life_rating = 32

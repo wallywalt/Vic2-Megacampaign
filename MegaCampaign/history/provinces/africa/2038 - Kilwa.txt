@@ -5,3 +5,4 @@ add_core=MBA
 add_core=OMA
 trade_goods = grain
 life_rating = 35
+colonial=2

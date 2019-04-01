@@ -5,7 +5,6 @@ government = absolute_monarchy
 plurality=0.000000
 nationalvalue=nv_order
 literacy=0.050000
-civilized=yes
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -15,7 +14,6 @@ health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
-
 # political reforms
 slavery=yes_slavery
 vote_franschise=none_voting
@@ -25,7 +23,6 @@ public_meetings=yes_meeting
 press_rights=state_press
 trade_unions=no_trade_unions
 political_parties=underground_parties
-
 ruling_party=JOH_conservative
 upper_house=
 {
@@ -37,12 +34,9 @@ upper_house=
 	socialist = 0
 	communist = 0
 }
-
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
-
-
 # Technologies
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1

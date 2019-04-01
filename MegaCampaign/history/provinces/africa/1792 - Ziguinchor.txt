@@ -3,3 +3,4 @@ controller=POR
 add_core=JOL
 trade_goods = grain
 life_rating = 15
+colonial=2
