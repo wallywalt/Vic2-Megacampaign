@@ -1,0 +1,29 @@
+political_decisions = {
+	setup_KOJ = { 
+		potential = {
+			tag = KOJ
+			always = no
+		}
+		allow = {
+			tag = KOJ
+		}
+			enable_canal = 1
+			369 = { set_province_flag = kiel_canal }
+			enable_canal = 2
+			1755 = { set_province_flag = suez_canal }
+			set_global_flag = suez_canal_built
+			enable_canal = 3
+			1723 = { set_province_flag = panama_canal }
+	}
+
+	setup_MNG = {
+		potential = {
+			tag = MNG
+			always = no
+		}
+		allow = {
+			tag = MNG
+		}
+		MNG = { war_exhaustion = 20 }
+	}
+}

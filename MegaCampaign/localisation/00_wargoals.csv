@@ -1,21 +1,27 @@
-acquire_insignificant_state;Acquire Insignificant State;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_insignificant_state_desc;Take barely inhabited territory (<30K POPs) from the target country;Take barely inhabited territory (<30K POPs) from the target country;Take barely inhabited territory (<30K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_insignificant_state_short;Take barely inhabited territory (<30K POPs) from the target country;Take barely inhabited territory (<30K POPs) from the target country;Take barely inhabited territory (<30K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_insignificant_state_setup;Take barely inhabited territory (<30K POPs) from the target country;Take barely inhabited territory (<30K POPs) from the target country;Take barely inhabited territory (<30K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_small_state;Acquire small State;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_small_state_desc;Take sparsely inhabited territory (30-60K POPs) from the target country;Take sparsely inhabited territory (30-60K POPs) from the target country;Take sparsely inhabited territory (30-60K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_small_state_short;Take sparsely inhabited territory (30-60K POPs) from the target country;Take sparsely inhabited territory (30-60K POPs) from the target country;Take sparsely inhabited territory (30-60K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_small_state_setup;Take sparsely inhabited territory (30-60K POPs) from the target country;Take sparsely inhabited territory (30-60K POPs) from the target country;Take sparsely inhabited territory (30-60K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_medium_state;Acquire medium State;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_medium_state_desc;Take somewhat significant territory (60-120K POPs) from the target country;Take somewhat significant territory (60-120K POPs) from the target country;Take somewhat significant territory (60-120K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_medium_state_short;Take somewhat significant territory (60-120K POPs) from the target country;Take somewhat significant territory (60-120K POPs) from the target country;Take somewhat significant territory (60-120K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_medium_state_setup;Take somewhat significant territory (60-120K POPs) from the target country;Take somewhat significant territory (60-120K POPs) from the target country;Take somewhat significant territory (60-120K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_large_state;Acquire large State;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_large_state_desc;Take heavily populated territory (120-240K POPs) from the target country;Take heavily populated territory (120-240K POPs) from the target country;Take heavily populated territory (120-240K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_large_state_short;Take heavily populated territory (120-240K POPs) from the target country;Take heavily populated territory (120-240K POPs) from the target country;Take heavily populated territory (120-240K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_large_state_setup;Take heavily populated territory (120-240K POPs) from the target country;Take heavily populated territory (120-240K POPs) from the target country;Take heavily populated territory (120-240K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_critical_state;Aqcuire critical State;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_critical_state_desc;Take critically important territory (>240K POPs) from the target country;Take critically important territory (>240K POPs) from the target country;Take critically important territory (>240K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_critical_state_short;Take critically important territory (>240K POPs) from the target country;Take critically important territory (>240K POPs) from the target country;Take critically important territory (>240K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-acquire_critical_state_setup;Take critically important territory (>240K POPs) from the target country;Take critically important territory (>240K POPs) from the target country;Take critically important territory (>240K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
-status_quo;Status Quo;;;;;;;;;;;;;x,,,
+acquire_insignificant_state;Acquire Insignificant State;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_insignificant_state_desc;Take barely inhabited territory (<30K POPs) from the target country;Take barely inhabited territory (<30K POPs) from the target country;Take barely inhabited territory (<30K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_insignificant_state_short;Take $STATE$, a barely inhabited territory (<30K POPs);Take $STATE$, a barely inhabited territory (<30K POPs);Take $STATE$, a barely inhabited territory (<30K POPs);;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_insignificant_state_setup;Take $STATE$, a barely inhabited territory (<30K POPs), from $RECIPIENT$;Take $STATE$, a barely inhabited territory (<30K POPs), from $RECIPIENT$;Take $STATE$, a barely inhabited territory (<30K POPs), from $RECIPIENT$;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_small_state;Acquire small State;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_small_state_desc;Take sparsely inhabited territory (30-60K POPs) from the target country;Take sparsely inhabited territory (30-60K POPs) from the target country;Take sparsely inhabited territory (30-60K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_small_state_short;Take $STATE$, a sparsely inhabited territory (30-60K POPs);Take $STATE$, a sparsely inhabited territory (30-60K POPs);Take $STATE$, a sparsely inhabited territory (30-60K POPs);;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_small_state_setup;Take $STATE$, a sparsely inhabited territory (30-60K POPs), from $RECIPIENT$;Take sparsely inhabited territory (30-60K POPs), from $RECIPIENT$;Take sparsely inhabited territory (30-60K POPs), from $RECIPIENT$;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_medium_state;Acquire medium State;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_medium_state_desc;Take somewhat significant territory (60-120K POPs) from the target country;Take somewhat significant territory (60-120K POPs) from the target country;Take somewhat significant territory (60-120K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_medium_state_short;Take $STATE$, a somewhat significant territory (60-120K POPs)Take $STATE$, a somewhat significant territory (60-120K POPs);Take $STATE$, a somewhat significant territory (60-120K POPs);;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_medium_state_setup;Take $STATE$, a somewhat significant territory (60-120K POPs), from $RECIPIENT$;Take $STATE$, a somewhat significant territory (60-120K POPs), from $RECIPIENT$;Take $STATE$, a somewhat significant territory (60-120K POPs), from $RECIPIENT$;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_large_state;Acquire large State;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_large_state_desc;Take heavily populated territory (120-240K POPs) from the target country;Take heavily populated territory (120-240K POPs) from the target country;Take heavily populated territory (120-240K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_large_state_short;Take $STATE$, a heavily populated territory (120-240K POPs);Take $STATE$, a heavily populated territory (120-240K POPs);Take $STATE$, a heavily populated territory (120-240K POPs);;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_large_state_setup;Take $STATE$, a heavily populated territory (120-240K POPs), from $RECIPIENT$;Take $STATE$, a heavily populated territory (120-240K POPs), from $RECIPIENT$;Take $STATE$, a heavily populated territory (120-240K POPs), from $RECIPIENT$;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_critical_state;Acquire critical State;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_critical_state_desc;Take critically important territory (>240K POPs) from the target country;Take critically important territory (>240K POPs) from the target country;Take critically important territory (>240K POPs) from the target country;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_critical_state_short;Take $STATE$, a critically important territory (>240K POPs);Take $STATE$, a critically important territory (>240K POPs);Take $STATE$, a critically important territory (>240K POPs);;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_critical_state_setup;Take $STATE$, a critically important territory (>240K POPs), from $RECIPIENT$;Take $STATE$, a critically important territory (>240K POPs), from $RECIPIENT$;Take $STATE$, a critically important territory (>240K POPs), from $RECIPIENT$;;;;;;;;;;;;x;;;;;;;;;;;;;;
+status_quo;Status Quo;;;;;;;;;;;;;x
+treaty_port_casus_belli;Punitive Expedition;;;;;;;;;;;;;;;x;;;;
+treaty_port_casus_belli_desc;Force a 即country劬 to negotiate an 即unequal treaty劬, which includes a 即treaty port劬 if there's one available.;;;;;;;;;;;;;;;;x
+treaty_port_casus_belli_short;Negotiate an unequal treaty;;;;;;;;;;;;;;;;;;;;;;x;;;;
+treaty_port_casus_belli_setup;Force a 即country劬 to negotiate an 即unequal treaty劬, which includes a 即treaty port劬 if there's one available;;;;;;;;;;;;;;;;;;;;;;;x
+NORMAL_PUNITIVE_EXPEDITION_WAR_NAME;$ORDER$$FIRST$-$SECOND$ War;;;;;;;;;;;;;;;;;;;;x,,,
+AGRESSION_PUNITIVE_EXPEDITION_WAR_NAME;$ORDER$$FIRST$-$SECOND$ War;;;;;;;;;;;;;;;;;;;;x,,,

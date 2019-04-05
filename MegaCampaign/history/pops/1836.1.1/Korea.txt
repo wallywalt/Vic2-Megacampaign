@@ -3,7 +3,7 @@
 #Pyongyang (800000/200000 POPS)
 1619 = {
 	aristocrats = {
-		culture = korean
+		culture = beifaren
 		religion = mahayana
 		size = 3750
 	}
@@ -15,7 +15,7 @@
 	}
 
 	officers = {
-		culture = korean
+		culture = beifaren
 		religion = mahayana
 		size = 400
 	}

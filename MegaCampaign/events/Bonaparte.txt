@@ -1,0 +1,250 @@
+country_event = {
+
+	id = 7790001
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	title = "EVTNAME7790001"
+	desc = "EVTDESC7790001"
+	picture = "napoleon3"
+
+	option = {
+		name = "EVTOPTA7790001" 
+		relation = { who = MNG value = -50 }
+		set_global_flag = france_demands_kale
+		MNG = {
+			country_event = 7790002
+		}
+		ai_chance = { factor = 95 }
+	}
+
+	option = {
+		name = "EVTOPTB7790001" 
+		relation = { who = MNG value = 50 }
+		any_pop = {
+			limit = { has_pop_culture = french } 
+			consciousness = 1
+		}
+		prestige = -5
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = {
+
+	id = 7790002
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	title = "EVTNAME7790002"
+	desc = "EVTDESC7790002"
+	picture = "napoleon3"
+
+	option = {
+		name = "EVTOPTA7790002" 
+		relation = { who = FRA value = 50 }
+		prestige = -5
+		any_pop = {
+			militancy = 2
+			consciousness = 2
+		}
+		random_owned = { limit = { owner = { is_our_vassal = BUR } } owner = { leave_alliance = BUR release_vassal = BUR } }
+		FRA = {
+			country_event = 7790004
+		}
+		ai_chance = { factor = 5 }
+	}
+
+	option = {
+		name = "EVTOPTB7790002" 
+		prestige = 10
+		relation = { who = FRA value = -50 }
+		FRA = {
+			country_event = 7790003
+		}
+		ai_chance = { factor = 95 }
+	}
+}
+
+country_event = {
+
+	id = 7790003
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	title = "EVTNAME7790003"
+	desc = "EVTDESC7790003"
+	picture = "napoleon3"
+
+	option = {
+		name = "EVTOPTA7790003" 
+		prestige = 5
+		war = {
+			target = MNG
+			attacker_goal = { 
+				#casus_belli = release_puppet
+				#country = BUR
+				casus_belli = treaty_port_casus_belli
+			}
+			defender_goal = { 
+				casus_belli = status_quo 
+			}
+			call_ally = no
+		}
+		badboy = 5
+		ai_chance = { factor = 95 }
+	}
+
+	option = {
+		name = "EVTOPTB7790003"
+		relation = { who = MNG value = 50 }
+		any_pop = {
+			militancy = 2
+			consciousness = 2
+		}
+		prestige = -25
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = {
+
+	id = 7790004
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	title = "EVTNAME7790004"
+	desc = "EVTDESC7790004"
+	picture = "napoleon3"
+
+	option = {
+		name = "EVTOPT7790004" 
+		prestige = 5
+		casus_belli = {
+			target = BUR
+			type = establish_protectorate_casus_belli
+			months = 48
+		}
+		badboy = 2
+	}
+}
+
+country_event = {#The Treaty of Taungoo (French Victory)
+
+	id = 7790005
+	
+	fire_only_once = yes
+
+	title = "EVTNAME7790005"
+	desc = "EVTDESC7790005"
+	picture = "napoleon3"
+	trigger = {
+		tag = FRA
+		is_greater_power = yes
+		has_global_flag = france_demands_kale
+		NOT = {
+			war_with = MNG
+			has_global_flag = treaty_of_taungoo
+			has_global_flag = treaty_of_rangoon
+		}
+		MNG = {
+			NOT = { war_with = FRA }
+			has_recently_lost_war = yes
+		}
+	}
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	option = {
+		name = "EVTOPT7790005" 
+		set_global_flag = treaty_of_taungoo
+		prestige = 25
+		inherit = BUR
+		MNG = {
+			country_event = 7790006
+		}
+		
+	}
+}
+
+country_event = {#The Treaty of Taungoo (Ming Defeat)
+
+	id = 7790006
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	title = "EVTNAME7790006"
+	desc = "EVTDESC7790006"
+	picture = "napoleon3"
+
+	option = {
+		name = "EVTOPT7790006" 
+		prestige = -25		
+	}
+}
+
+country_event = {#The Treaty of Rangoon (Chinese Victory)
+
+	id = 7790007
+	
+	fire_only_once = yes
+
+	title = "EVTNAME7790007"
+	desc = "EVTDESC7790007"
+	picture = "napoleon3"
+	trigger = {
+		tag = MNG
+		has_global_flag = france_demands_kale
+		NOT = {
+			war_with = FRA
+			has_global_flag = treaty_of_taungoo
+			has_global_flag = treaty_of_rangoon
+		}
+		FRA = {
+			NOT = { war_with = MNG }
+			has_recently_lost_war = yes
+		}
+	}
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	option = {
+		name = "EVTOPT7790007" 
+     	set_global_flag = treaty_of_rangoon
+		prestige = 25		
+		FRA = {
+			country_event = 7790008
+		}
+	}
+}
+
+
+country_event = {#The Treaty of Rangoon (French Defeat)
+
+	id = 7790008
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	title = "EVTNAME7790008"
+	desc = "EVTDESC7790008"
+	picture = "napoleon3"
+
+	option = {
+		name = "EVTOPT7790008" 
+		prestige = -30		
+	}
+}

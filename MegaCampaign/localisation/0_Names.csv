@@ -128,6 +128,8 @@ BTS;Betsimisaraka;Betsimisaraka;Betsimisaraka;Betsimisaraka;Betsimisaraka;Betsim
 BTS_ADJ;Betsimisaraka;Betsimisaraka;Betsimisaraka;Betsimisaraka;Betsimisaraka;Betsimisaraka;Betsimisaraka;Betsimisaraka;Betsimisaraka;Betsimisaraka;Betsimisaraka;?????????????;Betsimisaraka;x;;
 BUG;Buganda;Buganda;Buganda;Buganda;Buganda;Buganda;Buganda;Buganda;Buganda;Buganda;Buganda;???????;Buganda;x;;
 BUG_ADJ;Bugandan;Bugandan;Bugandan;Bugandan;Bugandán;Bugandan;Bugandan;Bugandan;Bugandan;Buganda;Bugandã;????????;Bugandan;x;;
+BUR;Kale;;;;;;;;;;;;;x;;;;
+BUR_ADJ;Kalian;;;;;;;;;;;;;x;;;;
 BUU;Burundi;Burundi;Burundi;Burundi;Burundi;Burundi;Burundi;Burundi;Burundi;Boeroendi;Burundi;???????;Burundi;x;;
 BUU_ADJ;Burundi;Burundi;Burundi;Burundi;Burundi;Burundi;Burundi;Burundi;Burundi;Boeroendi;Burundi;???????;Burundi;x;;
 CAD;Caddo;Caddo;Caddo;Caddo;Caddo;Caddo;caddo;Caddo;caddo;Caddo;Caddo;?????;caddo;x;;
@@ -337,6 +339,8 @@ KOL;Cologne;Eau de Cologne;Köln;Kolonia;Colonia;Colonia;kölni;kolínská;kölni;Keu
 KOL_ADJ;Colognian;Colognien;Kölnisch;Colognian;Colognian;Colono;Colognian;Colognian;Colognian;kölsch;Colognian;?????????;Colognian;x;;
 KON;Kongo;Kongo;Kongo;Kongo;Kongo;Kongo;Kongo;Kongo;Kongo;Kongo;Kongo;?????;Kongo;x;;
 KON_ADJ;Kongolese;Kongolais;Kongolese;Kongolese;Kongolese;Kongolese;Kongolese;Kongolese;Kongolese;Kongolese;Congolês;?????????;Kongolese;x;;
+KOR;Hwaryeong;;;;;;;;;;;;;x;;;;
+KOR_ADJ;Korean;;;;;;;;;;;;;x;;;;
 KRK;Carnatic;Carnatic;Karnisch;Carnatic;Carnal;Carnatic;Carnatic;Carnatic;Carnatic;Carnatic;Carnal;????????;Carnatic;x;;
 KRK_ADJ;Carnatic;Carnatic;Karnisch;Carnatic;Carnal;Carnatic;Carnatic;Carnatic;Carnatic;Carnatic;Carnal;????????;Carnatic;x;;
 KRW;Karagwe;Karagwe;Karagwe;Karagwe;Karagwe;Karagwe;Karagwe;Karagwe;Karagwe;Karagwe;Karagwe;???????;Karagwe;x;;
@@ -2285,8 +2289,8 @@ X02_socialist;Socialist Party;;;;;;;;;;;;;x
 X02_communist;Communist Party;;;;;;;;;;;;;x
 X02_anarcho_liberal;Radical Party;;;;;;;;;;;;;x
 X02_fascist;Fascist Party;;;;;;;;;;;;;x
-X03;Carinthia;;;;;;;;;;;;;x
-X03_ADJ;Carinthia;;;;;;;;;;;;;x
+X03;The Carinthian Empire;;;;;;;;;;;;;x
+X03_ADJ;Carinthian;;;;;;;;;;;;;x
 X03_conservative;Conservative Party;;;;;;;;;;;;;x
 X03_liberal;Liberal Party;;;;;;;;;;;;;x
 X03_reactionary;National Party;;;;;;;;;;;;;x
@@ -2348,8 +2352,8 @@ X09_socialist;Socialist Party;;;;;;;;;;;;;x
 X09_communist;Communist Party;;;;;;;;;;;;;x
 X09_anarcho_liberal;Radical Party;;;;;;;;;;;;;x
 X09_fascist;Fascist Party;;;;;;;;;;;;;x
-X10;Fergana;;;;;;;;;;;;;x
-X10_ADJ;Fergana;;;;;;;;;;;;;x
+X10;The Ferganan Khaganate;;;;;;;;;;;;;x
+X10_ADJ;Ferganan;;;;;;;;;;;;;x
 X10_conservative;Conservative Party;;;;;;;;;;;;;x
 X10_liberal;Liberal Party;;;;;;;;;;;;;x
 X10_reactionary;National Party;;;;;;;;;;;;;x

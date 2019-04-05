@@ -1,7 +1,7 @@
-owner=POR
-controller=POR
+owner=MNG
+controller=MNG
 add_core=YUE
 add_core=ZHO
-add_core=POR
+add_core=MNG
 trade_goods = tea
 life_rating = 32

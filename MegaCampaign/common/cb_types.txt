@@ -39,6 +39,7 @@
 
 # Order that CBs are executed in a peace treaty
 peace_order = { 
+treaty_port_casus_belli
 add_to_sphere 
 take_from_sphere 
 status_quo 
@@ -75,6 +76,139 @@ annex
 install_communist_gov_cb
 uninstall_communist_gov_cb
 great_war_penalty_cb 
+}
+
+
+#Treaty Port
+treaty_port_casus_belli = {
+	sprite_index = 10
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+
+	badboy_factor = 1
+	prestige_factor = 0.5
+	peace_cost_factor = 10
+	penalty_factor = 2
+
+	break_truce_prestige_factor = 4
+	break_truce_infamy_factor = 4
+	break_truce_militancy_factor = 1
+	truce_months = 48
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 0
+	
+	always = no
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		THIS = {
+			civilized = yes
+			total_pops = 250000
+			OR = {
+				AND = {
+					total_amount_of_ships = 10
+					military_score = 10
+				}
+				war_with = THIS
+			}
+			NOT = { has_country_modifier = neutrality_modifier }
+			any_owned_province = { has_building = naval_base }
+			OR = {
+				NOT = { war_policy = pacifism }
+				ai = no
+			}
+			OR = {
+				naval_plans = 1
+				ai = yes
+			}
+		}
+		NOT = { has_country_modifier = neutrality_modifier }
+		civilized = no
+		is_vassal = no
+		num_of_cities = 2
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = punitive_effects } }
+		}
+		
+		OR = {
+			owns = 1498 #Macao
+			owns = 1538 #Shanghai
+			owns = 1496 #Hong Kong
+			owns = 1566	#Qingdao
+			owns = 1481 #Lushun - Port Arthur
+			owns = 1569 #Weihaiwei
+			owns = 1606 #Jiaxing
+			owns = 2562 #Tainan
+			owns = 1499 #Hainan
+			owns = 1608 #Ningbo
+			owns = 1071 #Qeshm
+			owns = 1177 #Socotra
+			owns = 2048 #Zanzibar
+			owns = 1637 #Cheju
+			owns = 1638 #Okinawa
+		}
+	}
+	
+	po_reparations = yes
+	
+	tws_battle_factor = 1.5
+	
+	war_name = PUNITIVE_EXPEDITION_WAR_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.1
+		}
+	}
+	
+	on_po_accepted = {
+		random_owned = {
+			limit = {
+				owner = {
+					civilized = no
+					OR = {
+						owns = 1498 #Macao
+						owns = 1538 #Shanghai
+						owns = 1496 #Hong Kong
+						owns = 1566	#Qingdao
+						owns = 1481 #Lushun - Port Arthur
+						owns = 1569 #Weihaiwei
+						owns = 1606 #Jiaxing
+						owns = 2562 #Tainan
+						owns = 1499 #Hainan
+						owns = 1608 #Ningbo
+						owns = 1071 #Qeshm
+						owns = 1177 #Socotra
+						owns = 2048 #Zanzibar
+						owns = 1637 #Cheju
+						owns = 1638 #Okinawa
+					}
+				}
+				THIS = {
+					civilized = yes
+					NOT = { is_culture_group = east_asian }
+					num_of_ports = 1
+				}
+			}
+		owner = { add_country_modifier = { name = negotiating_unequal_treaty duration = 30 } }
+			THIS = { add_country_modifier = { name = negotiating_treaty duration = 30 } }
+		}
+		#random_owned = { limit = { owner = { civilized = no has_country_modifier = uncivilized_isolationism } }
+		#	owner = { remove_country_modifier = uncivilized_isolationism }
+		#}
+		#random_owned = { limit = { owner = { civilized = no NOT = { has_country_modifier = western_influences } } }
+		#	owner = { add_country_modifier = { name = western_influences duration = -1 } }
+		#}
+		#random_owned = { limit = { owner = { civilized = no NOT = { capital_scope = { has_country_modifier = legation_quarter } } } }
+		#	owner = { capital_scope = { add_province_modifier = { name = legation_quarter duration = -1 } } }
+		#}
+	}
 }
 
 #Different classes of acquire state CBs from sdrasmu12

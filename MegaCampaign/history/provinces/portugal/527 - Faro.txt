@@ -1,5 +1,6 @@
-owner=POR
-controller=POR
+owner=PAP
+controller=PAP
 add_core=POR
+add_core=PAP
 trade_goods = fruit
 life_rating = 35

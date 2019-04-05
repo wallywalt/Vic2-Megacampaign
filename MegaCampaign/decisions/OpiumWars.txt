@@ -1,0 +1,23 @@
+political_decisions = {
+	ultraindia = {
+		potential = {	
+			tag = FRA
+			NOT = {has_country_flag = ultraindia_questioned}
+		}
+		allow = {
+			war = no
+			rank = 1
+		}
+		effect = {
+			set_country_flag = ultraindia_questioned
+			FRA = {
+				prestige = 5
+				country_event = 7790001
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

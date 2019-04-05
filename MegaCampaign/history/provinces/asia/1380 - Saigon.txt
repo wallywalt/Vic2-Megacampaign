@@ -2,4 +2,4 @@ owner=ANN
 controller=ANN
 add_core=ANN
 trade_goods = grain
-life_rating = 30
+life_rating = 40

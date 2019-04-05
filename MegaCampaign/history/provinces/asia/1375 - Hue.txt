@@ -1,5 +1,5 @@
-owner=DAI
-controller=DAI
+owner=ANN
+controller=ANN
 add_core=DAI
 add_core=ANN
 trade_goods = grain

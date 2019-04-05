@@ -225,3 +225,18 @@ vassal=
 	end_date="1936.1.1"
 }
 
+vassal=
+{
+	first="MNG"
+	second="BUR"
+	start_date="1792.9.28"
+	end_date="1936.1.1"
+}
+
+vassal=
+{
+	first="POR"
+	second="PAP"
+	start_date="1792.9.28"
+	end_date="1936.1.1"
+}

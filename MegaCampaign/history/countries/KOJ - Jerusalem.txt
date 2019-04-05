@@ -36,7 +36,9 @@ upper_house=
 	socialist = 0
 	communist = 0
 }
-decision = the_post_colonialism
+
+decision = setup_KOJ
+
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
