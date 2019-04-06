@@ -1,5 +1,5 @@
-owner=PRU
-controller=PRU
+owner=FRA
+controller=FRA
 add_core=NET
 trade_goods = fish
 life_rating = 35

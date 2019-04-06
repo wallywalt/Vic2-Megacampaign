@@ -367,6 +367,7 @@ political_decisions = {
 		
 		effect = {
 			remove_country_modifier = negotiating_treaty
+			1485 = { secede_province = THIS change_controller = THIS }
 			2562 = { secede_province = THIS change_controller = THIS }
 			add_country_modifier = { name = chinese_treaty_port duration = 1095 }
 		}
@@ -540,17 +541,17 @@ political_decisions = {
 		
 		effect = {
 			remove_country_modifier = negotiating_treaty
-			1637 = { secede_province = THIS change_controller = THIS }
+			1637 = { secede_province = THIS change_controller = THIS add_province_modifier = { name = treaty_port duration = -1 } }
 		}
 		
 		ai_will_do = { factor = 1 }
 	}
 	
 	okinawa_treaty_port = {
-		picture = inherit_iyukyu
+		picture = inherit_ryukyu
 		potential = {
 			has_country_modifier = negotiating_treaty
-			1638 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
+			1678 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 		}
 		
 		allow = {
@@ -558,7 +559,8 @@ political_decisions = {
 		
 		effect = {
 			remove_country_modifier = negotiating_treaty
-			1638 = { secede_province = THIS change_controller = THIS }
+			1678 = { secede_province = THIS change_controller = THIS add_province_modifier = { name = treaty_port duration = -1 } }
+			add_country_modifier = { name = chinese_treaty_port duration = 1095 }			
 		}
 		
 		ai_will_do = { factor = 1 }

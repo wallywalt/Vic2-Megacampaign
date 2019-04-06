@@ -1,4 +1,20 @@
 political_decisions = {
+	option_disable_hpm_crisis = {
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+			NOT = { year = 1837 }
+			NOT = { has_global_flag = revolution_n_counter_researched }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = revolution_n_counter_researched
+		}
+	}
 	setup_KOJ = { 
 		potential = {
 			tag = KOJ
@@ -7,6 +23,7 @@ political_decisions = {
 		allow = {
 			tag = KOJ
 		}
+		effect = {
 			enable_canal = 1
 			369 = { set_province_flag = kiel_canal }
 			enable_canal = 2
@@ -14,6 +31,7 @@ political_decisions = {
 			set_global_flag = suez_canal_built
 			enable_canal = 3
 			1723 = { set_province_flag = panama_canal }
+		}
 	}
 
 	setup_MNG = {
@@ -24,6 +42,8 @@ political_decisions = {
 		allow = {
 			tag = MNG
 		}
-		MNG = { war_exhaustion = 20 }
+		effect = {
+			MNG = { war_exhaustion = 20 }
+		}
 	}
 }
