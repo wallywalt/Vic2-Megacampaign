@@ -142,10 +142,9 @@ country_event = {#The Treaty of Taungoo (French Victory)
 	id = 7790005
 	
 	fire_only_once = yes
-
+	major = yes
 	title = "EVTNAME7790005"
 	desc = "EVTDESC7790005"
-	picture = "Outside_influences"
 	trigger = {
 		tag = FRA
 		is_greater_power = yes

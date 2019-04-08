@@ -1,6 +1,5 @@
 owner=FRA
 controller=FRA
-add_core=PRU
 add_core=BEL
 add_core=FLA
 add_core=HRE

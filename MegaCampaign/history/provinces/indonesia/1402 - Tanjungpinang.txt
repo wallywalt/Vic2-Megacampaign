@@ -1,5 +1,6 @@
-owner=SAK
-controller=SAK
+controller=BAN
+controller=BAN
+add_core=BAN
 add_core=MLC
 add_core=SAK
 add_core=MSA

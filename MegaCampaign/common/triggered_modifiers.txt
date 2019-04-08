@@ -35,6 +35,74 @@ own_panama_canal = {
 	prestige = 0.02
 }
 
+landlocked_nation = {
+	trigger = {
+		exists = yes
+		NOT = { total_num_of_ports = 1 }
+		NOT = { 
+			has_country_modifier = trek_boers 
+			primary_culture = north_german
+			primary_culture = south_german
+			primary_culture = swiss_german
+			primary_culture = siebenburger
+			primary_culture = dutch
+			is_culture_group = polish_culture_group
+		}
+	}
+
+	import_cost = 0.5
+	global_immigrant_attract = -1.5
+	icon = 8
+}
+
+landlocked_nation_import = {
+	trigger = {
+		exists = yes
+		NOT = { total_num_of_ports = 1 }
+		OR = { 
+			has_country_modifier = trek_boers 
+			primary_culture = north_german
+			primary_culture = south_german
+			primary_culture = swiss_german
+			primary_culture = siebenburger
+			primary_culture = dutch
+			is_culture_group = polish_culture_group
+		}
+	}
+	import_cost = 0.5
+	icon = 8
+}
+
+malacca_strait = {
+		trigger = {
+			exists = yes
+			owns = 1384
+			owns = 1385
+			owns = 1386
+			owns = 1387
+			owns = 1388
+			owns = 2575
+		}
+	prestige = 0.01
+	tax_efficiency = 0.01
+	tariff_efficiency_modifier = 0.1
+	icon = 16
+}
+
+yellow_river = {
+	trigger = {
+		owns = 1508 #Kaifeng
+		owns = 1510 #Luoyang
+		owns = 1515 #Weihui
+		owns = 1570 #Wuding
+		owns = 1562 #Hanzhong
+	}
+	icon = 10
+	tax_efficiency = 0.035
+	war_exhaustion = -0.5
+	supply_consumption = -0.01
+}
+
 small_but_efficient = {
 	trigger = {
 		exists = yes
@@ -61,4 +129,53 @@ small_but_efficient = {
 	tariff_efficiency_modifier = 0.3
 	education_efficiency_modifier = 0.05
 	supply_consumption = -0.9
+}
+
+
+bread_basket = {
+	trigger = {
+		958 = { #Kyiv
+			OR = {
+				owned_by = THIS
+				owner = { in_sphere = THIS vassal_of = THIS is_greater_power = no }
+			}
+		}
+		961 = { #Cherkassy
+			OR = {
+				owned_by = THIS
+				owner = { in_sphere = THIS vassal_of = THIS is_greater_power = no }
+			}
+		}
+		977 = { #Kursk
+			OR = {
+				owned_by = THIS
+				owner = { in_sphere = THIS vassal_of = THIS is_greater_power = no }
+			}
+		}
+		968 = { #Odessa
+			OR = {
+				owned_by = THIS
+				owner = { in_sphere = THIS vassal_of = THIS is_greater_power = no }
+			}
+		}
+	}
+	icon = 10
+	war_exhaustion = -0.5
+	supply_consumption = -0.1
+}
+
+too_many_mercs = {
+	trigger = {
+		owns = 1612
+		primary_culture = korean
+		civilized = no
+		war = yes
+	}
+	icon = 10
+	supply_consumption = 0.75
+	land_organisation = 0.1
+	land_unit_start_experience = 5
+	org_regain = -0.2
+	war_exhaustion = 0.05
+	mobilisation_size = 0.2
 }

@@ -1,6 +1,6 @@
 owner=MAR
 controller=MAR
-add_core=POR
+
 add_core=MAR
 add_core=HND
 trade_goods = fruit

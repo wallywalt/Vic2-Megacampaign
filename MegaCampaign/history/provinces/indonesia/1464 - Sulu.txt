@@ -1,5 +1,6 @@
-owner=SUL
-controller=SUL
+controller=BAN
+controller=BAN
+add_core=BAN
 add_core=SUL
 add_core=PHI
 trade_goods = fish

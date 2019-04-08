@@ -1,5 +1,6 @@
-owner=PGR
-controller=PGR
+controller=BAN
+controller=BAN
+add_core=BAN
 add_core=PGR
 add_core=MSA
 trade_goods = tobacco

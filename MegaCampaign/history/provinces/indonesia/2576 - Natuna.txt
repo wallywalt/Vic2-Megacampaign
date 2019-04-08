@@ -1,5 +1,6 @@
-owner=LFA
-controller=LFA
+controller=BAN
+controller=BAN
+add_core=BAN
 add_core=LFA
 trade_goods = fish
 life_rating = 30

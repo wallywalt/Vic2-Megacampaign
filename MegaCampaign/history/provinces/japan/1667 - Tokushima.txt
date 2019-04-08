@@ -1,5 +1,6 @@
 owner=KOR
 controller=KOR
 add_core=JAP
+add_core=DTE
 trade_goods = tobacco
 life_rating = 35

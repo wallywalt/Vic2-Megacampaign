@@ -1,0 +1,32 @@
+political_decisions = {
+	jerusalemite_rename_const = {
+		picture = constantinople
+		potential = {
+			tag = KOJ
+			owns = 860
+			NOT = { has_global_flag = jerusalemite_rename_const }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = jerusalemite_rename_const
+			prestige = 2
+			860 = { 
+				change_province_name = "Theoplylae" 
+			}
+			any_pop = { 
+				limit = { 
+					culture = greek
+				} 
+				militancy = 1
+				consciousness = 2
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+}
+
+

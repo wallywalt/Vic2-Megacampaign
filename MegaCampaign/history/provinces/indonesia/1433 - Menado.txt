@@ -1,5 +1,6 @@
-owner=TNT
-controller=TNT
+controller=BAN
+controller=BAN
+add_core=BAN
 add_core=TNT
 trade_goods = dye
 life_rating = 30

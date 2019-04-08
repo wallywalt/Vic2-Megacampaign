@@ -548,7 +548,7 @@ political_decisions = {
 	}
 	
 	okinawa_treaty_port = {
-		picture = inherit_ryukyu
+		picture = chongsheng
 		potential = {
 			has_country_modifier = negotiating_treaty
 			1678 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }

@@ -1713,10 +1713,10 @@ trade_unions_promised = {
 }
  
  
-#meiji_restoration_boost = {
-#	research_points_modifier = 0.3
-#	icon = 5
-#}
+meiji_restoration_boost = {
+	research_points_modifier = 0.3
+	icon = 5
+}
 
 dar_al_funun = {
 	research_points_modifier = 0.2

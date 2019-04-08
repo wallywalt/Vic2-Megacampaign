@@ -1,5 +1,6 @@
-owner=ATJ
-controller=ATJ
+controller=BAN
+controller=BAN
+add_core=BAN
 add_core=ATJ
 add_core=MSA
 trade_goods = grain

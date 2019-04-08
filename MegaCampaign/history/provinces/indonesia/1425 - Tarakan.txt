@@ -1,5 +1,6 @@
-owner=KTI
-controller=KTI
+controller=BAN
+controller=BAN
+add_core=BAN
 add_core=KTI
 trade_goods = timber
 life_rating = 15

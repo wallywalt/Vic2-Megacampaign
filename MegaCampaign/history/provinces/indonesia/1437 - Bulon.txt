@@ -1,5 +1,6 @@
-owner=BTN
-controller=BTN
+controller=BAN
+controller=BAN
+add_core=BAN
 add_core=BTN
 trade_goods = fish
 life_rating = 30

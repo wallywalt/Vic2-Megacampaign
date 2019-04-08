@@ -41,6 +41,9 @@ upper_house=
 	socialist = 0
 	communist = 0
 }
+
+schools = army_tech_school
+
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0

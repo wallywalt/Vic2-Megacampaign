@@ -1,5 +1,6 @@
-owner=BNJ
-controller=BNJ
+controller=BAN
+controller=BAN
+add_core=BAN
 add_core=BNJ
 trade_goods = sulphur
 life_rating = 30
