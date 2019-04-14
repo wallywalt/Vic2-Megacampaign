@@ -1,5 +1,5 @@
-owner=WIA
-controller=WIA
+owner=LXA
+controller=LXA
 add_core=WIA
 add_core=SIA
 add_core=LUA

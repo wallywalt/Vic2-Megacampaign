@@ -1,5 +1,5 @@
-owner=SCA
-controller=SCA
+owner=QUE
+controller=QUE
 add_core=WCR
 trade_goods = cattle
 life_rating = 35

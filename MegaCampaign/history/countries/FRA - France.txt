@@ -41,6 +41,8 @@ upper_house=
 
 schools = army_tech_school
 
+decision = setup_FRA
+
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0

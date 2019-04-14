@@ -1,5 +1,5 @@
-owner=BUR
-controller=BUR
+owner=LXA
+controller=LXA
 add_core=PEG
 add_core=BUR
 add_core=SIA

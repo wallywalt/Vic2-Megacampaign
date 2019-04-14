@@ -1,5 +1,5 @@
-owner=LUA
-controller=LUA
+owner=LXA
+controller=LXA
 add_core=MPH
 add_core=LUA
 add_core=SIA

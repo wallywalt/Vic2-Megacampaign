@@ -1,5 +1,5 @@
-owner=BUR
-controller=BUR
+owner=LXA
+controller=LXA
 add_core=SIA
 add_core=BUR
 trade_goods = fish

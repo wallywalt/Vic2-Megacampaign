@@ -162,6 +162,21 @@ judaism = {
 }
 
 eastern = {
+	confucian = {
+		color = { 1 1 0.8}
+		icon = 36
+	}
+	
+	shenism = {
+		color = { 1 0.7 0}
+		icon = 57
+	}
+	
+	daoism = {
+		color = { 0.9 0.9 1}
+		icon = 35
+	}
+	
 	mahayana = {
 		color = { 0.8 0.3 0 }
 		icon = 8

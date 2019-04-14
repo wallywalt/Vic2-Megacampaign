@@ -1,5 +1,5 @@
-owner=KED
-controller=KED
+owner=BAN
+controller=BAN
 add_core=KED
 add_core=MSA
 trade_goods = timber

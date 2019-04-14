@@ -1,5 +1,5 @@
-owner=SIA
-controller=SIA
+owner=BAN
+controller=BAN
 add_core=SIA
 add_core=MSA
 trade_goods = timber

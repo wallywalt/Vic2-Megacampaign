@@ -164,18 +164,3 @@ bread_basket = {
 	supply_consumption = -0.1
 }
 
-too_many_mercs = {
-	trigger = {
-		owns = 1612
-		primary_culture = korean
-		civilized = no
-		war = yes
-	}
-	icon = 10
-	supply_consumption = 0.75
-	land_organisation = 0.1
-	land_unit_start_experience = 5
-	org_regain = -0.2
-	war_exhaustion = 0.05
-	mobilisation_size = 0.2
-}

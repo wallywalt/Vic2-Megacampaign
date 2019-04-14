@@ -1,0 +1,55 @@
+country_event = {
+
+	id = 7900010
+	
+	fire_only_once = yes
+	major = yes
+	title = "EVTNAME7900010"
+	desc = "EVTDESC7900010"
+	trigger = {
+		OR = {
+			tag = POR
+			tag = IBR
+		}
+		is_greater_power = yes
+		NOT = {
+			war_with = PAP
+			has_global_flag = neo_catholic
+			has_global_flag = all_iberia
+		}
+	}
+	mean_time_to_happen = {
+		months = 500
+	}
+
+	option = {
+		name = "EVTOPTA7900010" 
+		set_global_flag = neo_catholic
+
+		prestige = 25
+		inherit = PAP
+		change_tag = PAP
+		add_accepted_culture = south_italian
+		
+	}
+	
+	option = {
+		name = "EVTOPTB7900010" 
+		set_global_flag = all_iberia
+
+		prestige = 25
+		inherit = PAP
+		add_accepted_culture = catalan
+		add_accepted_culture = basque
+		SPA = {
+			all_core = { add_core = IBR add_core = POR }
+		}
+		POR = {
+			capital = 749
+			primary_culture = portuguese
+			add_accepted_culture = english
+		}
+
+	}
+}
+

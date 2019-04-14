@@ -1,5 +1,5 @@
-owner=CHK
-controller=CHK
+owner=BAN
+controller=BAN
 add_core=CAM
 add_core=ANN
 add_core=CHK

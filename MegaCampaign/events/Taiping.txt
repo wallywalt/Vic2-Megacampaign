@@ -1,0 +1,294 @@
+province_event = {
+	id = 160009
+	title = "EVTNAME160010" 
+	desc = "EVTDESC160010"
+
+	trigger = {
+		OR = {
+			controlled_by = X08
+			controlled_by = KOR
+			controlled_by = JIN
+		}
+		
+		has_province_modifier = korean_occupation
+		NOT = { year = 1826 }
+	}
+	mean_time_to_happen = {
+		months = 180
+	}
+	option = {
+		name = "EVTOPT160010"
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = beifaren
+					has_pop_culture = nanfaren
+				}
+			}
+			random = {
+				chance = 40
+				move_pop = 1508
+			}
+		}
+
+	}
+}
+
+province_event = {
+	id = 160008
+	title = "EVTNAME160010" 
+	desc = "EVTDESC160010"
+
+	trigger = {
+		OR = {
+			controlled_by = X08
+			controlled_by = KOR
+			controlled_by = JIN
+		}
+		has_province_modifier = korean_occupation
+		NOT = { year = 1826 }
+	}
+	mean_time_to_happen = {
+		months = 180
+	}
+	option = {
+		name = "EVTOPT160010"
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = beifaren
+					has_pop_culture = nanfaren
+				}
+			}
+			random = {
+				chance = 40
+				move_pop = 1509
+			}
+		}
+
+	}
+}
+province_event = {
+	id = 160007
+	title = "EVTNAME160010" 
+	desc = "EVTDESC160010"
+
+	trigger = {
+		OR = {
+			controlled_by = X08
+			controlled_by = KOR
+			controlled_by = JIN
+		}
+		has_province_modifier = korean_occupation
+		NOT = { year = 1826 }
+	}
+	mean_time_to_happen = {
+		months = 180
+	}
+	option = {
+		name = "EVTOPT160010"
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = beifaren
+					has_pop_culture = nanfaren
+				}
+			}
+			random = {
+				chance = 40
+				move_pop = 1510
+			}
+		}
+
+	}
+}
+province_event = {
+	id = 160006
+	title = "EVTNAME160010" 
+	desc = "EVTDESC160010"
+
+	trigger = {
+		OR = {
+			controlled_by = X08
+			controlled_by = KOR
+			controlled_by = JIN
+		}
+		has_province_modifier = korean_occupation
+		NOT = { year = 1826 }
+	}
+	mean_time_to_happen = {
+		months = 180
+	}
+	option = {
+		name = "EVTOPT160010"
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = beifaren
+					has_pop_culture = nanfaren
+				}
+			}
+			random = {
+				chance = 40
+				move_pop = 1472
+			}
+		}
+
+	}
+}
+province_event = {
+	id = 160005
+	title = "EVTNAME160010" 
+	desc = "EVTDESC160010"
+
+	trigger = {
+		OR = {
+			controlled_by = X08
+			controlled_by = KOR
+			controlled_by = JIN
+		}
+		has_province_modifier = korean_occupation
+		NOT = { year = 1826 }
+	}
+	mean_time_to_happen = {
+		months = 180
+	}
+	option = {
+		name = "EVTOPT160010"
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = beifaren
+					has_pop_culture = nanfaren
+				}
+			}
+			random = {
+				chance = 40
+				move_pop = 1476
+			}
+		}
+
+	}
+}
+province_event = {
+	id = 160010
+	title = "EVTNAME160010" 
+	desc = "EVTDESC160010"
+
+	trigger = {
+		OR = {
+			controlled_by = X08
+			controlled_by = KOR
+			controlled_by = JIN
+		}
+		has_province_modifier = korean_occupation
+		NOT = { year = 1826 }
+	}
+	mean_time_to_happen = {
+		months = 180
+	}
+	option = {
+		name = "EVTOPT160010"
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = beifaren
+					has_pop_culture = nanfaren
+				}
+			}
+			random = {
+				chance = 40
+				move_pop = 1543
+			}
+		}
+
+	}
+}
+country_event = {
+	id = 160011
+	title = "EVTNAME160011" #Taiping Missionaries in $STATENAME$
+	desc = "EVTDESC160011"
+	picture = "taiping"
+	
+	trigger = {
+		year = 1856
+		tag = MNG
+		check_variable = {
+			which = taiping_provinces
+			value = 5
+		}
+		NOT = { has_country_flag = heavenly_kingdom }
+
+		#NOT = {
+			#has_global_flag = taiping_has_happened
+		#}
+	}
+	
+	mean_time_to_happen = {
+		months = 180
+	}
+	
+	option = {		
+		name = "EVTOPT160011"
+		set_variable = {
+			which = taiping_provinces
+			value = 0
+		}
+		set_country_flag = heavenly_kingdom
+		
+		random_province = {
+			limit = {
+				controlled_by = MNG
+				any_neighbor_province = { owned_by = FRA }
+			}
+			any_pop = {
+				limit = { is_primary_culture = no }
+				militancy = 10
+			}
+			add_core = TPG
+		}
+	}
+}
+
+#Christian Pamphlets 
+province_event = {
+	id = 160012
+	title = "EVTNAME160012" #Taiping Missionaries in $STATENAME$
+	desc = "EVTDESC160012"
+	
+	trigger = {
+		owner = {
+			has_country_flag = heavenly_kingdom
+			tag = MNG
+		}
+		controlled_by = MNG
+		any_neighbor_province = { is_core = TPG }
+		NOT = {
+			is_core = TPG
+			#has_province_modifier = christian_pamphlets
+			#has_province_modifier = christian_repression
+			#has_global_flag = taiping_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	option = {
+		name = "EVTOPT160012"
+
+		any_pop = {
+			limit = { is_primary_culture = no }
+			militancy = 10
+		}
+		add_core = TPG
+		owner = {
+			change_variable = {
+				which = taiping_provinces
+				value = 1
+			}
+		}
+	}
+
+}
+

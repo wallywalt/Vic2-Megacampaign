@@ -34,7 +34,11 @@ WIP: cleaning up borders and tags (especially in South+East+SE Asia, the New Wor
 
 
 Work borrowed from other mods:
-Unit stats and river texture map from sighpie's HFM
+OOB, unit stats, various flags, river texture map from sighpie's HFM
+
+Espange flag from Napoleon's Legacy 
+
+Change in Music from Heir to Aquitaine
 
 Geography map texture from Corndog's MP mod
 

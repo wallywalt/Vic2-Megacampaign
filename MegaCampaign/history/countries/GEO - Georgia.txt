@@ -1,10 +1,12 @@
-capital=1091
-primary_culture = georgian
-religion = orthodox
-government = absolute_monarchy
+capital=204
+primary_culture = british
+culture = yankee
+religion = protestant
+government = democracy
 plurality=0.000000
 nationalvalue=nv_order
 literacy=0.500000
+civilized=yes
 
 # Social Reforms
 wage_reform = no_minimum_wage

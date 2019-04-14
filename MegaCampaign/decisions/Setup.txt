@@ -33,6 +33,29 @@ political_decisions = {
 			1723 = { set_province_flag = panama_canal }
 		}
 	}
+	setup_FRA = { 
+		potential = {
+			tag = FRA
+			always = no
+		}
+		allow = {
+			tag = FRA
+		}
+		effect = {
+			any_owned = {
+					limit = {
+						any_neighbor_province = { 
+							owned_by = BUR
+
+						}
+					}
+					add_province_modifier = {
+						name = highlander_raids
+						duration = -1
+					}
+				}
+		}
+	}
 
 	setup_MNG = {
 		potential = {
@@ -43,7 +66,74 @@ political_decisions = {
 			tag = MNG
 		}
 		effect = {
-			MNG = { war_exhaustion = 20 }
+			#MNG = { war_exhaustion = 20 }
+			#state_scope = {
+				any_owned = {
+					limit = {
+						any_neighbor_province = { 
+							#has_province_modifier = korean_occupation 
+							OR = {
+								owned_by = X08
+								owned_by = KOR
+								owned_by = JIN
+							}
+						}
+					}
+					add_province_modifier = {
+						name = korean_advance
+						duration = -1
+					}
+				}
+			#}
+			add_country_modifier = {
+				name = global_baby_boom
+				duration = 3650
+			}
+		}
+	}
+
+	setup_unciv = {
+		potential = {
+			civilized = no
+			always = no
+		}
+		allow = {
+			civilized = no
+		}
+		effect ={
+			any_owned = {
+				limit = {
+					is_overseas = no
+				}
+				add_province_modifier = {
+					name = low_carrying_capacity
+					duration = -1
+				}
+			}
+		}
+	}
+	setup_kor = {
+		potential = {
+			primary_culture = korean
+			always = no
+		}
+		allow = {
+			civilized = no
+		}
+		effect ={
+			any_owned = {
+				limit = {
+					is_overseas = no
+					OR = {
+						culture = beifaren
+						culture = nanfaren
+					}
+				}
+				add_province_modifier = {
+					name = korean_occupation
+					duration = -1
+				}
+			}
 		}
 	}
 }

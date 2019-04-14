@@ -639,6 +639,8 @@ SIL;Silesia;Silésie;Schlesien;Slask;Silesia;Slesia;Szilézia;Silesia;Szilézia;Sil
 SIL_ADJ;Silesian;Silésien;Schlesisch;slaskie;Silésia;Slesia;Sziléziai;silesian;Sziléziai;Silesian;Silésia;??????????;Silesian;x;;
 SIO;Sioux;Sioux;Sioux;Sioux;siux;Sioux;sziú;Sioux;sziú;Sioux;Sioux;???;Sioux;x;;
 SIO_ADJ;Sioux;Sioux;Sioux;Sioux;siux;Sioux;sziú;Sioux;sziú;Sioux;Sioux;???;Sioux;x;;
+SKV;Sakartvelo;;;;;;;;;;;;;x;;;;
+SKV_ADJ;Kartvelian;;;;;;;;;;;;;x;;;;
 SKA;Sakalava;Sakalava;Sakalava;Sakalava;Sakalava;Sakalava;Sakalava;Sakalava;Sakalava;Sakalava;Sakalava;????????;Sakalava;x;;
 SKA_ADJ;Sakalava;Sakalava;Sakalava;Sakalava;Sakalava;Sakalava;Sakalava;Sakalava;Sakalava;Sakalava;Sakalava;????????;Sakalava;x;;
 SLN;Sligo;Sligo;Sligo;Sligo;Sligo;Sligo;Sligo;Sligo;Sligo;Sligo;Sligo;??????;Sligo;x;;
@@ -742,6 +744,8 @@ WLS;Wales;Pays de Galles;Wales;Walia;Gales;Galles;Wales;Wales;Wales;Wales;País d
 WLS_ADJ;Welsh;gallois;Walisisch;walijski;galés;gallese;walesi;velština;walesi;Wels;galês;??????????;Walesin;x;;
 WLY;Welayta;Welayta;Welayta;Welayta;Welayta;Welayta;Welayta;Welayta;Welayta;Welayta;Welayta;???????;Welayta;x;;
 WLY_ADJ;Welaytan;Welaytan;Welaytan;Welaytan;Welaytan;Welaytan;Welaytan;Welaytan;Welaytan;Welaytan;Welaytan;????????;Welaytan;x;;
+WSF;Zapadoslavia;;;;;;;;;;;;;x
+WSF_ADJ;Zapadoslav;;;;;;;;;;;;;x
 WUU;The Wu Dynasty;La dynastie Wu;Die Wu-Dynastie;Wu Dynasty;La dinastía Wu;la dinastia Wu;A Wu-dinasztia;Wu Dynasty;A Wu-dinasztia;de Wu-dynastie;A Dinastia Wu;???????? ??;Wu Dynasty;x;;
 WUU_ADJ;Wu;Wu;Wu;Wu;Wu;Wu;Wu;Wu;Wu;Wu;Wu;??;Wu;x;;
 WUU_democracy;The Republic of Wu;La République de Wu;Der Republik Wu;Republika Wu;La república de Wu;la Repubblica di Wu;Köztársaság Wu;Republiky Wu;Köztársaság Wu;de Republiek Wu;A república de Wu;?????????? ??;tasavallan Wu;x;;
@@ -1345,6 +1349,8 @@ HUA_communist;Communist Party;;;;;;;;;;;;;x
 HUA_anarcho_liberal;Radical Party;;;;;;;;;;;;;x
 HUA_fascist;Fascist Party;;;;;;;;;;;;;x
 IKE;Ikeda;Ikeda;Ikeda;;Ikeda;;;;;;;;;x
+IBR;Iberia;;;;;;;;;;;;;x
+IBR_ADJ;Iberian;;;;;;;;;;;;;x
 IKE_ADJ;Ikeda;Ikeda;Ikedaisch;;ikeda;;;;;;;;;x
 IKE_conservative;Conservative Party;;;;;;;;;;;;;x
 IKE_liberal;Liberal Party;;;;;;;;;;;;;x
@@ -2028,6 +2034,8 @@ SAL_socialist;Socialist Party;;;;;;;;;;;;;x
 SAL_communist;Communist Party;;;;;;;;;;;;;x
 SAL_anarcho_liberal;Radical Party;;;;;;;;;;;;;x
 SAL_fascist;Fascist Party;;;;;;;;;;;;;x
+SEV;Severnoslavia;;;;;;;;;;;;;x
+SEV_ADJ;Severnoslav;;;;;;;;;;;;;x
 SGU;Segu;Ségou;Segu;;Segu;;;;;;;;;x
 SGU_ADJ;Seguian;ségoue;Seguianisch;;seguano;;;;;;;;;x
 SGU_conservative;Conservative Party;;;;;;;;;;;;;x
@@ -2325,8 +2333,8 @@ X06_socialist;Socialist Party;;;;;;;;;;;;;x
 X06_communist;Communist Party;;;;;;;;;;;;;x
 X06_anarcho_liberal;Radical Party;;;;;;;;;;;;;x
 X06_fascist;Fascist Party;;;;;;;;;;;;;x
-X07;St. Petersburg Republ;;;;;;;;;;;;;x
-X07_ADJ;St. Petersburg Republic;;;;;;;;;;;;;x
+X07;St. Petersburg Republic;;;;;;;;;;;;;x
+X07_ADJ;Petersburgian;;;;;;;;;;;;;x
 X07_conservative;Conservative Party;;;;;;;;;;;;;x
 X07_liberal;Liberal Party;;;;;;;;;;;;;x
 X07_reactionary;National Party;;;;;;;;;;;;;x

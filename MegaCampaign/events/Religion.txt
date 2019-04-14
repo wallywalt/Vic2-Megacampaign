@@ -1,0 +1,19 @@
+country_event = {
+	id = 7800001
+	title = "EVTNAME7800001"
+	desc = "EVTDESC7800001"
+	picture = "napoleon3"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT7800001"
+		
+		random_owned = {
+			limit = { owner = { has_country_flag = re_vikings } }
+			owner = {
+				religion = norse_pagan_reformed
+			}
+		}
+	}
+}

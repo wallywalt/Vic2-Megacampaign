@@ -453,6 +453,7 @@ highlander_raids = {
 	local_RGO_output = -0.5
 	pop_consciousness_modifier = 0.2
 	pop_militancy_modifier = 0.25
+	prestige = -0.03
 	icon = 18
 }
 
@@ -2428,4 +2429,28 @@ high_quality_oil = {
 	local_RGO_throughput = 0.2
 	icon = 13
 
+}
+
+raise_regional_armies = {
+	supply_consumption = 0.75
+	war_exhaustion = -0.05
+	mobilisation_size = 0.05
+	icon = 10
+}
+
+low_carrying_capacity = {
+	mine_rgo_size = -0.25
+	farm_rgo_size = -0.25
+	icon = 14
+}
+
+korean_occupation = {
+	non_accepted_pop_consciousness_modifier = 0.02
+	non_accepted_pop_militancy_modifier = 0.01
+	icon = 18
+}
+
+korean_advance = {
+	immigrant_push = 0.75
+	icon = 18
 }

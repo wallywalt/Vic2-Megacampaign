@@ -1,5 +1,5 @@
-owner=CAM
-controller=CAM
+owner=BAN
+controller=BAN
 add_core=CAM
 add_core=SIA
 trade_goods = grain

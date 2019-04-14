@@ -201,7 +201,7 @@ country_event = {#The Treaty of Rangoon (Chinese Victory)
 
 	title = "EVTNAME7790007"
 	desc = "EVTDESC7790007"
-	picture = "panthay_rebellion"
+	major = yes
 	trigger = {
 		tag = MNG
 		has_global_flag = france_demands_kale
@@ -244,6 +244,89 @@ country_event = {#The Treaty of Rangoon (French Defeat)
 
 	option = {
 		name = "EVTOPT7790008" 
-		prestige = -30		
+		prestige = -30
+		BUR = {
+			country_event = 7790009
+		}		
+	}
+}
+
+country_event = {#The Treaty of Rangoon (Burmese Victory)
+
+	id = 7790009
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	title = "EVTNAME7790009"
+	desc = "EVTDESC7790009"
+	picture = "buddhist_religion"
+
+	option = {
+		name = "EVTOPT779000" 
+		prestige = 10		
+	
+
+		FRA = {
+			any_owned = {
+				limit = {
+					is_core = BUR
+					is_overseas = yes
+				}
+				secede_province = THIS
+			}
+
+		}
+	}
+}
+
+
+country_event = {#Selling Espange
+
+	id = 7900001
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	title = "EVTNAME7900001"
+	desc = "EVTDESC7900001"
+	picture = "napoleon3"
+
+	option = {
+		name = "EVTOPTA7900001" 
+	
+		treasury = -100000
+		FRA = {
+			country_event = 7900002
+		}	
+	}
+	option = {
+		name = "EVTOPTB7900001" 	
+		relation = { who = FRA value = -50 }	
+	}
+}
+
+country_event = {#Selling Espange
+
+	id = 7900002
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	title = "EVTNAME7900002"
+	desc = "EVTDESC7900002"
+	picture = "napoleon3"
+
+	option = {
+		name = "EVTOPT7900002" 
+		treasury = 100000		
+		
+		random_owned = { limit = { owner = { is_our_vassal = X05 } } owner = { leave_alliance = X05 release_vassal = X05 } }
+		POR = { create_vassal = X05}
+
+
 	}
 }

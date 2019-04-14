@@ -1,5 +1,5 @@
-owner=ENG
-controller=ENG
+owner=TEX
+controller=TEX
 add_core=COM
 trade_goods = fruit
 life_rating = 35

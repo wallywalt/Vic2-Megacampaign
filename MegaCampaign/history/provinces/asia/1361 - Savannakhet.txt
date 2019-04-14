@@ -1,5 +1,5 @@
-owner=CHK
-controller=CHK
+owner=LXA
+controller=LXA
 add_core=CHK
 add_core=LUA
 trade_goods = grain

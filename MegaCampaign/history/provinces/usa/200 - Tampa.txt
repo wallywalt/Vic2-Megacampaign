@@ -1,5 +1,5 @@
-owner=ENG
-controller=ENG
+owner=GEO
+controller=GEO/nadd_core=GEO
 trade_goods = fruit
 life_rating = 25
 is_slave = yes

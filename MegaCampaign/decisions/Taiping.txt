@@ -1,0 +1,31 @@
+political_decisions = {
+	regional_armies = {
+		potential = {	
+			primary_culture = nanfaren
+			#has_global_flag = taiping_revolution
+			NOT = { has_country_modifier = raise_regional_armies } 
+
+		}
+		allow = {
+			OR = { 
+				MNG = { war_with = THIS }
+				TPG = { war_with = THIS }
+			}
+			#war_exhaustion = 20
+		}
+		effect = {
+			add_country_modifier = { 
+				name = raise_regional_armies 
+				duration = 720
+			}
+			#set_country_flag = regional_warlords
+
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+
+}
+

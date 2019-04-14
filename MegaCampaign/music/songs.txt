@@ -1,0 +1,216 @@
+song = {
+	name = "adayatthecourt.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "buckinghampalace.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "countryside.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "deathofprincealbert.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "europeanno1850.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "forgodandqueen.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "handelthis.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "inventions.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "johanswaltz.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "newworldanthem.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "poverty.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "queensscherzo.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "russia1917.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "thecoronation_titletheme.mp3"
+	chance = { factor = 0 }
+
+song = {
+	name = "theroyalmarch.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "wehaveindependence.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "winter.mp3"
+ 	chance = { factor = 0 }
+
+}
+song = {
+	name = "LeCorsaire.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "SymphonieFantastique.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "S4EMajorScherzoAM.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "CarmenPrelude.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "Gopak.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "SQno62.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "Tannhauser.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "TheProphetCoronationMarch.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "MarcheSolennelle.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "S4AMajorItalianSaltarelloPresto.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "IVespriSicilianiSinfonia.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "Sadko.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "Rusalka.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "MaidofOrleansEntracte.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "OvertureLifeForTheTsar.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "TritschTratschPolka.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "RadetzkyMarch.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "HandsAcrossTheSea.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "LookingUpwardMarsVenus.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "TheRoyalWelchFusiliers.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "KingCotton.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "UnterDonnerUndBlitz.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "IndigoMarsch.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "NapoleonMarsch.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "LaForzaDelDestinoSinfonia.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "RuleBrittaniaOverture.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "ImperialMarch.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "VienneseMusicalClock.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "GrandMarchFromAida.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "HomageMarch.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "HakkapeliittainMarssi.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "PorilaistenMarssi.mp3"
+	chance = { factor = 1 }
+}
+song = {
+	name = "MarciaCarolusRex.mp3"
+	chance = { factor = 1 }
+}

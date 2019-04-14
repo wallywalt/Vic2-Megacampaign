@@ -1442,6 +1442,408 @@ unite_moldavia_wallachia = {
 		}
 	}
 	
+
+	form_russia = {
+		potential = {
+			is_culture_group = east_slavic
+			NOT = { exists = RUS }
+			NOT = { has_global_flag = russia_formed }
+		}
+
+		allow = {
+			war = no
+			owns = 1008
+			X07 = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = {
+								is_culture_group = east_slavic
+								relation = { who = THIS value = 100 }
+							}
+						}
+					}
+				}
+			}
+			BYE = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = {
+								is_culture_group = east_slavic
+								relation = { who = THIS value = 100 }
+							}
+						}
+					}
+				}
+			}
+			RUT = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = {
+								is_culture_group = east_slavic
+								relation = { who = THIS value = 100 }
+							}
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_global_flag = russia_formed
+			prestige = 20
+			add_accepted_culture = russian
+			add_accepted_culture = ukrainian
+			add_accepted_culture = byelorussian
+			change_tag = RUS
+			any_country = {
+				limit = {
+					NOT = { is_culture_group = east_slavic }
+					in_sphere = THIS
+					war = no
+					any_owned_province = {
+						OR = {
+							is_core = X07
+							is_core = UKR
+							is_core = RUT
+							is_core = BYE
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						OR = {
+							is_core = X07
+							is_core = UKR
+							is_core = RUT
+							is_core = BYE
+						}
+					}
+					secede_province = THIS
+				}
+			}
+			any_country = {
+				limit = {
+					war = no
+					is_culture_group = east_slavic
+					OR = {
+						in_sphere = THIS
+						sphere_owner = { is_sphere_leader_of = THIS }
+						relation = { who = THIS value = 50 }
+					}
+				}
+				country_event = 11111
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	form_severnoslavia = {
+		potential = {
+			tag = X07
+			NOT = { exists = SEV }
+			NOT = { has_global_flag = severnoslavia_formed }
+		}
+
+		allow = {
+			war = no
+			X07 = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = {
+								is_culture_group = east_slavic
+								relation = { who = THIS value = 100 }
+							}
+						}
+					}
+				}
+			}
+			BYE = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
+			}
+			POL = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
+			}
+			CZH = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_global_flag = severnoslavia_formed
+			prestige = 20
+			add_accepted_culture = russian
+			add_accepted_culture = polish
+			add_accepted_culture = czech
+			add_accepted_culture = slovak
+			add_accepted_culture = ukrainian
+			add_accepted_culture = belarussian
+			change_tag = SEV
+			any_country = {
+				limit = {
+					NOT = { is_culture_group = polish }
+					in_sphere = THIS
+					war = no
+					any_owned_province = {
+						OR = {
+							is_core = POL
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						OR = {
+							is_core = POL
+						}
+					}
+					secede_province = THIS
+				}
+			}
+			any_country = {
+				limit = {
+					NOT = { is_culture_group = czecho_slovak }
+					in_sphere = THIS
+					war = no
+					any_owned_province = {
+						OR = {
+							is_core = CZH
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						OR = {
+							is_core = CZE
+						}
+					}
+					secede_province = THIS
+				}
+			}
+
+			any_country = {
+				limit = {
+					war = no
+					is_culture_group = polish
+					is_culture_group = czecho_slovak
+					OR = {
+						in_sphere = THIS
+						sphere_owner = { is_sphere_leader_of = THIS }
+						relation = { who = THIS value = 50 }
+					}
+				}
+				country_event = 11110
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	form_zapadoslavia = {
+		potential = {
+			OR = {
+				tag = POL
+				tag = CZH 
+			}
+			NOT = { exists = WSF }
+			NOT = { has_global_flag = zapadoslavia_formed }
+		}
+
+		allow = {
+			war = no
+			POL = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
+			}
+			CZH = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_global_flag = zapadoslavia_formed
+			prestige = 20
+			add_accepted_culture = polish
+			add_accepted_culture = czech
+			add_accepted_culture = slovak
+			change_tag = WSF
+			any_country = {
+				limit = {
+					NOT = { is_culture_group = polish }
+					in_sphere = THIS
+					war = no
+					any_owned_province = {
+						OR = {
+							is_core = POL
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						OR = {
+							is_core = POL
+						}
+					}
+					secede_province = THIS
+				}
+			}
+			any_country = {
+				limit = {
+					NOT = { is_culture_group = czecho_slovak }
+					in_sphere = THIS
+					war = no
+					any_owned_province = {
+						is_core = CZH
+					}
+				}
+				any_owned = {
+					limit = {
+						is_core = CZH
+					}
+					secede_province = THIS
+				}
+			}
+
+			any_country = {
+				limit = {
+					war = no
+					is_culture_group = polish_culture_group
+					is_culture_group = czecho_slovak_culture_group
+					OR = {
+						in_sphere = THIS
+						sphere_owner = { is_sphere_leader_of = THIS }
+						relation = { who = THIS value = 50 }
+					}
+				}
+				country_event = 11109
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 #	become_holstein = {
 #		picture = gtfo
 #		potential = {

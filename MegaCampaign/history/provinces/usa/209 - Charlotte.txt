@@ -1,5 +1,6 @@
-owner=POR
-controller=POR
+owner=DOM
+controller=DOM
+add_core=DOM
 add_core=USA
 trade_goods = tobacco
 life_rating = 35

@@ -1,6 +1,6 @@
 capital=65
-primary_culture = french_canadian
-culture = anglo_canadian
+primary_culture = portuguese
+culture = dixie
 religion = catholic
 government = hms_government
 plurality=0.000000

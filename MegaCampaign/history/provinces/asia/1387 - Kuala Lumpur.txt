@@ -1,5 +1,5 @@
-owner=PRK
-controller=PRK
+owner=BAN
+controller=BAN
 add_core=MLC
 add_core=PRK
 add_core=MSA

@@ -1,5 +1,5 @@
-owner=JOH
-controller=JOH
+owner=BAN
+controller=BAN
 add_core=MLC
 add_core=JOH
 add_core=MSA

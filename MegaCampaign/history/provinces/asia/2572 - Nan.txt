@@ -1,5 +1,5 @@
-owner=LNA
-controller=LNA
+owner=LXA
+controller=LXA
 add_core=LNA
 add_core=BUR
 add_core=SIA

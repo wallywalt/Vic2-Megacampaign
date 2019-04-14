@@ -35,6 +35,7 @@ upper_house=
 	communist = 0
 }
 
+decision = setup_unciv
 decision = setup_MNG
 
 # Starting Consciousness
@@ -49,7 +50,7 @@ transport_improv=no_transport_improv
 pre_indust=no_pre_indust
 industrial_construction=no_industrial_construction
 foreign_training=no_foreign_training
-foreign_weapons=no_foreign_weapons
+foreign_weapons=yes_foreign_weapons
 military_constructions=no_military_constructions
 foreign_officers=no_foreign_officers
 army_schools=no_army_schools

@@ -89,7 +89,7 @@ country = {
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_DAY = 0.08,
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_LEVEL = 0.005,
 	PARTY_LOYALTY_HIT_ON_WAR_LOSS = 0.95, -- Drops the ruling party loyalty if war is lost.
-	RESEARCH_POINTS_ON_CONQUER_MULT = 360, -- multiplier to RP got by conquering as unciv when got enacted military reforms
+	RESEARCH_POINTS_ON_CONQUER_MULT = 0, -- multiplier to RP got by conquering as unciv when got enacted military reforms
 	MAX_RESEARCH_POINTS = 25000, -- max RP you can store for uncivs
 },
 
@@ -625,10 +625,10 @@ pops = {
 
 	ASSIMILATION_SCALE = 0.004,
 	CONVERSION_SCALE = 0.01,
-	IMMIGRATION_SCALE = 0.004,
+	IMMIGRATION_SCALE = 0.005,
 
 	PROMOTION_SCALE = 0.002,
-	PROMOTION_ASSIMILATION_CHANCE = 1.0,
+	PROMOTION_ASSIMILATION_CHANCE = 0,
 	LUXURY_THRESHOLD = 500,
 	BASE_GOODS_DEMAND = 0.8,
 	BASE_POPGROWTH = 0.0001,

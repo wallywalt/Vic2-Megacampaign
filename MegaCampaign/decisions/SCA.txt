@@ -1,0 +1,22 @@
+political_decisions = {
+	revive_norse = {
+		potential = {
+			ai = no
+			tag = SCA
+			NOT = { has_country_flag = re_vikings }
+
+		}
+		
+		allow = {
+
+		}
+		
+		effect = {
+			set_country_flag = re_vikings
+			SCA = {
+				prestige = 5
+				country_event = 7800001
+			}
+		}
+	}
+}

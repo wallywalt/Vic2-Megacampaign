@@ -1,5 +1,6 @@
-owner=POR
-controller=POR
+owner=DOM
+controller=DOM
+add_core=DOM
 add_core=CRK
 trade_goods = cotton
 life_rating = 35

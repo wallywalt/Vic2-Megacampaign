@@ -40,14 +40,6 @@ alliance=
 
 alliance=
 {
-	first="AUS"
-	second="HUN"
-	start_date="1792.10.9"
-	end_date="1936.1.1"
-}
-
-alliance=
-{
 	first="MAI"
 	second="AUS"
 	start_date="1792.9.30"

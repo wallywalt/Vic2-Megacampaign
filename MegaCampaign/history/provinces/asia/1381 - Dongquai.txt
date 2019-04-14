@@ -1,5 +1,5 @@
-owner=CHA
-controller=CHA
+owner=BAN
+controller=BAN
 add_core=CHA
 trade_goods = cotton
 life_rating = 30
