@@ -1,0 +1,492 @@
+province_event = {
+
+	id = 9990000
+
+	title = "EVTNAME9990000"
+	desc = "EVTDESC9990000"
+	trigger = {
+		owner = { tag = NEN }
+		average_militancy = 4
+		is_core = ENG
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.8
+			average_militancy = 5
+		}
+		modifier = {
+			factor = 0.5
+			average_militancy = 6
+		}
+	}
+
+	option = {
+		name = "EVTOPT9990000" 
+		remove_core = ENG
+		}
+
+}
+
+country_event = {
+
+	id = 9990001
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	title = "EVTNAME9990001"
+	desc = "EVTDESC9990001"
+	picture = "imperial_embassy"
+
+	option = {
+		name = "EVTOPTA9990001" 
+		relation = { who = MNG value = -50 }
+		set_global_flag = france_demands_kale
+		MNG = {
+			country_event = 9990002
+		}
+		ai_chance = { factor = 95 }
+	}
+
+	option = {
+		name = "EVTOPTB7790001" 
+		relation = { who = MNG value = 50 }
+		any_pop = {
+			limit = { has_pop_culture = french } 
+			consciousness = 1
+		}
+		prestige = -5
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = {
+
+	id = 9990002
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	title = "EVTNAME9990002"
+	desc = "EVTDESC9990002"
+	picture = "imperial_embassy"
+
+	option = {
+		name = "EVTOPTA9990002" 
+		relation = { who = FRA value = 50 }
+		prestige = -5
+		any_pop = {
+			militancy = 2
+			consciousness = 2
+		}
+		random_owned = { limit = { owner = { is_our_vassal = BUR } } owner = { leave_alliance = BUR release_vassal = BUR } }
+		FRA = {
+			country_event = 7790004
+		}
+		ai_chance = { factor = 5 }
+	}
+
+	option = {
+		name = "EVTOPTB7790002" 
+		prestige = 10
+		relation = { who = FRA value = -50 }
+		FRA = {
+			country_event = 7790003
+		}
+		ai_chance = { factor = 95 }
+	}
+}
+
+country_event = {
+
+	id = 9990003
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	title = "EVTNAME9990003"
+	desc = "EVTDESC9990003"
+	picture = "asian_administration"
+
+	option = {
+		name = "EVTOPTA7790003" 
+		prestige = 5
+		#badboy = 5
+		war = {
+			target = MNG
+			attacker_goal = { 
+				#casus_belli = release_puppet
+				#country = BUR
+				casus_belli = treaty_port_casus_belli
+			}
+			defender_goal = { 
+				casus_belli = status_quo 
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 95 }
+	}
+
+	option = {
+		name = "EVTOPTB7790003"
+		relation = { who = MNG value = 50 }
+		any_pop = {
+			militancy = 2
+			consciousness = 2
+		}
+		prestige = -25
+		ai_chance = { factor = 5 }
+	}
+}
+
+country_event = {
+
+	id = 9990004
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	title = "EVTNAME9990004"
+	desc = "EVTDESC9990004"
+	picture = "Outside_influences"
+
+	option = {
+		name = "EVTOPT7790004" 
+		prestige = 5
+		casus_belli = {
+			target = BUR
+			type = conquest
+			months = 48
+		}
+		badboy = 2
+	}
+}
+
+country_event = {#The Treaty of Taungoo (French Victory)
+
+	id = 9990005
+	
+	fire_only_once = yes
+	major = yes
+	title = "EVTNAME7790005"
+	desc = "EVTDESC7790005"
+	trigger = {
+		tag = FRA
+		is_greater_power = yes
+		has_global_flag = france_demands_kale
+		NOT = {
+			war_with = MNG
+			has_global_flag = treaty_of_taungoo
+			has_global_flag = treaty_of_rangoon
+		}
+		MNG = {
+			NOT = { war_with = FRA }
+			has_recently_lost_war = yes
+		}
+	}
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	option = {
+		name = "EVTOPT7790005" 
+		set_global_flag = treaty_of_taungoo
+		prestige = 25
+		inherit = BUR
+		MNG = {
+			country_event = 7790006
+		}
+		
+	}
+}
+
+country_event = {#The Treaty of Taungoo (Ming Defeat)
+
+	id = 9990006
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	title = "EVTNAME7790006"
+	desc = "EVTDESC7790006"
+	picture = "crimean_war_defeat"
+
+	option = {
+		name = "EVTOPT7790006" 
+		prestige = -25		
+	}
+}
+
+country_event = {#The Treaty of Rangoon (Chinese Victory)
+
+	id = 9990007
+	
+	fire_only_once = yes
+
+	title = "EVTNAME7790007"
+	desc = "EVTDESC7790007"
+	major = yes
+	trigger = {
+		tag = MNG
+		has_global_flag = france_demands_kale
+		NOT = {
+			war_with = FRA
+			has_global_flag = treaty_of_taungoo
+			has_global_flag = treaty_of_rangoon
+		}
+		FRA = {
+			NOT = { war_with = MNG }
+			has_recently_lost_war = yes
+		}
+	}
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	option = {
+		name = "EVTOPT7790007" 
+     	set_global_flag = treaty_of_rangoon
+		prestige = 25		
+		FRA = {
+			country_event = 7790008
+		}
+	}
+}
+
+
+country_event = {#The Treaty of Rangoon (French Defeat)
+
+	id = 9990008
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	title = "EVTNAME7790008"
+	desc = "EVTDESC7790008"
+	picture = "crimean_war_defeat"
+
+	option = {
+		name = "EVTOPT7790008" 
+		prestige = -30
+		BUR = {
+			country_event = 7790009
+		}		
+	}
+}
+
+country_event = {#The Treaty of Rangoon (Burmese Victory)
+
+	id = 9990009
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	title = "EVTNAME7790009"
+	desc = "EVTDESC7790009"
+	picture = "buddhist_religion"
+
+	option = {
+		name = "EVTOPT779000" 
+		prestige = 10		
+	
+
+		FRA = {
+			any_owned = {
+				limit = {
+					is_core = BUR
+					is_overseas = yes
+				}
+				secede_province = THIS
+			}
+
+		}
+	}
+}
+
+
+country_event = {#New England demands Independence 
+
+	id = 9990010
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	title = "EVTNAME7900002"
+	desc = "EVTDESC7900002"
+	picture = "napoleon3"
+
+	option = {
+		name = "EVTOPTA9990010" 
+		any_pop = {
+			consciousness = 7
+			militancy = 3
+		}
+		badboy = -4
+		release_vassal = NEN
+	}
+	option = {
+		name = "EVTOPTB9990010" 
+		any_pop = {
+			consciousness = -3
+			militancy = -3
+		}
+		release_vassal = NEN
+		badboy = 3
+		NEN = { country_event = 9990011}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {#Independence War
+
+	id = 9990011
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	title = "EVTNAME7900002"
+	desc = "EVTDESC7900002"
+	picture = "napoleon3"
+
+	option = {
+		name = "EVTOPTA9990010" 
+		any_pop = {
+			consciousness = -7
+			militancy = -3
+		}
+		any_owned = {
+			limit = {
+				is_core = ENG
+			}
+			secede_province = ENG
+		}
+		
+			war = {
+				target = FROM
+				attacker_goal = {
+					casus_belli = become_independent
+				}			
+		}
+	}
+}
+
+country_event = {#Independence War
+
+	id = 9990012
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	title = "EVTNAME7900002"
+	desc = "EVTDESC7900002"
+	picture = "napoleon3"
+
+	option = {
+		name = "EVTOPTA9990012" 
+		any_pop = {
+			consciousness = -7
+			militancy = -3
+		}
+		any_owned = {
+			limit = {
+				is_core = POR
+			}
+			secede_province = POR
+		}
+		POR = {
+			war = {
+				target = THIS
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+			}
+		}
+	}
+}
+country_event = {#Independence 
+
+	id = 9990019
+	fire_only_once = yes
+	title = "EVTNAME9990019"
+	desc = "EVTDESC9990019"
+	major = yes
+	trigger = {
+		tag = ENG
+		NEN = {
+			vassal_of = THIS
+			has_recently_lost_war = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		day = 1
+	}
+	option = {
+		name = "EVTOPTA9990019" 
+		badboy = 5
+		inherit = NEN
+	}
+	option = {
+		name = "EVTOPTB9990019" 
+		badboy = -5
+			NEN = {
+				add_country_modifier = {
+					name = benign_neglect
+					duration = 48
+				}
+			}
+		
+	}
+
+}
+country_event = {#Independence 
+
+	id = 9990020
+	fire_only_once = yes
+	title = "EVTNAME9990020"
+	desc = "EVTDESC9990020"
+	major = yes
+	trigger = {
+		tag = NEN
+		is_vassal = no
+		war = no
+	}
+	
+	mean_time_to_happen = {
+		day = 1
+	}
+	option = {
+		name = "EVTOPTA9990020" 
+		NEN = {
+			all_core = {
+				remove_core = ENG
+			}
+		}
+		any_pop = {
+			consciousness = -7
+			militancy = -3
+		}
+		war_exhaustion = -20
+		prestige = 20
+
+		primary_culture = yankee
+		remove_accepted_culture = british
+	}
+}

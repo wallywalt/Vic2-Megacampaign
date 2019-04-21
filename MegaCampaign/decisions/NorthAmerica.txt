@@ -1,0 +1,320 @@
+political_decisions = {
+	benign_neglect_NEN = {
+		potential = {
+			tag = ENG
+			NEN = {
+				exists = yes
+				OR = {
+					vassal_of = THIS
+					substate_of = THIS
+				}
+				NOT = { has_country_modifier = benign_neglect }
+			}
+		}
+		
+		allow = {
+
+		}
+		
+		effect = {
+			
+			NEN = {
+				add_country_modifier = {
+					name = benign_neglect
+					duration = 24
+				}
+			}
+			
+		}
+	}
+
+	benign_neglect_GEO = {
+		potential = {
+			tag = ENG
+			GEO = {
+				exists = yes
+				OR = {
+					vassal_of = THIS
+					substate_of = THIS
+				}
+				NOT = { has_country_modifier = benign_neglect }
+			}
+		}
+		
+		allow = {
+
+		}
+		
+		effect = {
+			
+			GEO = {
+				add_country_modifier = {
+					name = benign_neglect
+					duration = 24
+				}
+			}
+			
+		}
+	}
+
+	benign_neglect_TEX = {
+		potential = {
+			tag = ENG
+			TEX = {
+				exists = yes
+				OR = {
+					vassal_of = THIS
+					substate_of = THIS
+				}
+				NOT = { has_country_modifier = benign_neglect }
+			}
+		}
+		
+		allow = {
+
+		}
+		
+		effect = {
+			
+			TEX = {
+				add_country_modifier = {
+					name = benign_neglect
+					duration = 24
+				}
+			}
+			
+		}
+	}
+
+	benign_neglect_QUE = {
+		potential = {
+			tag = POR
+			QUE = {
+				exists = yes
+				OR = {
+					vassal_of = THIS
+					substate_of = THIS
+				}
+				NOT = { has_country_modifier = benign_neglect }
+			}
+		}
+		
+		allow = {
+
+		}
+		
+		effect = {
+			
+			QUE = {
+				add_country_modifier = {
+					name = benign_neglect
+					duration = 24
+				}
+			}
+			
+		}
+	}
+	benign_neglect_DOM = {
+		potential = {
+			tag = POR
+			DOM = {
+				exists = yes
+				OR = {
+					vassal_of = THIS
+					substate_of = THIS
+				}
+				NOT = { has_country_modifier = benign_neglect }
+			}
+		}
+		
+		allow = {
+
+		}
+		
+		effect = {
+			
+			DOM = {
+				add_country_modifier = {
+					name = benign_neglect
+					duration = 24
+				}
+			}
+			
+		}
+	}
+
+	port_act_NEN = {
+		potential = {
+			tag = ENG
+			NEN = {
+				exists = yes
+				OR = {
+					vassal_of = THIS
+					substate_of = THIS
+				}
+				NOT = { has_country_modifier = benign_neglect }
+				NOT = { has_country_modifier = port_act }
+			}
+		}
+		
+		allow = {
+
+		}
+		
+		effect = {
+			
+			NEN = {
+				add_country_modifier = {
+					name = port_act
+					duration = -1
+				}
+			}
+			
+		}
+	}
+
+
+	quartering_act_NEN = {
+		potential = {
+			tag = ENG
+			NEN = {
+				exists = yes
+				OR = {
+					vassal_of = THIS
+					substate_of = THIS
+				}
+
+				
+				NOT = { has_country_modifier = benign_neglect }
+				has_country_modifier = port_act
+				NOT = { has_country_modifier = quartering_act}
+				
+			}
+		}
+		
+		allow = {
+
+		}
+		
+		effect = {
+			NEN = {
+				add_country_modifier = {
+					name = quartering_act
+					duration = -1
+				}
+			}
+			ENG = {
+				add_country_modifier = {
+					name = quartering_act_overlord
+					duration = -1
+				}
+			}
+			
+		}
+	}
+
+	government_act_NEN = {
+		potential = {
+			tag = ENG
+			NEN = {
+				exists = yes
+				OR = {
+					vassal_of = THIS
+					substate_of = THIS
+				}
+				NOT = { has_country_modifier = benign_neglect }
+				has_country_modifier = port_act 
+				has_country_modifier = quartering_act
+				NOT = { has_country_modifier = government_act}
+			}
+		}
+		
+		allow = {
+
+		}
+		
+		effect = {
+			NEN = {
+				add_country_modifier = {
+					name = government_act
+					duration = -1
+				}
+				political_reform = landed_voting
+				government = hms_government
+			}
+			
+		}
+	}
+	annex_NEN = {
+		potential = {
+			tag = ENG
+			NEN = {
+				exists = yes
+				OR = {
+					vassal_of = THIS
+					substate_of = THIS
+				}
+				NOT = { has_country_modifier = benign_neglect }
+				has_country_modifier = port_act 
+				has_country_modifier = quartering_act
+				has_country_modifier = government_act
+			}
+		}
+		
+		allow = {
+
+		}
+		
+		effect = {
+			inherit = NEN
+		}
+	}
+	declare_independence_ENG = {
+		potential = {
+			THIS = {
+				exists = yes
+				OR = {
+					vassal_of = ENG
+					substate_of = ENG
+				}
+				NOT = { has_country_modifier = benign_neglect }
+				has_country_modifier = port_act 
+				has_country_modifier = quartering_act
+				has_country_modifier = government_act
+				average_militancy = 6
+			}
+		}
+		
+		allow = {
+
+		}
+		
+		effect = {
+			ENG = { country_event = 9990010}
+		}
+	}
+	declare_independence_POR = {
+		potential = {
+			THIS = {
+				exists = yes
+				OR = {
+					vassal_of = POR
+					substate_of = POR
+				}
+				NOT = { has_country_modifier = benign_neglect }
+				has_country_modifier = port_act 
+				has_country_modifier = quartering_act
+				has_country_modifier = government_act
+				average_militancy = 6
+			}
+		}
+		
+		allow = {
+
+		}
+		
+		effect = {
+			POR = { country_event = 9990012}
+		}
+	}
+}

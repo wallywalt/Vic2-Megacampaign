@@ -186,7 +186,7 @@ vassal=
 	end_date="1936.1.1"
 }
 
-vassal=
+substate=
 {
 	first="POR"
 	second="PAP"
@@ -194,7 +194,7 @@ vassal=
 	end_date="1936.1.1"
 }
 
-vassal=
+substate=
 {
 	first="ENG"
 	second="NEN"
@@ -202,7 +202,7 @@ vassal=
 	end_date="1936.1.1"
 }
 
-vassal=
+substate=
 {
 	first="ENG"
 	second="TEX"
@@ -210,7 +210,7 @@ vassal=
 	end_date="1936.1.1"
 }
 
-vassal=
+substate=
 {
 	first="ENG"
 	second="GEO"
@@ -218,7 +218,7 @@ vassal=
 	end_date="1936.1.1"
 }
 
-vassal=
+substate=
 {
 	first="POR"
 	second="DOM"
@@ -227,7 +227,7 @@ vassal=
 }
 
 
-vassal=
+substate=
 {
 	first="POR"
 	second="QUE"

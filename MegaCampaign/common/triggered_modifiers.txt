@@ -89,6 +89,18 @@ malacca_strait = {
 	icon = 16
 }
 
+new_orleans= {
+		trigger = {
+			exists = yes
+			owns = 139
+			owns = 140
+		}
+	prestige = 0.01
+	tax_efficiency = 0.01
+	tariff_efficiency_modifier = 0.1
+	icon = 16
+}
+
 yellow_river = {
 	trigger = {
 		owns = 1508 #Kaifeng

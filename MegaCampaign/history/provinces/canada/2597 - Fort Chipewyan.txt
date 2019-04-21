@@ -1,6 +1,3 @@
-owner=SCA
-controller=SCA
-add_core=ENG
 trade_goods = timber
 life_rating = 30
 
