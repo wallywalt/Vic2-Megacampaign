@@ -2630,18 +2630,11 @@ east_asian = {
 		}
 	}
 	korean = {
-		color = {87 89 25}
+		color = {0 10 175}
 
-		first_names = { Yi Jo Bak Yun Sim Kim Hong Seo Jeong Kwon Han 
+		first_names = { Yi Jo Bak Yun Sim Kim Hong Seo Jeong Kwon Han Choe Jo Jang Yun Im Sin
 		}
 		last_names = { Hwan Chung Hyong Shinjong Haung Ch'ok Taek Seon Si Jip Guk Mok Bo Yong Sun Gyu Hu
-		}
-	}
-	ainu = {
-		color = {130 130 130}
-		first_names = { Seimei Resaak Akihi Petennouk Unayanke Shiratekka Apniainu Pasekur Munkeke Shitekka Shinriki Shiromainu Menkakush
-		}
-		last_names = { Aterui Shakushine Koshamine Harukor Turushno Isonash Keutoranke
 		}
 	}
 	bai = {
@@ -2724,7 +2717,149 @@ east_asian = {
 	}
 	
 }
+japanese = {
+	leader = asian
+	unit = ChineseGC
+	nihonjin = {
+		color = {221 33 33}
 
+		first_names = {
+		Aritomo
+		Goro Gentaro Gonnohyoe
+		Heihachiro Hiroshi Hikonojo Hyoe Hayao
+		Iwao
+		Jiro Jinzaburo
+		Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
+		Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
+		Nariaki Nobuyoshi
+		Rokuro
+		Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
+		Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
+		Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
+		}
+		last_names = {
+		Arisugawa Arichi Akiyama Araki
+		Dewa
+		Enomoto
+		Hasegawa Honjo
+		Ito Inoue Ichinohe Itagaki
+		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
+		Makino Muto Minami Masaki Matsudaira
+		Nakamuta Nogi Nire Nozu
+		Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
+		Uehara Uryu Ugaki Ueda
+		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
+		}
+	}
+	chugokujin = {
+		color = {232 121 11}
+
+		first_names = {
+		Aritomo
+		Goro Gentaro Gonnohyoe
+		Heihachiro Hiroshi Hikonojo Hyoe Hayao
+		Iwao
+		Jiro Jinzaburo
+		Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
+		Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
+		Nariaki Nobuyoshi
+		Rokuro
+		Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
+		Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
+		Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
+		}
+		last_names = {
+		Arisugawa Arichi Akiyama Araki
+		Dewa
+		Enomoto
+		Hasegawa Honjo
+		Ito Inoue Ichinohe Itagaki
+		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
+		Makino Muto Minami Masaki Matsudaira
+		Nakamuta Nogi Nire Nozu
+		Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
+		Uehara Uryu Ugaki Ueda
+		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
+		}
+	}
+	gyushuan = {
+		color = {229 9 214}
+
+		first_names = {
+		Aritomo
+		Goro Gentaro Gonnohyoe
+		Heihachiro Hiroshi Hikonojo Hyoe Hayao
+		Iwao
+		Jiro Jinzaburo
+		Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
+		Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
+		Nariaki Nobuyoshi
+		Rokuro
+		Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
+		Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
+		Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
+		}
+		last_names = {
+		Arisugawa Arichi Akiyama Araki
+		Dewa
+		Enomoto
+		Hasegawa Honjo
+		Ito Inoue Ichinohe Itagaki
+		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
+		Makino Muto Minami Masaki Matsudaira
+		Nakamuta Nogi Nire Nozu
+		Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
+		Uehara Uryu Ugaki Ueda
+		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
+		}
+	}
+	kirishitan = {
+		color = {229 174 8}
+
+		first_names = {
+		Aritomo
+		Goro Gentaro Gonnohyoe
+		Heihachiro Hiroshi Hikonojo Hyoe Hayao
+		Iwao
+		Jiro Jinzaburo
+		Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
+		Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
+		Nariaki Nobuyoshi
+		Rokuro
+		Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
+		Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
+		Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
+		}
+		last_names = {
+		Arisugawa Arichi Akiyama Araki
+		Dewa
+		Enomoto
+		Hasegawa Honjo
+		Ito Inoue Ichinohe Itagaki
+		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
+		Makino Muto Minami Masaki Matsudaira
+		Nakamuta Nogi Nire Nozu
+		Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
+		Uehara Uryu Ugaki Ueda
+		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
+		}
+	}
+	ainu = {
+		color = {130 130 130}
+		first_names = { Seimei Resaak Akihi Petennouk Unayanke Shiratekka Apniainu Pasekur Munkeke Shitekka Shinriki Shiromainu Menkakush
+		}
+		last_names = { Aterui Shakushine Koshamine Harukor Turushno Isonash Keutoranke
+		}
+	}
+}
 oceanic = {
 	leader = nativeamerican
 	unit = AfricanGC

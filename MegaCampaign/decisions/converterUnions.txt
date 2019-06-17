@@ -1458,55 +1458,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	form_japan = {
-		potential = {
-			NOT = { exists = JAP }
-			NOT = { has_global_flag = united_japan }
-			primary_culture = japanese
-		}	
-		allow = {
-			war = no
-			prestige = 5
-			JAP = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-							primary_culture = japanese
-						}
-						owner = {
-							NOT = { primary_culture = japanese }
-						}
-					}
-				}
-			1657 = owned_by = THIS
-			}
-		}
-		
-		effect = {
-			prestige = 10
-			any_country = {
-				limit = {
-					in_sphere = THIS
-					NOT = {
-						tag = THIS
-					}
-					capital_scope = { continent = asia }
-					primary_culture = japanese
-				}
-				annex_to = THIS
-			}
-			any_owned = {
-				add_core = JAP
-			}			
-			set_global_flag = united_japan
-			change_tag = JAP
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	
 	form_the_undeads = {
 		potential = {
 			tag = ZOM

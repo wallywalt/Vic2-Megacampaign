@@ -9854,7 +9854,7 @@
 	}
 
 	farmers = {
-		culture = japanese
+		culture = nihonjin
 		religion = mahayana
 		size = 25
 	}
