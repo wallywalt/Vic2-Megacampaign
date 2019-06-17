@@ -1,7 +1,6 @@
 owner=KOR
 controller=KOR
 add_core=JAP
-add_core=TKI
 add_core=SHN
 trade_goods = tea
 life_rating = 35

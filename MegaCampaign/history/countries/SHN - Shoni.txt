@@ -1,6 +1,6 @@
 capital=1660
-primary_culture = japanese
-religion = shinto
+primary_culture = gyushuan
+religion = confucian
 government = absolute_monarchy
 plurality=0.000000
 nationalvalue=nv_order

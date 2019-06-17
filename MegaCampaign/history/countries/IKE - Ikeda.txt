@@ -1,6 +1,6 @@
 capital=1639
-primary_culture = japanese
-religion = shinto
+primary_culture = chugokujin
+religion = mahayana
 government = absolute_monarchy
 plurality=0.000000
 nationalvalue=nv_order

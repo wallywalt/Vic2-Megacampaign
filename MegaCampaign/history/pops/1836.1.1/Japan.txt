@@ -69,8 +69,8 @@
 	}
 
 	farmers = {
-		culture = chugokujin
-		religion = mahayana
+		culture = nihonjin
+		religion = shinto
 		size = 36925
 	}
 }
@@ -131,8 +131,8 @@
 	}
 
 	farmers = {
-		culture = chugokujin
-		religion = mahayana
+		culture = nihonjin
+		religion = shinto
 		size = 27325
 	}
 }
@@ -193,8 +193,8 @@
 	}
 
 	farmers = {
-		culture = chugokujin
-		religion = mahayana
+		culture = nihonjin
+		religion = shinto
 		size = 23675
 	}
 }
@@ -255,8 +255,8 @@
 	}
 
 	farmers = {
-		culture = chugokujin
-		religion = mahayana
+		culture = nihonjin
+		religion = shinto
 		size = 27325
 	}
 }
@@ -265,37 +265,37 @@
 #Hakodate (240000/60000 POPS)
 1642 = {
 	aristocrats = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 100
 	}
 
 	bureaucrats = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 25
 	}
 
 	clergymen = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 100
 	}
 
 	artisans = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 500
 	}
 
 	soldiers = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 100
 	}
 
 	farmers = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 9175
 	}
@@ -357,25 +357,25 @@
 #Ishikara (240000/60000 POPS)
 1643 = {
 	clergymen = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 50
 	}
 
 	artisans = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 250
 	}
 
 	soldiers = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 50
 	}
 
 	farmers = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 4650
 	}
@@ -437,25 +437,25 @@
 #Nemuru (360000/90000 POPS)
 1644 = {
 	clergymen = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 75
 	}
 
 	artisans = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 400
 	}
 
 	soldiers = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 75
 	}
 
 	farmers = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 7425
 	}
@@ -531,19 +531,19 @@
 	}
 
 	officers = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 475
 	}
 
 	clergymen = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 1875
 	}
 
 	artisans = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 9350
 	}
@@ -556,7 +556,7 @@
 
 	farmers = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 169275
 	}
 
@@ -585,8 +585,8 @@
 	}
 
 	farmers = {
-		culture = nihonjin
-		religion = shinto
+		culture = chugokujin
+		religion = mahayana
 		size = 56425
 	}
 }
@@ -618,7 +618,7 @@
 
 	farmers = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 60075
 	}
 
@@ -647,8 +647,8 @@
 	}
 
 	farmers = {
-		culture = nihonjin
-		religion = shinto
+		culture = chugokujin
+		religion = mahayana
 		size = 27325
 	}
 }
@@ -680,7 +680,7 @@
 
 	farmers = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 22775
 	}
 
@@ -709,8 +709,8 @@
 	}
 
 	farmers = {
-		culture = nihonjin
-		religion = shinto
+		culture = chugokujin
+		religion = mahayana
 		size = 13675
 	}
 }
@@ -771,8 +771,8 @@
 	}
 
 	farmers = {
-		culture = nihonjin
-		religion = shinto
+		culture = chugokujin
+		religion = mahayana
 		size = 24575
 	}
 }
@@ -788,37 +788,37 @@
 
 	bureaucrats = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 2200
 	}
 
 	officers = {
-		culture = nihonjin
+		culture = chugokujin
 		religion = mahayana
 		size = 1275
 	}
 
 	clergymen = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 3375
 	}
 
 	artisans = {
-		culture = nihonjin
+		culture = chugokujin
+		religion = mahayana
+		size = 10000
+	}
+
+	artisans = {
+		culture = chugokujin
 		religion = mahayana
 		size = 10000
 	}
 
 	artisans = {
 		culture = nihonjin
-		religion = mahayana
-		size = 10000
-	}
-
-	artisans = {
-		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 10000
 	}
 
@@ -842,19 +842,19 @@
 
 	artisans = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 10000
 	}
 
 	artisans = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 10000
 	}
 
 	artisans = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 10000
 	}
 
@@ -866,13 +866,13 @@
 
 	artisans = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 10000
 	}
 
 	artisans = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 10000
 	}
 
@@ -884,13 +884,13 @@
 
 	soldiers = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 3075
 	}
 
 	farmers = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 167575
 	}
 
@@ -940,31 +940,31 @@
 1650 = {
 	aristocrats = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 3150
 	}
 
 	clergymen = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 1600
 	}
 
 	artisans = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 7950
 	}
 
 	soldiers = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 1600
 	}
 
 	farmers = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 144700
 	}
 
@@ -1002,31 +1002,31 @@
 1651 = {
 	aristocrats = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 2125
 	}
 
 	clergymen = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 1125
 	}
 
 	artisans = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 9850
 	}
 
 	soldiers = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 1125
 	}
 
 	farmers = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 98675
 	}
 
@@ -1064,37 +1064,37 @@
 1652 = {
 	aristocrats = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 4650
 	}
 
 	clergymen = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 2650
 	}
 
 	artisans = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 10000
 	}
 
 	artisans = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 1700
 	}
 
 	soldiers = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 2350
 	}
 
 	farmers = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 213250
 	}
 
@@ -1132,31 +1132,31 @@
 1653 = {
 	aristocrats = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 2300
 	}
 
 	clergymen = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 1175
 	}
 
 	artisans = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 5850
 	}
 
 	soldiers = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 1175
 	}
 
 	farmers = {
 		culture = nihonjin
-		religion = mahayana
+		religion = shinto
 		size = 106400
 	}
 
@@ -1273,8 +1273,8 @@
 	}
 
 	farmers = {
-		culture = chugokujin
-		religion = mahayana
+		culture = nihonjin
+		religion = shinto
 		size = 29300
 	}
 }
@@ -1335,8 +1335,8 @@
 	}
 
 	farmers = {
-		culture = chugokujin
-		religion = mahayana
+		culture = nihonjin
+		religion = shinto
 		size = 72825
 	}
 }
@@ -1427,8 +1427,8 @@
 	}
 
 	farmers = {
-		culture = chugokujin
-		religion = mahayana
+		culture = nihonjin
+		religion = shinto
 		size = 62000
 	}
 }
@@ -1495,8 +1495,8 @@
 	}
 
 	farmers = {
-		culture = chugokujin
-		religion = mahayana
+		culture = nihonjin
+		religion = shinto
 		size = 81950
 	}
 }
@@ -1557,8 +1557,8 @@
 	}
 
 	farmers = {
-		culture = chugokujin
-		religion = mahayana
+		culture = nihonjin
+		religion = shinto
 		size = 76450
 	}
 }
@@ -1671,7 +1671,7 @@
 	}
 
 	aristocrats = {
-		culture = gyushuan
+		culture = korean
 		religion = confucian
 		size = 1300
 	}
@@ -1683,8 +1683,14 @@
 	}
 
 	artisans = {
-		culture = kirishitan
+		culture = korean
 		religion = catholic
+		size = 3500
+	}
+
+	artisans = {
+		culture = korean
+		religion = confucian
 		size = 3500
 	}
 
@@ -1697,14 +1703,19 @@
 	farmers = {
 		culture = kirishitan
 		religion = catholic
-		size = 63750
+		size = 33750
+	}
+	farmers = {
+		culture = korean
+		religion = confucian
+		size = 30000
 	}
 }
 #Kagoshima (660000/165000 POPS)
 1662 = {
 	aristocrats = {
-		culture = kirishitan
-		religion = catholic
+		culture = korean
+		religion = confucian
 		size = 2500
 	}
 
@@ -1733,7 +1744,7 @@
 	}
 
 	aristocrats = {
-		culture = gyushuan
+		culture = korean
 		religion = confucian
 		size = 750
 	}
@@ -1745,7 +1756,7 @@
 	}
 
 	artisans = {
-		culture = gyushuan
+		culture = korean
 		religion = confucian
 		size = 1900
 	}
@@ -1765,7 +1776,7 @@
 #Miyazaki (380000/95000 POPS)
 1663 = {
 	aristocrats = {
-		culture = kirishitan
+		culture = korean
 		religion = catholic
 		size = 1250
 	}
@@ -1795,19 +1806,19 @@
 	}
 
 	aristocrats = {
-		culture = gyushuan
+		culture = korean
 		religion = confucian
 		size = 550
 	}
 
 	clergymen = {
-		culture = gyushuan
+		culture = korean
 		religion = confucian
 		size = 325
 	}
 
 	artisans = {
-		culture = gyushuan
+		culture = korean
 		religion = confucian
 		size = 1500
 	}
@@ -1827,8 +1838,8 @@
 #Kumamoto (764000/191000 POPS)
 1664 = {
 	aristocrats = {
-		culture = kirishitan
-		religion = catholic
+		culture = korean
+		religion = confucian
 		size = 2900
 	}
 
@@ -1857,19 +1868,19 @@
 	}
 
 	aristocrats = {
-		culture = gyushuan
+		culture = korean
 		religion = confucian
 		size = 900
 	}
 
 	clergymen = {
-		culture = gyushuan
+		culture = korean
 		religion = confucian
 		size = 450
 	}
 
 	artisans = {
-		culture = gyushuan
+		culture = korean
 		religion = confucian
 		size = 2250
 	}
@@ -1883,7 +1894,12 @@
 	farmers = {
 		culture = gyushuan
 		religion = confucian
-		size = 40950
+		size = 20950
+	}
+	farmers = {
+		culture = korean
+		religion = confucian
+		size = 20000
 	}
 }
 #Shikoku Region (1368000)
@@ -2611,8 +2627,8 @@
 	}
 
 	farmers = {
-		culture = nihonjin
-		religion = shinto
+		culture = chugokujin
+		religion = mahayana
 		size = 98625
 	}
 }
@@ -2673,8 +2689,8 @@
 	}
 
 	farmers = {
-		culture = nihonjin
-		religion = shinto
+		culture = chugokujin
+		religion = mahayana
 		size = 36425
 	}
 }
@@ -2741,8 +2757,8 @@
 	}
 
 	farmers = {
-		culture = nihonjin
-		religion = shinto
+		culture = chugokujin
+		religion = mahayana
 		size = 81000
 	}
 }

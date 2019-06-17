@@ -176,3 +176,20 @@ bread_basket = {
 	supply_consumption = -0.1
 }
 
+beijing_imperial_palace = {
+	trigger = {
+		exists = yes
+		owns = 1612
+	}
+	icon = 9
+	prestige = 0.02
+}
+
+kyoto_imperial_palace = {
+	trigger = {
+		exists = yes
+		owns = 1657
+	}
+	icon = 9
+	prestige = 0.01
+}

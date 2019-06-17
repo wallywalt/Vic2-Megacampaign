@@ -317,4 +317,27 @@ political_decisions = {
 			POR = { country_event = 9990012}
 		}
 	}
+	border_conflict_NEN_DOM = {
+		potential = {
+			tag = NEN
+			DOM = { exists = yes }
+		allow = {
+			DOM = {
+				neighbour = NEN
+				NOT = { truce_with = THIS }
+			}	
+		}
+		effect = {
+			war = {
+			target = DOM
+			attacker_goal = { 
+				casus_belli = humiliate
+			}
+			defender_goal = { 
+				casus_belli = status_quo 
+			}
+			call_ally = yes
+		}
+		}
+	}
 }

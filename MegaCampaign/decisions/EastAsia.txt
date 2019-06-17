@@ -1,0 +1,140 @@
+political_decisions = {
+	embrace_gyushuans_JAP = {
+		picture = embrace_minority
+		potential = {
+			tag = JAP
+			any_owned_province = { culture = gyushuan }
+			NOT = {
+				primary_culture = gyushuan
+				accepted_culture = gyushuan
+			}
+			NOT = {	has_global_flag = gyushuans_loyalty_set}
+		}
+		
+		allow = {
+			NOT = { government = theocracy }
+			citizenship_policy = full_citizenship
+			citizens_rights = all_voting_pops
+			prestige = 50
+			revolution_n_counterrevolution = 1
+			experimental_psychology = 1
+			NOT = {
+				any_owned_province = {
+					culture = gyushuan
+					average_militancy = 2
+				}
+			}
+		}
+		
+		effect = {
+			set_global_flag = gyushuans_loyalty_set
+			add_accepted_culture = gyushuan
+			prestige = -25
+			any_pop = {
+				limit = { has_pop_culture = gyushuan }
+				consciousness = -4
+				militancy = -4
+			}
+			any_pop = {
+				limit = {
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+				consciousness = 8
+				militancy = 6
+			}
+		}
+	}
+	embrace_kirishitans = {
+		picture = embrace_minority
+		potential = {
+			tag = JAP
+			any_owned_province = { culture = kirishitan }
+			NOT = {
+				primary_culture = kirishitan
+				accepted_culture = kirishitan
+			}
+		}
+		
+		allow = {
+			NOT = { government = theocracy }
+			citizenship_policy = full_citizenship
+			citizens_rights = all_voting_pops
+			prestige = 50
+			revolution_n_counterrevolution = 1
+			experimental_psychology = 1
+			NOT = {
+				any_owned_province = {
+					culture = kirishitan
+					average_militancy = 2
+				}
+			}
+		}
+		
+		effect = {
+			add_accepted_culture = kirishitan
+			prestige = -25
+			any_pop = {
+				limit = { has_pop_culture = kirishitan }
+				consciousness = -4
+				militancy = -4
+			}
+			any_pop = {
+				limit = {
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+				consciousness = 8
+				militancy = 6
+			}
+		}
+	}
+	embrace_gyushuans_KOR = {
+		picture = embrace_minority
+		potential = {
+			tag = KOR
+			any_owned_province = { culture = gyushuan }
+			NOT = {
+				primary_culture = gyushuan
+				accepted_culture = gyushuan
+			}
+			NOT = {	has_global_flag = gyushuans_loyalty_set}
+
+		}
+		
+		allow = {
+			NOT = { government = theocracy }
+			citizenship_policy = full_citizenship
+			citizens_rights = all_voting_pops
+			prestige = 50
+			revolution_n_counterrevolution = 1
+			experimental_psychology = 1
+			NOT = {
+				any_owned_province = {
+					culture = gyushuan
+					average_militancy = 2
+				}
+			}
+		}
+		
+		effect = {
+			set_global_flag = gyushuans_loyalty_set
+			add_accepted_culture = gyushuan
+			prestige = -25
+			any_pop = {
+				limit = { has_pop_culture = gyushuan }
+				consciousness = -4
+				militancy = -4
+			}
+			any_pop = {
+				limit = {
+					is_primary_culture = no
+					is_accepted_culture = no
+				}
+				consciousness = 8
+				militancy = 6
+			}
+			JAP_1660 = {add_core = KOR}
+		}
+	}
+}
