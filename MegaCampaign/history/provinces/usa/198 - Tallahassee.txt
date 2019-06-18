@@ -1,5 +1,6 @@
 owner=GEO
-controller=GEO/nadd_core=GEO
+controller=GEO
+add_core=GEO
 add_core=CRK
 trade_goods = cotton
 life_rating = 35

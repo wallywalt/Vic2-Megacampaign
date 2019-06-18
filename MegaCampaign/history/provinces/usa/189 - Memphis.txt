@@ -1,5 +1,6 @@
 owner=GEO
-controller=GEO/nadd_core=GEO
+controller=GEO
+add_core=GEO
 add_core=CHN
 add_core=USA
 trade_goods = cotton

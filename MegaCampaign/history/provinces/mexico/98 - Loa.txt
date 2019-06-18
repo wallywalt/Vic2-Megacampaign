@@ -1,2 +1,5 @@
+owner=PIM
+controller=PIM
+add_core=PIM
 trade_goods = grain
 life_rating = 35

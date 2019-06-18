@@ -1,5 +1,6 @@
 owner=GEO
-controller=GEO/nadd_core=GEO
+controller=GEO
+add_core=GEO
 add_core=COM
 trade_goods = cattle
 life_rating = 35

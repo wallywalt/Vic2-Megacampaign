@@ -325,9 +325,15 @@ political_decisions = {
 			DOM = {
 				neighbour = NEN
 				NOT = { truce_with = THIS }
+				any_owned_province = {
+					region = USA_243
+				}
 			}	
+			NOT = { has_global_flag = border_conflict_NEN_DOM }
+			is_secondary_power = yes
 		}
 		effect = {
+			set_global_flag = border_conflict_NEN_DOM
 			war = {
 			target = DOM
 			attacker_goal = { 
@@ -338,6 +344,279 @@ political_decisions = {
 			}
 			call_ally = yes
 		}
+		}
+	}
+	border_conflict_DOM_NEN = {
+		potential = {
+			tag = DOM
+			NEN = { exists = yes }
+		allow = {
+			NEN = {
+				neighbour = DOM
+				NOT = { truce_with = THIS }
+				any_owned_province = {
+					region = USA_243
+				}
+			}	
+			NOT = { has_global_flag = border_conflict_NEN_DOM }
+			is_secondary_power = yes
+		}
+		effect = {
+			set_global_flag = border_conflict_NEN_DOM
+			war = {
+			target = NEN
+			attacker_goal = { 
+				casus_belli = humiliate
+			}
+			defender_goal = { 
+				casus_belli = status_quo 
+			}
+			call_ally = yes
+		}
+		}
+	}
+	seize_massachusetts_NEN_DOM = {
+	potential = {
+		tag = NEN
+		DOM = { exists = yes }
+	}
+	allow = {
+		has_global_flag = border_conflict_NEN_DOM
+		NOT = { 
+			war_with = DOM
+			has_recently_lost_war = yes
+		}
+		DOM = {
+			NOT = { war_with = NEN }
+			has_recently_lost_war = yes
+			truce_with = THIS
+			any_owned_province = {
+				region = USA_243
+			}
+		}
+	}
+	effect = {
+		random_country = {
+			limit = {
+				tag = DOM
+				exists = yes
+				}
+			any_owned = { limit = { region = USA_243 } secede_province = THIS }
+			}
+		}
+	}
+
+	seize_massachusetts_DOM_NEN = {
+	potential = {
+		tag = DOM
+		NEN = { exists = yes }
+	}
+	allow = {
+		has_global_flag = border_conflict_NEN_DOM
+		NOT = { 
+			war_with = NEN
+			has_recently_lost_war = yes
+		}
+		NEN = {
+			NOT = { war_with = DOM }
+			has_recently_lost_war = yes
+			truce_with = THIS
+			any_owned_province = {
+				region = USA_243
+			}
+		}
+	}
+	effect = {
+		random_country = {
+			limit = {
+				tag = NEN
+				exists = yes
+				}
+			any_owned = { limit = { region = USA_243 } secede_province = THIS }
+			}
+		}
+	}
+	seize_new_york_NEN_DOM = {
+	potential = {
+		tag = NEN
+		DOM = { exists = yes }
+	}
+	allow = {
+		has_global_flag = border_conflict_NEN_DOM
+		NOT = { 
+			war_with = DOM
+			has_recently_lost_war = yes
+		}
+		DOM = {
+			NOT = { war_with = NEN }
+			has_recently_lost_war = yes
+			truce_with = THIS
+			any_owned_province = {
+				region = USA_232
+			}
+		}
+	}
+	effect = {
+		random_country = {
+			limit = {
+				tag = DOM
+				exists = yes
+				}
+			any_owned = { limit = { region = USA_232 } secede_province = THIS }
+			}
+		}
+	}
+
+	seize_new_york_DOM_NEN = {
+	potential = {
+		tag = DOM
+		NEN = { exists = yes }
+	}
+	allow = {
+		has_global_flag = border_conflict_NEN_DOM
+		NOT = { 
+			war_with = NEN
+			has_recently_lost_war = yes
+		}
+		NEN = {
+			NOT = { war_with = DOM }
+			has_recently_lost_war = yes
+			truce_with = THIS
+			any_owned_province = {
+				region = USA_232
+			}
+		}
+	}
+	effect = {
+		random_country = {
+			limit = {
+				tag = NEN
+				exists = yes
+				}
+			any_owned = { limit = { region = USA_232 } secede_province = THIS }
+			}
+		}
+	}
+	seize_virginia_NEN_DOM = {
+	potential = {
+		tag = NEN
+		DOM = { exists = yes }
+	}
+	allow = {
+		has_global_flag = border_conflict_NEN_DOM
+		NOT = { 
+			war_with = DOM
+			has_recently_lost_war = yes
+		}
+		DOM = {
+			NOT = { war_with = NEN }
+			has_recently_lost_war = yes
+			truce_with = THIS
+			any_owned_province = {
+				region = USA_211
+			}
+		}
+	}
+	effect = {
+		random_country = {
+			limit = {
+				tag = DOM
+				exists = yes
+				}
+			any_owned = { limit = { region = USA_211 } secede_province = THIS }
+			}
+		}
+	}
+
+	seize_virginia_DOM_NEN = {
+	potential = {
+		tag = DOM
+		NEN = { exists = yes }
+	}
+	allow = {
+		has_global_flag = border_conflict_NEN_DOM
+		NOT = { 
+			war_with = NEN
+			has_recently_lost_war = yes
+		}
+		NEN = {
+			NOT = { war_with = DOM }
+			has_recently_lost_war = yes
+			truce_with = THIS
+			any_owned_province = {
+				region = USA_211
+			}
+		}
+	}
+	effect = {
+		random_country = {
+			limit = {
+				tag = NEN
+				exists = yes
+				}
+			any_owned = { limit = { region = USA_211 } secede_province = THIS }
+			}
+		}
+	}
+	seize_north_carolina_NEN_DOM = {
+	potential = {
+		tag = NEN
+		DOM = { exists = yes }
+	}
+	allow = {
+		has_global_flag = border_conflict_NEN_DOM
+		NOT = { 
+			war_with = DOM
+			has_recently_lost_war = yes
+		}
+		DOM = {
+			NOT = { war_with = NEN }
+			has_recently_lost_war = yes
+			truce_with = THIS
+			any_owned_province = {
+				region = USA_2556
+			}
+		}
+	}
+	effect = {
+		random_country = {
+			limit = {
+				tag = DOM
+				exists = yes
+				}
+			any_owned = { limit = { region = USA_2556 } secede_province = THIS }
+			}
+		}
+	}
+
+	seize_north_carolina_DOM_NEN = {
+	potential = {
+		tag = DOM
+		NEN = { exists = yes }
+	}
+	allow = {
+		has_global_flag = border_conflict_NEN_DOM
+		NOT = { 
+			war_with = NEN
+			has_recently_lost_war = yes
+		}
+		NEN = {
+			NOT = { war_with = DOM }
+			has_recently_lost_war = yes
+			truce_with = THIS
+			any_owned_province = {
+				region = USA_2556
+			}
+		}
+	}
+	effect = {
+		random_country = {
+			limit = {
+				tag = NEN
+				exists = yes
+				}
+			any_owned = { limit = { region = USA_2556 } secede_province = THIS }
+			}
 		}
 	}
 }

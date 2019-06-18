@@ -1,5 +1,6 @@
 owner=GEO
-controller=GEO/nadd_core=GEO
+controller=GEO
+add_core=GEO
 trade_goods = grain
 life_rating = 35
 colonial=2
