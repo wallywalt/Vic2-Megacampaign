@@ -1,6 +1,8 @@
 owner=X10
 controller=X10
 add_core=TIB
+add_core=MGL
+add_core=X10
 trade_goods = grain
 life_rating = 32
 colonial=2

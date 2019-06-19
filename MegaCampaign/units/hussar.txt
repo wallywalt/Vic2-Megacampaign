@@ -18,7 +18,7 @@ hussar = {
 	priority = 40
 	max_strength = 3
 	default_organisation = 30
-	maximum_speed = 6.00
+	maximum_speed = 8.00
 	weighted_value = 7.0
 
 
@@ -28,6 +28,7 @@ hussar = {
 		small_arms = 10
 		canned_food = 10
 		luxury_clothes = 5
+		wool = 5
 	}
 	
 	supply_consumption = 1
@@ -36,12 +37,13 @@ hussar = {
 		ammunition = 0.075 #0
 		canned_food = 0.08 #0.08
 		regular_clothes = 0.04 #0
+		wool = 0.04
 	}
 	
 
 	#Land Abilties
 	reconnaissance = 2
-	attack = 3
+	attack = 4
 	defence = 3
 	discipline = 1.0
 	support = 0.0

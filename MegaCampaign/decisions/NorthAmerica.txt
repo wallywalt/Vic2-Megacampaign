@@ -325,15 +325,36 @@ political_decisions = {
 			DOM = {
 				neighbour = NEN
 				NOT = { truce_with = THIS }
-				any_owned_province = {
-					region = USA_243
-				}
 			}	
-			NOT = { has_global_flag = border_conflict_NEN_DOM }
 			is_secondary_power = yes
 		}
 		effect = {
-			set_global_flag = border_conflict_NEN_DOM
+			clr_country_flag = settled_border_dispute
+			war = {
+			target = DOM
+			attacker_goal = { 
+				casus_belli = humiliate
+			}
+			defender_goal = { 
+				casus_belli = status_quo 
+			}
+			call_ally = yes
+		}
+		}
+	}
+	border_conflict_GEO_DOM = {
+		potential = {
+			tag = GEO
+			DOM = { exists = yes }
+		allow = {
+			DOM = {
+				neighbour = GEO
+				NOT = { truce_with = THIS }
+			}	
+			is_secondary_power = yes
+		}
+		effect = {
+			clr_country_flag = settled_border_dispute
 			war = {
 			target = DOM
 			attacker_goal = { 
@@ -354,17 +375,38 @@ political_decisions = {
 			NEN = {
 				neighbour = DOM
 				NOT = { truce_with = THIS }
-				any_owned_province = {
-					region = USA_243
-				}
 			}	
-			NOT = { has_global_flag = border_conflict_NEN_DOM }
 			is_secondary_power = yes
 		}
 		effect = {
-			set_global_flag = border_conflict_NEN_DOM
+			clr_country_flag = settled_border_dispute
 			war = {
 			target = NEN
+			attacker_goal = { 
+				casus_belli = humiliate
+			}
+			defender_goal = { 
+				casus_belli = status_quo 
+			}
+			call_ally = yes
+		}
+		}
+	}
+	border_conflict_DOM_GEO = {
+		potential = {
+			tag = DOM
+			GEO = { exists = yes }
+		allow = {
+			GEO = {
+				neighbour = DOM
+				NOT = { truce_with = THIS }
+			}	
+			is_secondary_power = yes
+		}
+		effect = {
+			clr_country_flag = settled_border_dispute
+			war = {
+			target = GEO
 			attacker_goal = { 
 				casus_belli = humiliate
 			}
@@ -381,10 +423,10 @@ political_decisions = {
 		DOM = { exists = yes }
 	}
 	allow = {
-		has_global_flag = border_conflict_NEN_DOM
 		NOT = { 
 			war_with = DOM
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		DOM = {
 			NOT = { war_with = NEN }
@@ -396,6 +438,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = DOM
@@ -416,6 +459,7 @@ political_decisions = {
 		NOT = { 
 			war_with = NEN
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		NEN = {
 			NOT = { war_with = DOM }
@@ -427,6 +471,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = NEN
@@ -442,10 +487,10 @@ political_decisions = {
 		DOM = { exists = yes }
 	}
 	allow = {
-		has_global_flag = border_conflict_NEN_DOM
 		NOT = { 
 			war_with = DOM
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		DOM = {
 			NOT = { war_with = NEN }
@@ -457,6 +502,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = DOM
@@ -473,10 +519,10 @@ political_decisions = {
 		NEN = { exists = yes }
 	}
 	allow = {
-		has_global_flag = border_conflict_NEN_DOM
 		NOT = { 
 			war_with = NEN
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		NEN = {
 			NOT = { war_with = DOM }
@@ -488,6 +534,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = NEN
@@ -503,10 +550,10 @@ political_decisions = {
 		DOM = { exists = yes }
 	}
 	allow = {
-		has_global_flag = border_conflict_NEN_DOM
 		NOT = { 
 			war_with = DOM
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		DOM = {
 			NOT = { war_with = NEN }
@@ -518,6 +565,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = DOM
@@ -534,10 +582,10 @@ political_decisions = {
 		NEN = { exists = yes }
 	}
 	allow = {
-		has_global_flag = border_conflict_NEN_DOM
 		NOT = { 
 			war_with = NEN
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		NEN = {
 			NOT = { war_with = DOM }
@@ -549,6 +597,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = NEN
@@ -564,10 +613,10 @@ political_decisions = {
 		DOM = { exists = yes }
 	}
 	allow = {
-		has_global_flag = border_conflict_NEN_DOM
 		NOT = { 
 			war_with = DOM
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		DOM = {
 			NOT = { war_with = NEN }
@@ -579,6 +628,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = DOM
@@ -595,10 +645,10 @@ political_decisions = {
 		NEN = { exists = yes }
 	}
 	allow = {
-		has_global_flag = border_conflict_NEN_DOM
 		NOT = { 
 			war_with = NEN
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		NEN = {
 			NOT = { war_with = DOM }
@@ -610,6 +660,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = NEN

@@ -18,7 +18,7 @@ dragoon = {
 	priority = 35
 	max_strength = 3
 	default_organisation = 30
-	maximum_speed = 5.00
+	maximum_speed = 6.00
 	weighted_value = 6.0
 
 
@@ -28,6 +28,7 @@ dragoon = {
 		small_arms = 10
 		canned_food = 10
 		wine = 10
+		wool = 10
 	}
 	
 	supply_consumption = 1
@@ -36,12 +37,13 @@ dragoon = {
 		ammunition = 0.075 # 0
 		canned_food = 0.07 #0.08
 		regular_clothes = 0.04 #0
+		wool = 0.05
 	}
 	
 
 	#Land Abilties
 	reconnaissance = 1
-	attack = 4
+	attack = 5
 	defence = 3
 	discipline = 1.0
 	support = 0.0

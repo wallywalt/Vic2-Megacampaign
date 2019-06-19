@@ -3101,6 +3101,14 @@ native_south_american = {
 
 		last_names = {Atlatl}
 	}
+	tupinamba = {
+		color = {43 212 67}
+		first_names = { Álvaro André Carlos Diogo Emilio Eusébio Fábio Fernando Filipe Francisco
+		Gabriel Gaspar Gonçalo Gustavo Henrique João José Luís Manuel Inácio
+		Jordão Lúcio Mateus Nicolau Paulo Pedro Roque Sergio Tomás Vítor }
+
+		last_names = { Caetés Potiguara Tabajara Tamoios Temiminó Tupinambá Tupiniquim 	}
+	}
 }
 native_north_american = {
 	leader = nativeamerican
@@ -3517,6 +3525,34 @@ native_north_american = {
 		first_names = { John Paul José Louis Mariano James David Jack Joel Charles Henry Ganado Herandez
 		}
 		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
+		}
+	}
+	cree = {
+		color = {127 244 100}
+		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
+		}
+		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
+		}
+	}
+	dakota = {
+		color = {117 84 13}
+		first_names = { Sinté Thaóyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
+		}
+		last_names = { Gleská Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
+		}
+	}
+	pueblo = {
+		color = {222 238 156}
+		first_names = { Cochise Mangas Loco Taza Nana chihuahua Geronimo Alchesay Naiche Victorio
+		}
+		last_names = { Arivaipa Cibecue Coyotero Jicarilla Llanero Mescalero Nateges Tonto
+		}
+	}
+	inuit = {
+		color = {210 243 242}
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+		}
+		last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
 		}
 	}
 }

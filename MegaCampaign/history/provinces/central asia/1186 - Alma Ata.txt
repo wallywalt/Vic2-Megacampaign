@@ -1,5 +1,6 @@
 owner=X10
-controller=X10
+controller=X10 
+add_core=X10
 add_core=KZH
 add_core=ZUN
 trade_goods = grain

@@ -3,5 +3,6 @@ controller=X09
 add_core=X09
 add_core=KHA
 add_core=MGL
+add_core=X10
 trade_goods = timber
 life_rating = 32
