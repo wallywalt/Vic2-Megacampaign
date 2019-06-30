@@ -4,31 +4,31 @@
 1182 = {
 	bureaucrats = {
 		culture = tatar
-		religion = Hindu
+		religion = hindu
 		size = 20
 	}
 
 	clergymen = {
 		culture = tatar
-		religion = Hindu
+		religion = hindu
 		size = 15
 	}
 
 	artisans = {
 		culture = tatar
-		religion = Hindu
+		religion = hindu
 		size = 35
 	}
 
 	soldiers = {
 		culture = tatar
-		religion = Hindu
+		religion = hindu
 		size = 15
 	}
 
 	farmers = {
 		culture = tatar
-		religion = Hindu
+		religion = hindu
 		size = 665
 	}
 
@@ -98,25 +98,25 @@
 2610 = {
 	clergymen = {
 		culture = tatar
-		religion = Hindu
+		religion = hindu
 		size = 30
 	}
 
 	artisans = {
 		culture = tatar
-		religion = Hindu
+		religion = hindu
 		size = 45
 	}
 
 	soldiers = {
 		culture = tatar
-		religion = Hindu
+		religion = hindu
 		size = 25
 	}
 
 	farmers = {
 		culture = tatar
-		religion = Hindu
+		religion = hindu
 		size = 1150
 	}
 
@@ -220,31 +220,31 @@
 1184 = {
 	bureaucrats = {
 		culture = tatar
-		religion = Hindu
+		religion = hindu
 		size = 50
 	}
 
 	clergymen = {
 		culture = tatar
-		religion = Hindu
+		religion = hindu
 		size = 75
 	}
 
 	artisans = {
 		culture = tatar
-		religion = Hindu
+		religion = hindu
 		size = 150
 	}
 
 	soldiers = {
 		culture = tatar
-		religion = Hindu
+		religion = hindu
 		size = 25
 	}
 
 	farmers = {
 		culture = tatar
-		religion = Hindu
+		religion = hindu
 		size = 2700
 	}
 

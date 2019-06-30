@@ -648,14 +648,6 @@ alliance=
 
 alliance=
 {
-	first="DGL"
-	second="MYS"
-	start_date="1792.10.5"
-	end_date="1936.1.1"
-}
-
-alliance=
-{
 	first="PUE"
 	second="PIM"
 	start_date="1792.9.25"

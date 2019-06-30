@@ -157,25 +157,25 @@
 	}
 
 	clergymen = {
-		culture = byelotatar
+		culture = tatar
 		religion = hindu
 		size = 175
 	}
 
 	artisans = {
-		culture = byelotatar
+		culture = tatar
 		religion = hindu
 		size = 800
 	}
 
 	soldiers = {
-		culture = byelotatar
+		culture = tatar
 		religion = hindu
 		size = 200
 	}
 
 	farmers = {
-		culture = byelotatar
+		culture = tatar
 		religion = hindu
 		size = 18825
 	}

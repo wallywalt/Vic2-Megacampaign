@@ -41,9 +41,15 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 172125
+		size = 122125
 	}
 
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 50000
+	}
+	
 	slaves = {
 		culture = korean
 		religion = mahayana
