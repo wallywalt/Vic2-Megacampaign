@@ -1,5 +1,13 @@
 alliance=
 {
+	first="FRA"
+	second="X03"
+	start_date="1792.9.22"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
 	first="KNI"
 	second="ITA"
 	start_date="1792.9.22"

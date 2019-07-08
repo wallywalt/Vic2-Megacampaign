@@ -1847,7 +1847,7 @@ unite_moldavia_wallachia = {
 
 	form_japan = {
 		potential = {
-			is_culture_group = japanese
+			is_culture_group = japanese_culture_group
 			NOT = { exists = JAP }
 			NOT = { has_global_flag = japan_formed }
 			NOT = { has_country_flag = post_colonial_country }
@@ -1925,7 +1925,7 @@ unite_moldavia_wallachia = {
 						in_sphere = THIS
 						vassal_of = THIS
 					}
-					NOT = { is_culture_group = japanese }
+					NOT = { is_culture_group = japanese_culture_group }
 				}
 				any_owned = {
 					limit = { is_core = JAP }
@@ -1935,7 +1935,7 @@ unite_moldavia_wallachia = {
 			any_country = {
 				limit = {
 					war = no
-					is_culture_group = japanese
+					is_culture_group = japanese_culture_group
 					
 					OR = {
 						in_sphere = THIS
