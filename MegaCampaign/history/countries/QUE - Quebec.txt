@@ -5,7 +5,7 @@ religion = catholic
 government = hms_government
 plurality=0.000000
 nationalvalue=nv_order
-literacy=0.000000
+literacy=0.400000
 civilized=yes
 
 # Social Reforms

@@ -1,5 +1,6 @@
-owner=SCA
-controller=SCA
+owner=X10
+controller=X10
+add_core=X10
 add_core=RUS
 trade_goods = timber
 life_rating = 35

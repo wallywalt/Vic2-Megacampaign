@@ -204,6 +204,7 @@ province_event = {
 
 	}
 }
+
 country_event = {
 	id = 160011
 	title = "EVTNAME160011" #Taiping Missionaries in $STATENAME$
@@ -211,21 +212,16 @@ country_event = {
 	picture = "taiping"
 	
 	trigger = {
-		year = 1856
 		tag = MNG
-		check_variable = {
-			which = taiping_provinces
-			value = 5
-		}
 		NOT = { has_country_flag = heavenly_kingdom }
-
+		has_global_flag = treaty_of_taungoo
 		#NOT = {
 			#has_global_flag = taiping_has_happened
 		#}
 	}
 	
 	mean_time_to_happen = {
-		months = 180
+		months = 120
 	}
 	
 	option = {		
@@ -235,10 +231,12 @@ country_event = {
 			value = 0
 		}
 		set_country_flag = heavenly_kingdom
-		
+		change_variable = {
+			which = mandate_of_heaven
+			value = -5
+		}
 		random_province = {
 			limit = {
-				controlled_by = MNG
 				any_neighbor_province = { owned_by = FRA }
 			}
 			any_pop = {
@@ -246,6 +244,10 @@ country_event = {
 				militancy = 10
 			}
 			add_core = TPG
+			secede_province = TPG
+			THIS = {
+				create_vassal = TPG
+			}
 		}
 	}
 }

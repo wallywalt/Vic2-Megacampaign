@@ -4,6 +4,6 @@ add_core=MYR
 add_core=X09
 add_core=CHI
 add_core=MNG
-add_core=CXI
+
 trade_goods = coal
 life_rating = 32

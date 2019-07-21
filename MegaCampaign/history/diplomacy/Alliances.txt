@@ -408,14 +408,6 @@ alliance=
 
 alliance=
 {
-	first="ANN"
-	second="BUR"
-	start_date="1792.9.23"
-	end_date="1936.1.1"
-}
-
-alliance=
-{
 	first="ATJ"
 	second="BUR"
 	start_date="1792.9.22"

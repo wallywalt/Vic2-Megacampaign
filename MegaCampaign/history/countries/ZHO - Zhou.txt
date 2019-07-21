@@ -1,5 +1,5 @@
 capital=1601
-primary_culture = yue
+primary_culture = beifaren
 religion = mahayana
 government = absolute_monarchy
 plurality=0.000000

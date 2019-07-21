@@ -1,7 +1,7 @@
 owner=MNG
 controller=MNG
 add_core=MNG
-add_core=ZHO
-add_core=CXI
+
+
 trade_goods = cotton
 life_rating = 32

@@ -3,4 +3,5 @@ controller=FRA
 add_core=PEG
 add_core=BUR
 trade_goods = fish
-life_rating = 30
+life_rating = 35
+colonial=2

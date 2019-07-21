@@ -1,7 +1,7 @@
 owner=MNG
 controller=MNG
-add_core=CDL
-add_core=CXI
+
+
 add_core=SST
 add_core=BUR
 trade_goods = tea

@@ -736,6 +736,14 @@ french = {
       
         last_names = { "de Cornouaille" Karter Gallo Kergoulay Bellec "le Goff" Treguier Riou Morvan Peron Jezeguel Salaun "le Bihan" }
     }
+
+    norman = {
+        color = {237 12 12}
+
+        first_names = {Âbréhan AchardÂdam Aimablle Aimé Albé Albéric Albèrt Alcide Alcine Alfred Almire Andrâ Arsène Arthur Aubert Aubîn Barnabé Batistin Bazile Bênardin Benjamîn Bénoni Benouét Bèrnabé Bertin Bêtinet Bon Bouonot Bram Cénéric César Charles Charlot Chinot Cliément Cllément Cllémentin Clovis Colas Constant Dâlpheusse Dannié Dardinne Dardot Darri Darrique Dâvi Delphin Dénin Désiré Dgibèrt Dgilliaume Dol EdelmirÊdouardÉlyie Elysée ErnestÈrthu Eudes Evroult Félix Firmin Fllipin Fllocé Françot Françouais Fraunchinot Fraunçouès Frédéris Frédo Fréton Gabriel Geffrai Génotin German Gérold Gllâome Gllâomin Guérôme Guian Guilbert Guustave Guuste Guustin Guy Guytounet Hébèrt Henri Hippolyte Hubèrt Hyacynthe Isidore Jâcob Jacot Jacques Jâosé Jâoséphin Jaques Jaquinot Jean Jeannot Jeaun Jeustin Jimce Jînmîn Jônas Josué Jules Julot Laïesse Laud Léan Léonche Lexaundre Lexis Liyoun Louis Louisot Louisotin Louothains Luc Ludovi Mabire Mar Martîn Matchi Mathurin Médée Médéric Miché Michi Moïse Napoliyoun Nic Nic'lesse Nico Nicolas Noré Noué Olivyi Olympe Onésipe Ortaire Ouesslé Pâolin Pèrrotîn Ph'lippe Piérin Piérotin Pièrre Pierrot Pièrrot Piteur Pllacide Polydor Polyte Prudent Pyire Rasiphe Raven R'chard Rémin Réné Robèrt Rollon Rou Sosthène Tam Tancrède Tanme Tanmîn Tanminne Tchèrli Théodore Thimothée Thiophile Thiry Thonmas Timothée Touénot Ugène Valentîn Victorin Wandrille Zéphyr Zidore}
+      
+        last_names = { Aveline Bannister Boone Bretteville Cantwell  Chesney "de Burgh" Duquesne Farrimond FitzAlan FitzClarence FitzGerald FitzGilbert FitzPatrick FitzRichard FitzRoy FitzWilliam Roper Roy Tocqueville Travers Turner }
+    }
 	union = FRA
 	
 }

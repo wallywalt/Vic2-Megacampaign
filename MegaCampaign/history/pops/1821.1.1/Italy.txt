@@ -101,32 +101,32 @@
 	}
 
 	aristocrats = {
-		culture = french
-		religion = coptic
+		culture = occitan
+		religion = protestant
 		size = 275
 	}
 
 	clergymen = {
-		culture = french
-		religion = coptic
+		culture = occitan
+		religion = protestant
 		size = 225
 	}
 
 	artisans = {
-		culture = french
-		religion = coptic
+		culture = occitan
+		religion = protestant
 		size = 1175
 	}
 
 	soldiers = {
-		culture = french
-		religion = coptic
+		culture = occitan
+		religion = protestant
 		size = 225
 	}
 
 	farmers = {
-		culture = french
-		religion = coptic
+		culture = occitan
+		religion = protestant
 		size = 21600
 	}
 }
@@ -1998,31 +1998,31 @@
 #Palermo (744000/186000 POPS)
 762 = {
 	aristocrats = {
-		culture = south_italian
+		culture = norman
 		religion = coptic
 		size = 5200
 	}
 
 	bureaucrats = {
-		culture = south_italian
+		culture = norman
 		religion = coptic
 		size = 825
 	}
 
 	officers = {
-		culture = south_italian
+		culture = norman
 		religion = coptic
 		size = 500
 	}
 
 	clergymen = {
-		culture = south_italian
+		culture = norman
 		religion = coptic
 		size = 1900
 	}
 
 	artisans = {
-		culture = south_italian
+		culture = norman
 		religion = coptic
 		size = 10000
 	}
@@ -2034,7 +2034,7 @@
 	}
 
 	artisans = {
-		culture = south_italian
+		culture = norman
 		religion = coptic
 		size = 8000
 	}
@@ -2048,25 +2048,31 @@
 	farmers = {
 		culture = south_italian
 		religion = coptic
-		size = 147575
+		size = 107575
+	}
+
+	farmers = {
+		culture = norman
+		religion = coptic
+		size = 40000
 	}
 }
 #Messina (352000/88000 POPS)
 763 = {
 	aristocrats = {
-		culture = south_italian
+		culture = norman
 		religion = coptic
 		size = 2450
 	}
 
 	clergymen = {
-		culture = south_italian
+		culture = norman
 		religion = coptic
 		size = 900
 	}
 
 	artisans = {
-		culture = south_italian
+		culture = norman
 		religion = coptic
 		size = 8500
 	}
@@ -2080,25 +2086,31 @@
 	farmers = {
 		culture = south_italian
 		religion = coptic
-		size = 75150
+		size = 55150
+	}
+
+	farmers = {
+		culture = norman
+		religion = coptic
+		size = 20000
 	}
 }
 #Catania (720000/180000 POPS)
 764 = {
 	aristocrats = {
-		culture = south_italian
+		culture = norman
 		religion = coptic
 		size = 5000
 	}
 
 	clergymen = {
-		culture = south_italian
+		culture = norman
 		religion = coptic
 		size = 700
 	}
 
 	artisans = {
-		culture = south_italian
+		culture = norman
 		religion = coptic
 		size = 10000
 	}
@@ -2110,7 +2122,7 @@
 	}
 
 	artisans = {
-		culture = south_italian
+		culture = norman
 		religion = coptic
 		size = 1100
 	}
@@ -2124,7 +2136,12 @@
 	farmers = {
 		culture = south_italian
 		religion = coptic
-		size = 149000
+		size = 109000
+	}
+	farmers = {
+		culture = norman
+		religion = coptic
+		size = 40000
 	}
 }
 #Sardinia Region (524000)

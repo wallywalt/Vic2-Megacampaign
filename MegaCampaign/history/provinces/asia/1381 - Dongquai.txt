@@ -1,5 +1,7 @@
 owner=BAN
 controller=BAN
+add_core=ANN
+add_core=DAI
 add_core=CHA
 trade_goods = cotton
-life_rating = 30
+life_rating = 35

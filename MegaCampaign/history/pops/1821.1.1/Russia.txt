@@ -9276,62 +9276,62 @@
 1081 = {
 	aristocrats = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 125
 	}
 
 	bureaucrats = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 25
 	}
 
 	clergymen = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 100
 	}
 
 	artisans = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 550
 	}
 
 	soldiers = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 125
 	}
 
 	farmers = {
 		culture = manchu
-		religion = mahayana
-		size = 10575
+		religion = shenism
+		size = 5575
 	}
 
 	clergymen = {
-		culture = tatar
-		religion = hindu
+		culture = manchu
+		religion = shenism
 		size = 10
 	}
 
 	artisans = {
-		culture = tatar
-		religion = hindu
+		culture = manchu
+		religion = shenism
 		size = 25
 	}
 
 	soldiers = {
-		culture = tatar
-		religion = hindu
+		culture = manchu
+		religion = shenism
 		size = 5
 	}
 
 	farmers = {
-		culture = tatar
-		religion = hindu
-		size = 460
+		culture = manchu
+		religion = shenism
+		size = 5460
 	}
 
 	aristocrats = {
@@ -9359,8 +9359,8 @@
 	}
 
 	farmers = {
-		culture = siberian
-		religion = animist
+		culture = manchu
+		religion = shenism
 		size = 925
 	}
 }
@@ -9368,31 +9368,31 @@
 2697 = {
 	aristocrats = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 100
 	}
 
 	clergymen = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 100
 	}
 
 	artisans = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 500
 	}
 
 	soldiers = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 100
 	}
 
 	farmers = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 9200
 	}
 
@@ -9431,33 +9431,39 @@
 #Haishenwai (328000/82000 POPS)
 1082 = {
 	aristocrats = {
-		culture = manchu
-		religion = mahayana
+		culture = korean
+		religion = confucian
 		size = 1500
 	}
 
+	bureaucrats = {
+		culture = korean
+		religion = confucian
+		size = 1500
+	}
+	
 	clergymen = {
-		culture = manchu
-		religion = mahayana
+		culture = korean
+		religion = confucian
 		size = 775
 	}
 
 	artisans = {
-		culture = manchu
-		religion = mahayana
+		culture = korean
+		religion = confucian
 		size = 3900
 	}
 
 	soldiers = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 750
 	}
 
 	farmers = {
 		culture = manchu
-		religion = mahayana
-		size = 71075
+		religion = shenism
+		size = 41075
 	}
 
 	aristocrats = {
@@ -9487,7 +9493,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 2750
+		size = 32750
 	}
 
 	aristocrats = {
@@ -9524,32 +9530,50 @@
 1083 = {
 	aristocrats = {
 		culture = manchu
-		religion = mahayana
-		size = 1450
+		religion = shenism
+		size = 450
+	}
+
+	aristocrats = {
+		culture = korean
+		religion = confucian
+		size = 1000
 	}
 
 	clergymen = {
 		culture = manchu
-		religion = mahayana
-		size = 775
+		religion = shenism
+		size = 175
+	}
+
+	clergymen = {
+		culture = korean
+		religion = confucian
+		size = 600
 	}
 
 	artisans = {
-		culture = manchu
-		religion = mahayana
+		culture = korean
+		religion = confucian
 		size = 4000
 	}
 
 	soldiers = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 800
 	}
 
 	farmers = {
 		culture = manchu
-		religion = mahayana
-		size = 72975
+		religion = shenism
+		size = 20975
+	}
+
+	farmers = {
+		culture = korean
+		religion = confucian
+		size = 20000
 	}
 
 	aristocrats = {
@@ -9586,31 +9610,31 @@
 1084 = {
 	aristocrats = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 300
 	}
 
 	clergymen = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 150
 	}
 
 	artisans = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 800
 	}
 
 	soldiers = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 175
 	}
 
 	farmers = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 14575
 	}
 
@@ -9648,37 +9672,37 @@
 1085 = {
 	aristocrats = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 1800
 	}
 
 	bureaucrats = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 425
 	}
 
 	clergymen = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 900
 	}
 
 	artisans = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 4600
 	}
 
 	soldiers = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 900
 	}
 
 	farmers = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 82375
 	}
 
@@ -9716,31 +9740,31 @@
 2617 = {
 	aristocrats = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 1200
 	}
 
 	clergymen = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 600
 	}
 
 	artisans = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 3050
 	}
 
 	soldiers = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 625
 	}
 
 	farmers = {
 		culture = manchu
-		religion = mahayana
+		religion = shenism
 		size = 55525
 	}
 

@@ -4,7 +4,7 @@ religion = confucian
 government = absolute_monarchy
 plurality=0.000000
 nationalvalue=nv_order
-literacy=0.030000
+literacy=0.200000
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -37,6 +37,7 @@ upper_house=
 
 decision = setup_unciv
 decision = setup_kor
+decision = literacy_KOR
 
 # Starting Consciousness
 consciousness = 0

@@ -2,7 +2,7 @@ owner=KOR
 controller=KOR
 add_core=X09
 add_core=KOR
-add_core=CXI
+
 add_core=CHI
 add_core=MNG
 trade_goods = coal

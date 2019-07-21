@@ -89,6 +89,10 @@ political_decisions = {
 				name = global_baby_boom
 				duration = 3650
 			}
+			set_variable = {
+				which = mandate_of_heaven
+				value = 50
+			}
 		}
 	}
 

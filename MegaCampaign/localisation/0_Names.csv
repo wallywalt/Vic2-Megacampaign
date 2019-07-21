@@ -2362,13 +2362,13 @@ X09_anarcho_liberal;Radical Party;;;;;;;;;;;;;x
 X09_fascist;Fascist Party;;;;;;;;;;;;;x
 X10;The Ferganan Khaganate;;;;;;;;;;;;;x
 X10_ADJ;Ferganan;;;;;;;;;;;;;x
-X10_conservative;Conservative Party;;;;;;;;;;;;;x
-X10_liberal;Liberal Party;;;;;;;;;;;;;x
-X10_reactionary;National Party;;;;;;;;;;;;;x
-X10_socialist;Socialist Party;;;;;;;;;;;;;x
-X10_communist;Communist Party;;;;;;;;;;;;;x
-X10_anarcho_liberal;Radical Party;;;;;;;;;;;;;x
-X10_fascist;Fascist Party;;;;;;;;;;;;;x
+X10_conservative;The Kurultai;;;;;;;;;;;;;x
+X10_liberal;The Westerners;;;;;;;;;;;;;x
+X10_reactionary;The Easterners;;;;;;;;;;;;;x
+X10_socialist;Free Soil Party;;;;;;;;;;;;;x
+X10_communist;The Red Turbans;;;;;;;;;;;;;x
+X10_anarcho_liberal;The Tribes;;;;;;;;;;;;;x
+X10_fascist;Chakravartin;;;;;;;;;;;;;x
 X11;León;León;León;;León;;;;;;;;;x
 X11_ADJ;Leonese;léonaise;Leonesisch;;leonés;;;;;;;;;x
 X11_conservative;Conservative Party;;;;;;;;;;;;;x

@@ -234,3 +234,52 @@ substate=
 	start_date="1792.9.28"
 	end_date="1936.1.1"
 }
+
+substate=
+{
+	first="MNG"
+	second="CXI"
+	start_date="1792.9.28"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="MNG"
+	second="MIN"
+	start_date="1792.9.28"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="MNG"
+	second="YUE"
+	start_date="1792.9.28"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="MNG"
+	second="SHU"
+	start_date="1792.9.28"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="MNG"
+	second="ZHO"
+	start_date="1792.9.28"
+	end_date="1936.1.1"
+}
+
+
+substate=
+{
+	first="MNG"
+	second="ANN"
+	start_date="1792.9.28"
+	end_date="1936.1.1"
+}

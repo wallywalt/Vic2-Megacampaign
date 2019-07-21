@@ -1,5 +1,5 @@
-owner=MNG
-controller=MNG
-add_core=CXI
+owner=MIN
+controller=MIN
+add_core=MIN
 trade_goods = tea
 life_rating = 32

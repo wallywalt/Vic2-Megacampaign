@@ -1,8 +1,7 @@
-owner=X03
-controller=X03
+owner=PRU
+controller=PRU
 add_core=PLC
 add_core=AUS 
-add_core=X03
 add_core=POL
 add_core=HRE
 trade_goods = grain

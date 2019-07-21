@@ -1,8 +1,8 @@
 owner=MNG
 controller=MNG
 add_core=MNG
-add_core=YUE
-add_core=ZHO
-add_core=CXI
+
+
+
 trade_goods = tea
 life_rating = 32

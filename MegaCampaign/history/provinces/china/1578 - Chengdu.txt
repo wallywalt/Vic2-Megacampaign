@@ -1,7 +1,7 @@
-owner=MNG
-controller=MNG
-add_core=CXI
+owner=SHU
+controller=SHU
 add_core=SHU
+
 add_core=CHI
 add_core=MNG
 trade_goods = tea

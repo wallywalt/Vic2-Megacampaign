@@ -42,3 +42,9 @@ establish_protectorate_BC_casus_belli;Establish Protectorate;Établir un protecto
 establish_protectorate_BC_casus_belli_desc;Annex an §Yuncivilized country§W by forcing them to become a protectorate of ours.;Annexez un §Ypays non civilisé§W en l'obligeant ?devenir l'un de nos protectorats.;Annektieren Sie ein §Yunzivilisiertes Land§W, indem Sie es zwingen, eines Ihrer Protektorate zu werden.;;;;;;;;;;;x,
 establish_protectorate_BC_casus_belli_setup;Annex $RECIPIENT$ by establishing a protectorate over them.;Annexez $RECIPIENT$ en établissant un protectorat.;Annektieren Sie $RECIPIENT$ durch die Gründung eines Protektorats.;;;;;;;;;;;x,,,
 establish_protectorate_BC_casus_belli_short;Annex $RECIPIENT$;Annexer $RECIPIENT$;Annektieren Sie $RECIPIENT$;;;;;;;;;;;x,,,
+acquire_all_cores;Acquire all Cores;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_all_cores_desc;Acquire all our national cores from the target country;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_all_cores_short;Acquire all our national cores;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+acquire_all_cores_setup;Acquire all our national cores from $RECIPIENT$;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+NORMAL_PUNITIVE_EXPEDITION_WAR_NAME;$ORDER$$FIRST$-$SECOND$ War;;;;;;;;;;;;;;;;;;;;x,,,
+WAR_ALL_CORES_NAME;War of $FIRST$ Restoration;;;;;;;;;;;;;;;;;;;;x,,,
