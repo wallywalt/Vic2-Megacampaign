@@ -1,8 +1,8 @@
-owner=MSY
-controller=MSY
+owner=PER
+controller=PER
+add_core=PER
+add_core=MSY
 add_core=IRQ
-add_core=KOJ
-add_core=BAB
 add_core=ARA
 trade_goods = grain
 life_rating = 35

@@ -326,7 +326,9 @@ country_event = {#Selling Espange
 		
 		random_owned = { limit = { owner = { is_our_vassal = X05 } } owner = { leave_alliance = X05 release_vassal = X05 } }
 		POR = { create_vassal = X05}
-
+		458 = { remove_core = POR }
+		459 = { remove_core = POR }
+		460 = { remove_core = POR }
 
 	}
 }

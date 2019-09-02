@@ -1,4 +1,4 @@
-capital=1617
+capital=1567
 primary_culture = korean
 religion = mahayana
 government = absolute_monarchy

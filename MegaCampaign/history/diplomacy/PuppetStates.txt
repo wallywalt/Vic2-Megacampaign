@@ -220,6 +220,30 @@ substate=
 
 substate=
 {
+	first="ENG"
+	second="BRZ"
+	start_date="1792.9.28"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="ENG"
+	second="ARG"
+	start_date="1792.9.28"
+	end_date="1936.1.1"
+}
+
+substate=
+{
+	first="ENG"
+	second="COL"
+	start_date="1792.9.28"
+	end_date="1936.1.1"
+}
+
+substate=
+{
 	first="POR"
 	second="DOM"
 	start_date="1792.9.28"
@@ -280,6 +304,15 @@ substate=
 {
 	first="MNG"
 	second="ANN"
+	start_date="1792.9.28"
+	end_date="1936.1.1"
+}
+
+
+substate=
+{
+	first="MNG"
+	second="CWU"
 	start_date="1792.9.28"
 	end_date="1936.1.1"
 }

@@ -1,2 +1,5 @@
+owner=BNY
+controller=BNY
+add_core=BNY
 trade_goods = tea
 life_rating = 15

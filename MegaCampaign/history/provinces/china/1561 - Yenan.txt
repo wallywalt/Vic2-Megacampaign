@@ -1,5 +1,5 @@
-owner=X10
-controller=X10
+owner=JIN
+controller=JIN
 add_core=MNG
 add_core=CHI
 trade_goods = coal

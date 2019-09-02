@@ -1,6 +1,5 @@
-owner=BUU
-controller=BUU
-add_core=BUU
-add_core=UBH
+owner=BNY
+controller=BNY
+add_core=BNY
 trade_goods = cotton
 life_rating = 15

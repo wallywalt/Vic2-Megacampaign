@@ -2,5 +2,6 @@ owner=FRA
 controller=FRA
 add_core=BRI
 add_core=FRA
+add_core=ENG
 trade_goods = fish
 life_rating = 32

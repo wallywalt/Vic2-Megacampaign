@@ -1,6 +1,6 @@
-owner=ARD
-controller=ARD
-add_core=ARD
+owner=PER
+controller=PER
+add_core=PER
 add_core=BHT
 trade_goods = wool
 life_rating = 35

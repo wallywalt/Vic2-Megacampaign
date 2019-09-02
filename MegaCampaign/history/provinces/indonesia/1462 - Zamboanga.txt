@@ -1,6 +1,5 @@
 owner=POR
 controller=POR
-add_core=SPA
 add_core=PHI
 trade_goods = iron
 life_rating = 30

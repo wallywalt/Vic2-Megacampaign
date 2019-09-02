@@ -41,7 +41,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 83550
+		size = 8355
 	}
 
 	clergymen = {
@@ -85,7 +85,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 94600
+		size = 9460
 	}
 
 	clergymen = {
@@ -129,7 +129,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 42150
+		size = 4215
 	}
 
 	clergymen = {
@@ -153,7 +153,7 @@
 	farmers = {
 		culture = ukrainian
 		religion = hindu
-		size = 80850
+		size = 8085
 	}
 
 	clergymen = {
@@ -177,7 +177,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 18825
+		size = 1882
 	}
 
 	clergymen = {
@@ -221,7 +221,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 149525
+		size = 14952
 	}
 
 	clergymen = {
@@ -261,7 +261,7 @@
 	farmers = {
 		culture = ukrainian
 		religion = hindu
-		size = 24400
+		size = 14825
 	}
 
 	aristocrats = {
@@ -303,7 +303,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 148250
+		size = 2440
 	}
 }
 #Orel (656000/164000 POPS)
@@ -335,7 +335,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 149650
+		size = 14965
 	}
 }
 #Belgorod (748000/187000 POPS)
@@ -367,7 +367,7 @@
 	farmers = {
 		culture = ukrainian
 		religion = hindu
-		size = 146975
+		size = 14697
 	}
 
 	aristocrats = {
@@ -397,7 +397,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 26925
+		size = 2692
 	}
 }
 #Voronets (1540000/385000 POPS)
@@ -429,7 +429,7 @@
 	farmers = {
 		culture = ukrainian
 		religion = hindu
-		size = 154150
+		size = 19697
 	}
 
 	aristocrats = {
@@ -459,7 +459,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 196975
+		size = 15415
 	}
 }
 #Donbass Region (1188000) #see Ukraine.txt for balance of region
@@ -493,7 +493,7 @@
 	farmers = {
 		culture = ukrainian
 		religion = hindu
-		size = 28250
+		size = 2825
 	}
 
 	aristocrats = {
@@ -881,7 +881,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 28450
+		size = 2845
 	}
 
 	clergymen = {
@@ -1501,7 +1501,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 167650
+		size = 16765
 	}
 
 	clergymen = {
@@ -1607,7 +1607,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 100875
+		size = 10087
 	}
 }
 #Belozersk (380000/95000 POPS)
@@ -1639,7 +1639,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 87450
+		size = 8745
 	}
 }
 #Vyterga (96000/24000 POPS)
@@ -1671,7 +1671,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 17350
+		size = 1735
 	}
 
 	clergymen = {
@@ -2735,7 +2735,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 264725
+		size = 26472
 	}
 }
 #Riazan (1192000/298000 POPS)
@@ -2773,7 +2773,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 273000
+		size = 27300
 	}
 }
 #Vladimir (544000/136000 POPS)
@@ -2805,7 +2805,12 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 124250
+		size = 12425
+	}
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 32425
 	}
 }
 #Nizhni Novgorod Region (4420000)
@@ -2857,7 +2862,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 241975
+		size = 24197
 	}
 
 	clergymen = {
@@ -2919,7 +2924,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 215625
+		size = 21562
 	}
 
 	clergymen = {
@@ -2975,7 +2980,12 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 123775
+		size = 12377
+	}
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 12377
 	}
 }
 #Kostorma (312000/78000 POPS)
@@ -3077,7 +3087,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 282050
+		size = 28205
 	}
 
 	clergymen = {
@@ -4071,7 +4081,7 @@
 	farmers = {
 		culture = tatar
 		religion = hindu
-		size = 222850
+		size = 22285
 	}
 
 	clergymen = {

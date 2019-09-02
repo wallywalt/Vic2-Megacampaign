@@ -1,7 +1,6 @@
-owner=X08
-controller=X08
+owner=KOR
+controller=KOR
 add_core=YAN
-add_core=X08
 add_core=CHI
 add_core=MNG
 trade_goods = silk

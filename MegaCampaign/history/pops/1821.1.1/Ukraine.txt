@@ -1731,7 +1731,7 @@
 	farmers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 132150
+		size = 13215
 	}
 
 	clergymen = {
@@ -1823,7 +1823,7 @@
 	farmers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 342350
+		size = 34235
 	}
 
 	clergymen = {
@@ -3527,7 +3527,7 @@
 	farmers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 129025
+		size = 12902
 	}
 
 	clergymen = {
@@ -3603,7 +3603,7 @@
 	farmers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 128350
+		size = 12835
 	}
 
 	aristocrats = {

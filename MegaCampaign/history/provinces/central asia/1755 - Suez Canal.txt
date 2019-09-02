@@ -1,7 +1,6 @@
 owner=KOJ
 controller=KOJ
 add_core=EGY
-add_core=KOJ
 add_core=ARA
 trade_goods = cotton
 life_rating = 35

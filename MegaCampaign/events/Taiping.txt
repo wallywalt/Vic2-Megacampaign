@@ -1,209 +1,87 @@
-province_event = {
-	id = 160009
-	title = "EVTNAME160010" 
-	desc = "EVTDESC160010"
-
-	trigger = {
-		OR = {
-			controlled_by = X08
-			controlled_by = KOR
-			controlled_by = JIN
+country_event= {
+	id = 160030
+	title = "EVTNAME1600030" 
+	desc = "EVTDESC1600030"
+	picture = "taiping"
+	trigger={
+		tag=MNG
+		NOT = {
+			check_variable = {
+				which = mandate_of_heaven
+				value = 40
+				}
+				has_country_modifier = low_mandate
+			}
 		}
-		
-		has_province_modifier = korean_occupation
-		NOT = { year = 1826 }
-	}
 	mean_time_to_happen = {
-		months = 180
+	months = 2
 	}
 	option = {
-		name = "EVTOPT160010"
-		any_pop = {
-			limit = {
-				OR = {
-					has_pop_culture = beifaren
-					has_pop_culture = nanfaren
-				}
-			}
-			random = {
-				chance = 40
-				move_pop = 1508
-			}
+	name = "EVTOPT1600030"
+		add_country_modifier = {
+			name = low_mandate
+			duration = -1
 		}
-
+		remove_country_modifier = high_mandate
+		remove_country_modifier = medium_mandate
 	}
 }
 
-province_event = {
-	id = 160008
-	title = "EVTNAME160010" 
-	desc = "EVTDESC160010"
-
-	trigger = {
-		OR = {
-			controlled_by = X08
-			controlled_by = KOR
-			controlled_by = JIN
+country_event= { 
+	id = 160031
+	title = "EVTNAME1600031" 
+	desc = "EVTDESC1600031"
+	picture = "taiping"
+	trigger={
+		tag=MNG
+		check_variable = {
+			which = mandate_of_heaven
+			value = 60
 		}
-		has_province_modifier = korean_occupation
-		NOT = { year = 1826 }
+		NOT = { has_country_modifier = medium_mandate }
 	}
 	mean_time_to_happen = {
-		months = 180
+	months = 2
 	}
 	option = {
-		name = "EVTOPT160010"
-		any_pop = {
-			limit = {
-				OR = {
-					has_pop_culture = beifaren
-					has_pop_culture = nanfaren
-				}
-			}
-			random = {
-				chance = 40
-				move_pop = 1509
-			}
+	name = "EVTOPT1600031"
+		add_country_modifier = {
+			name = medium_mandate
+			duration = -1
 		}
-
+		remove_country_modifier = high_mandate
+		remove_country_modifier = low_mandate
 	}
 }
-province_event = {
-	id = 160007
-	title = "EVTNAME160010" 
-	desc = "EVTDESC160010"
 
-	trigger = {
-		OR = {
-			controlled_by = X08
-			controlled_by = KOR
-			controlled_by = JIN
+country_event= { 
+	id = 160032
+	title = "EVTNAME1600031" 
+	desc = "EVTDESC1600031"
+	picture = "taiping"
+	trigger={
+		tag=MNG
+		check_variable = {
+			which = mandate_of_heaven
+			value = 60
 		}
-		has_province_modifier = korean_occupation
-		NOT = { year = 1826 }
+		NOT = { has_country_modifier = low_mandate }
 	}
 	mean_time_to_happen = {
-		months = 180
+	months = 2
 	}
 	option = {
-		name = "EVTOPT160010"
-		any_pop = {
-			limit = {
-				OR = {
-					has_pop_culture = beifaren
-					has_pop_culture = nanfaren
-				}
-			}
-			random = {
-				chance = 40
-				move_pop = 1510
-			}
+	name = "EVTOPT1600031"
+		add_country_modifier = {
+			name = high_mandate
+			duration = -1
 		}
-
+		remove_country_modifier = low_mandate
+		remove_country_modifier = medium_mandate
 	}
 }
-province_event = {
-	id = 160006
-	title = "EVTNAME160010" 
-	desc = "EVTDESC160010"
 
-	trigger = {
-		OR = {
-			controlled_by = X08
-			controlled_by = KOR
-			controlled_by = JIN
-		}
-		has_province_modifier = korean_occupation
-		NOT = { year = 1826 }
-	}
-	mean_time_to_happen = {
-		months = 180
-	}
-	option = {
-		name = "EVTOPT160010"
-		any_pop = {
-			limit = {
-				OR = {
-					has_pop_culture = beifaren
-					has_pop_culture = nanfaren
-				}
-			}
-			random = {
-				chance = 40
-				move_pop = 1472
-			}
-		}
 
-	}
-}
-province_event = {
-	id = 160005
-	title = "EVTNAME160010" 
-	desc = "EVTDESC160010"
-
-	trigger = {
-		OR = {
-			controlled_by = X08
-			controlled_by = KOR
-			controlled_by = JIN
-		}
-		has_province_modifier = korean_occupation
-		NOT = { year = 1826 }
-	}
-	mean_time_to_happen = {
-		months = 180
-	}
-	option = {
-		name = "EVTOPT160010"
-		any_pop = {
-			limit = {
-				OR = {
-					has_pop_culture = beifaren
-					has_pop_culture = nanfaren
-				}
-			}
-			random = {
-				chance = 40
-				move_pop = 1476
-			}
-		}
-
-	}
-}
-province_event = {
-	id = 160010
-	title = "EVTNAME160010" 
-	desc = "EVTDESC160010"
-
-	trigger = {
-		OR = {
-			controlled_by = X08
-			controlled_by = KOR
-			controlled_by = JIN
-		}
-		has_province_modifier = korean_occupation
-		NOT = { year = 1826 }
-	}
-	mean_time_to_happen = {
-		months = 180
-	}
-	option = {
-		name = "EVTOPT160010"
-		any_pop = {
-			limit = {
-				OR = {
-					has_pop_culture = beifaren
-					has_pop_culture = nanfaren
-				}
-			}
-			random = {
-				chance = 40
-				move_pop = 1543
-			}
-		}
-
-	}
-}
 
 country_event = {
 	id = 160011
@@ -274,7 +152,19 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 300
+		months = 120
+		modifier = {
+			factor = 0.1
+			MNG = { 
+				NOT = {
+					check_variable = {
+					which = mandate_of_heaven
+					value = 40
+					}
+				}
+			}
+		}
+
 	}
 	option = {
 		name = "EVTOPT160012"
@@ -284,6 +174,7 @@ province_event = {
 			militancy = 10
 		}
 		add_core = TPG
+		secede_province = TPG
 		owner = {
 			change_variable = {
 				which = taiping_provinces
@@ -294,3 +185,488 @@ province_event = {
 
 }
 
+province_event = {
+	id = 1600120
+	title = "EVTNAME1600120" #Governor Influence Spreads
+	desc = "EVTDESC1600120"
+	
+	trigger = {
+		owner = {
+			tag = MNG
+		}
+		controlled_by = MNG
+		any_neighbor_province = { is_core = ZHO }
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.1
+			MNG = { 
+				NOT = {
+					check_variable = {
+					which = mandate_of_heaven
+					value = 40
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT1600120"
+		add_core = ZHO
+		secede_province = ZHO
+		owner = {
+			change_variable = {
+				which = mandate_of_heaven
+				value = -1
+			}
+		}
+	}
+}
+province_event = {
+	id = 1600121
+	title = "EVTNAME1600121" #Governor Influence Spreads
+	desc = "EVTDESC1600121"
+	
+	trigger = {
+		owner = {
+			tag = MNG
+		}
+		controlled_by = MNG
+		any_neighbor_province = { is_core = YUE }
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.1
+			MNG = { 
+				NOT = {
+					check_variable = {
+					which = mandate_of_heaven
+					value = 40
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT1600121"
+		add_core = YUE
+		secede_province = YUE
+		owner = {
+			change_variable = {
+				which = mandate_of_heaven
+				value = -1
+			}
+		}
+	}
+}
+province_event = {
+	id = 1600122
+	title = "EVTNAME1600122" #Governor Influence Spreads
+	desc = "EVTDESC1600122"
+	
+	trigger = {
+		owner = {
+			tag = MNG
+		}
+		controlled_by = MNG
+		any_neighbor_province = { is_core = MIN }
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.1
+			MNG = { 
+				NOT = {
+					check_variable = {
+					which = mandate_of_heaven
+					value = 40
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT1600122"
+		add_core = MIN
+		secede_province = MIN
+		owner = {
+			change_variable = {
+				which = mandate_of_heaven
+				value = -1
+			}
+		}
+	}
+}
+province_event = {
+	id = 1600123
+	title = "EVTNAME1600123" #Governor Influence Spreads
+	desc = "EVTDESC1600123"
+	
+	trigger = {
+		owner = {
+			tag = MNG
+		}
+		controlled_by = MNG
+		any_neighbor_province = { is_core = CXI }
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.1
+			MNG = { 
+				NOT = {
+					check_variable = {
+					which = mandate_of_heaven
+					value = 40
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT1600121"
+		add_core = CXI
+		secede_province = CXI
+		owner = {
+			change_variable = {
+				which = mandate_of_heaven
+				value = -1
+			}
+		}
+	}
+}
+province_event = {
+	id = 1600124
+	title = "EVTNAME1600124" #Governor Influence Spreads
+	desc = "EVTDESC1600124"
+	
+	trigger = {
+		owner = {
+			tag = MNG
+		}
+		controlled_by = MNG
+		any_neighbor_province = { is_core = SHU }
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.1
+			MNG = { 
+				NOT = {
+					check_variable = {
+					which = mandate_of_heaven
+					value = 40
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT1600121"
+		add_core = SHU
+		secede_province = SHU
+		owner = {
+			change_variable = {
+				which = mandate_of_heaven
+				value = -1
+			}
+		}
+	}
+}
+province_event = {
+	id = 1600125
+	title = "EVTNAME1600125" #Governor Influence Spreads
+	desc = "EVTDESC1600125"
+	
+	trigger = {
+		owner = {
+			tag = MNG
+		}
+		controlled_by = MNG
+		any_neighbor_province = { is_core = ANN }
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.1
+			MNG = { 
+				NOT = {
+					check_variable = {
+					which = mandate_of_heaven
+					value = 40
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT1600121"
+		secede_province = ANN
+		owner = {
+			change_variable = {
+				which = mandate_of_heaven
+				value = -1
+			}
+		}
+	}
+}
+province_event = {
+	id = 1600126
+	title = "EVTNAME1600126" #Governor Influence Spreads
+	desc = "EVTDESC1600126"
+	
+	trigger = {
+		owner = {
+			tag = MNG
+		}
+		controlled_by = MNG
+		any_neighbor_province = { is_core = CWU }
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.1
+			MNG = { 
+				NOT = {
+					check_variable = {
+					which = mandate_of_heaven
+					value = 40
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPT1600121"
+		add_core = CWU
+		secede_province = CWU
+		owner = {
+			change_variable = {
+				which = mandate_of_heaven
+				value = -1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 1600127
+	title = "EVTNAME1600127" 
+	desc = "EVTDESC1600127"
+	picture = "taiping"
+	
+	trigger = {
+		tag = ZHO
+		NOT = { has_country_modifier = duke_of_zhou }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {		
+		name = "EVTOPT1600127"
+		add_country_modifier = {
+			name = duke_of_zhou
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 1600128
+	title = "EVTNAME1600128" 
+	desc = "EVTDESC1600128"
+	picture = "taiping"
+	
+	trigger = {
+		tag = SHU
+		NOT = { has_country_modifier = count_of_shu }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {		
+		name = "EVTOPT1600128"
+		add_country_modifier = {
+			name = count_of_shu
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 1600129
+	title = "EVTNAME1600129" 
+	desc = "EVTDESC1600129"
+	picture = "taiping"
+	
+	trigger = {
+		tag = CWU
+		NOT = { has_country_modifier = prince_of_wu }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {		
+		name = "EVTOPT1600129"
+		add_country_modifier = {
+			name = prince_of_wu
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 1600130
+	title = "EVTNAME1600130" 
+	desc = "EVTDESC1600130"
+	picture = "taiping"
+	
+	trigger = {
+		tag = YUE
+		NOT = { has_country_modifier = prince_of_yue }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {		
+		name = "EVTOPT1600130"
+		add_country_modifier = {
+			name = prince_of_yue
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 1600131
+	title = "EVTNAME1600131" 
+	desc = "EVTDESC1600131"
+	picture = "taiping"
+	
+	trigger = {
+		tag = MIN
+		NOT = { has_country_modifier = marquis_of_min }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {		
+		name = "EVTOPT1600131"
+		add_country_modifier = {
+			name = marquis_of_min
+			duration = -1
+		}
+	}
+}
+country_event = {
+	id = 1600132
+	title = "EVTNAME1600132" 
+	desc = "EVTDESC1600132"
+	picture = "taiping"
+	
+	trigger = {
+		tag = CXI
+		NOT = { has_country_modifier = viscount_of_xi }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {		
+		name = "EVTOPT1600132"
+		add_country_modifier = {
+			name = viscount_of_xi
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 1600133
+	title = "EVTNAME1600133" 
+	desc = "EVTDESC1600133"
+	picture = "taiping"
+	
+	trigger = {
+		tag = MNG
+		has_country_flag = heavenly_kingdom
+		has_country_modifier = low_mandate
+		NOT = { 
+			OR = {
+				has_country_modifier = viscount_of_xi 
+				has_country_modifier = marquis_of_min 
+				has_country_modifier = prince_of_yue 
+				has_country_modifier = prince_of_wu 
+				has_country_modifier = duke_of_zhou 
+				has_country_modifier = count_of_shu 	
+			} 
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {		
+		name = "EVTOPTA1600133"
+		add_country_modifier = {
+			name = prince_of_wu
+			duration = -1
+		}
+	}
+	option = {		
+		name = "EVTOPTB1600133"
+		add_country_modifier = {
+			name = prince_of_yue
+			duration = -1
+		}
+	}	
+	option = {		
+		name = "EVTOPTC1600133"
+		add_country_modifier = {
+			name = duke_of_zhou
+			duration = -1
+		}
+	}
+	option = {		
+		name = "EVTOPTD1600133"
+		add_country_modifier = {
+			name = count_of_shu
+			duration = -1
+		}
+	}
+	option = {		
+		name = "EVTOPTE1600133"
+		add_country_modifier = {
+			name = viscount_of_xi
+			duration = -1
+		}
+	}
+	option = {		
+		name = "EVTOPTF1600133"
+		add_country_modifier = {
+			name = marquis_of_min
+			duration = -1
+		}
+	}
+}

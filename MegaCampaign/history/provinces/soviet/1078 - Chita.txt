@@ -1,7 +1,6 @@
 owner=X07
 controller=X07
 add_core=X07
-
 add_core=RUS
 trade_goods = timber
 life_rating = 35

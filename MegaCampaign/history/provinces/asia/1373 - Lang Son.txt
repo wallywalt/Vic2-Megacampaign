@@ -1,6 +1,5 @@
 owner=MNG
 controller=MNG
 add_core=DAI
-add_core=ANN
 trade_goods = grain
 life_rating = 35
