@@ -1,9 +1,11 @@
 owner=X03
 controller=X03
+add_core=X03
 add_core=SER
 add_core=AUS 
-add_core=X03
+
 add_core=YUG
 add_core=HRE
+add_core=HUN
 trade_goods = wool
 life_rating = 35

@@ -1,5 +1,5 @@
 owner=X10
-controller=X10 
+controller=X10
 add_core=X10
 add_core=PLT
 add_core=RUS

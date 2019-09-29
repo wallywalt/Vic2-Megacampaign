@@ -1,10 +1,11 @@
 capital=1624
 primary_culture = korean
-religion = mahayana
+culture = manchu
+religion = confucian
 government = absolute_monarchy
 plurality=0.000000
 nationalvalue=nv_order
-literacy=0.030000
+literacy=0.200000
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -23,6 +24,16 @@ public_meetings=yes_meeting
 press_rights=censored_press
 trade_unions=no_trade_unions
 political_parties=underground_parties
+#New Reforms
+conscription = two_year_draft
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+centralization = unitary
+colonial_policy = no_colonies
+
 ruling_party=KOR_liberal
 upper_house=
 {
@@ -37,6 +48,7 @@ upper_house=
 
 decision = setup_unciv
 decision = setup_kor
+decision = literacy_KOR
 
 # Starting Consciousness
 consciousness = 0

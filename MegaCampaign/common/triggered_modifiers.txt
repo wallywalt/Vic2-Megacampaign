@@ -1,3 +1,165 @@
+trinket_health_care_fully_funded = {
+	trigger = {
+		exists = yes
+		health_care = trinket_health_care
+		administration_spending = 0.2
+	}
+	global_population_growth = 0.001
+	icon = 19
+}
+
+low_health_care_fully_funded = {
+	trigger = {
+		exists = yes
+		health_care = low_health_care
+		OR = {
+			AND = {
+				ai = yes
+				administration_spending = 0.25
+			}
+			AND = {
+				ai = no
+				administration_spending = 0.3
+			}
+		}
+	}
+	global_population_growth = 0.002
+	icon = 19
+}
+
+acceptable_health_care_fully_funded = {
+	trigger = {
+		exists = yes
+		health_care = acceptable_health_care
+		OR = {
+			AND = {
+				ai = yes
+				administration_spending = 0.3
+			}
+			AND = {
+				ai = no
+				administration_spending = 0.4
+			}
+		}
+	}
+	global_population_growth = 0.003
+	icon = 19
+}
+
+good_health_care_fully_funded = {
+	trigger = {
+		exists = yes
+		health_care = good_health_care
+		OR = {
+			AND = {
+				ai = yes
+				administration_spending = 0.3
+			}
+			AND = {
+				ai = no
+				administration_spending = 0.5
+			}
+		}
+	}
+	global_population_growth = 0.004
+	icon = 19
+}
+
+health_care_fully_funded = {
+	trigger = {
+		exists = yes
+		health_care = good_health_care
+		OR = {
+			AND = {
+				ai = yes
+				administration_spending = 0.74
+			}
+			AND = {
+				ai = no
+				administration_spending = 0.99
+			}
+		}
+	}
+	global_population_growth = 0.001
+	icon = 19
+}
+
+low_schools_fully_funded = {
+	trigger = {
+		exists = yes
+		school_reforms = low_schools
+		education_spending = 0.3
+	}
+	education_efficiency_modifier = 0.05
+	icon = 19
+}
+
+acceptable_schools_fully_funded = {
+	trigger = {
+		exists = yes
+		school_reforms = acceptable_schools
+		education_spending = 0.4
+	}
+	education_efficiency_modifier = 0.075
+	icon = 19
+}
+
+good_schools_fully_funded = {
+	trigger = {
+		exists = yes
+		school_reforms = good_schools
+		education_spending = 0.5
+	}
+	education_efficiency_modifier = 0.1
+	icon = 19
+}
+
+education_fully_funded = {
+	trigger = {
+		exists = yes
+		school_reforms = good_schools
+		OR = {
+			AND = {
+				ai = yes
+				education_spending = 0.74
+			}
+			AND = {
+				ai = no
+				education_spending = 0.99
+			}
+		}
+	}
+	education_efficiency_modifier = 0.1
+	icon = 19
+}
+
+neglected_education = {
+	trigger = {
+		exists = yes
+		civilized = yes
+		ai = no
+		number_of_states = 2
+		total_pops = 1000000
+		OR = {
+			AND = {
+				literacy = 0.75
+				NOT = { education_spending = 0.3 }
+			}
+			AND = {
+				literacy = 0.5
+				NOT = { education_spending = 0.2 }
+			}
+			AND = {
+				literacy = 0.25
+				NOT = { education_spending = 0.1 }
+			}
+		}
+	}
+	education_efficiency_modifier = -1
+	icon = 19
+}
+
+
 own_kiel_canal = {
 	trigger = {
 		exists = yes
@@ -52,6 +214,50 @@ landlocked_nation = {
 
 	import_cost = 0.5
 	global_immigrant_attract = -1.5
+	icon = 8
+}
+
+minor_blockade = {
+	trigger = {
+		exists = yes
+		blockade = 0.2
+	}
+
+	import_cost = 0.05
+	global_immigrant_attract = -0.1
+	icon = 8
+}
+
+partial_blockade = {
+	trigger = {
+		exists = yes
+		blockade = 0.4
+	}
+
+	import_cost = 0.2
+	global_immigrant_attract = -1.5
+	icon = 8
+}
+
+major_blockade = {
+	trigger = {
+		exists = yes
+		blockade = 0.8
+	}
+
+	import_cost = 0.5
+	global_immigrant_attract = -1.5
+	icon = 8
+}
+
+full_blockade = {
+	trigger = {
+		exists = yes
+		blockade = 1.0
+	}
+
+	import_cost = 0.7
+	global_immigrant_attract = -2.0
 	icon = 8
 }
 
@@ -143,7 +349,6 @@ small_but_efficient = {
 	supply_consumption = -0.9
 }
 
-
 bread_basket = {
 	trigger = {
 		958 = { #Kyiv
@@ -185,6 +390,15 @@ beijing_imperial_palace = {
 	prestige = 0.02
 }
 
+nanjing_imperial_palace = {
+	trigger = {
+		exists = yes
+		owns = 2221
+	}
+	icon = 9
+	prestige = 0.02
+}
+
 kyoto_imperial_palace = {
 	trigger = {
 		exists = yes
@@ -193,3 +407,150 @@ kyoto_imperial_palace = {
 	icon = 9
 	prestige = 0.01
 }
+
+vassal_nation = {
+	trigger = {
+		exists = yes
+		is_vassal = yes
+		is_substate = no
+	}
+	icon = 10
+	prestige = -0.1
+}
+
+substate_nation = {
+	trigger = {
+		exists = yes
+		is_substate = yes
+		civilized = yes
+		ai = yes
+	}
+	
+	prestige = -0.25
+	max_loan_modifier = -1.0
+	min_tax = 0.25
+	max_military_spending = -0.25
+	min_tariff = 1.2
+	tax_efficiency = 0.3
+	
+	icon = 10
+}
+
+substate_nation_player = {
+	trigger = {
+		exists = yes
+		is_substate = yes
+		civilized = yes
+		ai = no
+	}
+	
+	prestige = -0.25
+	max_loan_modifier = -1.0
+	max_military_spending = -0.25
+	tax_efficiency = 0.3
+	
+	icon = 10
+}
+
+
+chinese_substate = {
+	trigger = {
+		OR = {
+			substate_of = MNG
+			vassal_of = MNG
+			substate_of = ZHO
+			vassal_of = ZHO
+			substate_of = SHU
+			vassal_of = SHU
+			substate_of = CWU
+			vassal_of = CWU
+			substate_of = YUE
+			vassal_of = YUE
+			substate_of = MIN
+			vassal_of = MIN
+			substate_of = CXI
+			vassal_of = CXI
+		}
+		civilized = no
+		exists = yes
+		is_culture_group = east_asian
+	}
+	icon = 10
+	supply_consumption = -0.75
+	land_organisation = 0.1
+	land_unit_start_experience = 5
+	org_regain = 0.2
+	war_exhaustion = -0.5
+	mobilisation_size = 0.40
+}
+
+social_reformed_nation = {
+		trigger = {
+			exists = yes
+			wage_reform = good_minimum_wage
+			work_hours = eight_hours
+			safety_regulations = good_safety
+			unemployment_subsidies = good_subsidies
+			pensions = good_pensions
+			health_care = good_health_care
+			school_reforms = good_schools
+			penal_system = rehabilitation
+		}
+		
+	social_reform_desire = -0.3
+	icon = 13
+}
+
+educational_spen = {
+		trigger = {
+			ai = yes
+			exists = yes
+			administration_spending = 0.74
+		}
+
+	education_efficiency_modifier = 0.3
+	icon = 16
+}
+
+
+admin_spen = {
+		trigger = {
+			ai = yes
+			exists = yes
+			administration_spending = 0.74
+		}
+
+	administrative_efficiency_modifier = 0.3
+	icon = 16
+}
+
+
+new_world_war = {
+	trigger = {
+		war = yes
+		exists = yes
+		OR = {
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = south_america }
+			capital_scope = { continent = oceania }
+		}
+	}
+
+	global_immigrant_attract = -1.3
+	icon = 16
+}
+
+#jingoists = {
+#	trigger = {
+#		exists = yes
+#		civilized = no
+#		OR = {
+#			war_policy = jingoism
+#			war_policy = pro_military
+#		}
+#	}
+#    add_military_reform = {
+#        base = 0.5
+#    }
+#	icon = 16
+#s}

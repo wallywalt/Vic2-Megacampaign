@@ -2,9 +2,9 @@ owner=MNG
 controller=MNG
 add_core=MNG
 add_core=CMI
-add_core=ZHO
-add_core=CXI
-add_core=CHC
+
+
+
 add_core=CHI
 trade_goods = timber
 life_rating = 32

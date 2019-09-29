@@ -736,6 +736,14 @@ french = {
       
         last_names = { "de Cornouaille" Karter Gallo Kergoulay Bellec "le Goff" Treguier Riou Morvan Peron Jezeguel Salaun "le Bihan" }
     }
+
+    norman = {
+        color = {237 12 12}
+
+        first_names = {Âbréhan AchardÂdam Aimablle Aimé Albé Albéric Albèrt Alcide Alcine Alfred Almire Andrâ Arsène Arthur Aubert Aubîn Barnabé Batistin Bazile Bênardin Benjamîn Bénoni Benouét Bèrnabé Bertin Bêtinet Bon Bouonot Bram Cénéric César Charles Charlot Chinot Cliément Cllément Cllémentin Clovis Colas Constant Dâlpheusse Dannié Dardinne Dardot Darri Darrique Dâvi Delphin Dénin Désiré Dgibèrt Dgilliaume Dol EdelmirÊdouardÉlyie Elysée ErnestÈrthu Eudes Evroult Félix Firmin Fllipin Fllocé Françot Françouais Fraunchinot Fraunçouès Frédéris Frédo Fréton Gabriel Geffrai Génotin German Gérold Gllâome Gllâomin Guérôme Guian Guilbert Guustave Guuste Guustin Guy Guytounet Hébèrt Henri Hippolyte Hubèrt Hyacynthe Isidore Jâcob Jacot Jacques Jâosé Jâoséphin Jaques Jaquinot Jean Jeannot Jeaun Jeustin Jimce Jînmîn Jônas Josué Jules Julot Laïesse Laud Léan Léonche Lexaundre Lexis Liyoun Louis Louisot Louisotin Louothains Luc Ludovi Mabire Mar Martîn Matchi Mathurin Médée Médéric Miché Michi Moïse Napoliyoun Nic Nic'lesse Nico Nicolas Noré Noué Olivyi Olympe Onésipe Ortaire Ouesslé Pâolin Pèrrotîn Ph'lippe Piérin Piérotin Pièrre Pierrot Pièrrot Piteur Pllacide Polydor Polyte Prudent Pyire Rasiphe Raven R'chard Rémin Réné Robèrt Rollon Rou Sosthène Tam Tancrède Tanme Tanmîn Tanminne Tchèrli Théodore Thimothée Thiophile Thiry Thonmas Timothée Touénot Ugène Valentîn Victorin Wandrille Zéphyr Zidore}
+      
+        last_names = { Aveline Bannister Boone Bretteville Cantwell  Chesney "de Burgh" Duquesne Farrimond FitzAlan FitzClarence FitzGerald FitzGilbert FitzPatrick FitzRichard FitzRoy FitzWilliam Roper Roy Tocqueville Travers Turner }
+    }
 	union = FRA
 	
 }
@@ -2628,6 +2636,7 @@ east_asian = {
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
+		radicalism = 10
 	}
 	korean = {
 		color = {0 10 175}
@@ -2717,7 +2726,7 @@ east_asian = {
 	}
 	
 }
-japanese = {
+japanese_culture_group = {
 	leader = asian
 	unit = ChineseGC
 	nihonjin = {
@@ -3100,6 +3109,14 @@ native_south_american = {
 			Kantuta Nina Ana Maiara}
 
 		last_names = {Atlatl}
+	}
+	tupinamba = {
+		color = {43 212 67}
+		first_names = { Álvaro André Carlos Diogo Emilio Eusébio Fábio Fernando Filipe Francisco
+		Gabriel Gaspar Gonçalo Gustavo Henrique João José Luís Manuel Inácio
+		Jordão Lúcio Mateus Nicolau Paulo Pedro Roque Sergio Tomás Vítor }
+
+		last_names = { Caetés Potiguara Tabajara Tamoios Temiminó Tupinambá Tupiniquim 	}
 	}
 }
 native_north_american = {
@@ -3519,6 +3536,34 @@ native_north_american = {
 		last_names = { Piche Ross Alvarez Smith Crane Mayes Thompson Delgado Dagardo Lafayet
 		}
 	}
+	cree = {
+		color = {127 244 100}
+		first_names = { Louis Maskipitonew Alexis Samson Joe James Baptiste Felix Jacob
+		}
+		last_names = { Piche Kiskiyew Crane Saddleback Buffalo Rain
+		}
+	}
+	dakota = {
+		color = {117 84 13}
+		first_names = { Sinté Thaóyate Thathanka Thasunke Mahpiya Istahba Hehaka Thahca Ohiyes Wanbdi Tamaha Inkpaduta
+		}
+		last_names = { Gleská Duta Iyotake Witko Luta Kohkophapi Sapa Huste Thankja
+		}
+	}
+	pueblo = {
+		color = {222 238 156}
+		first_names = { Cochise Mangas Loco Taza Nana chihuahua Geronimo Alchesay Naiche Victorio
+		}
+		last_names = { Arivaipa Cibecue Coyotero Jicarilla Llanero Mescalero Nateges Tonto
+		}
+	}
+	inuit = {
+		color = {210 243 242}
+		first_names = { Peter Ipeelee Jose Steve David Jack Goo Germaine James Pitseolak Kenojuak Ernie Caubvick
+		}
+		last_names = { Alakannuark Arreak Ashoona Enuaraq Evaloarjuk Ipeelee Irgittuq Keenainak Kunuk Kusugak Maksagak Nutarak Paniloo Piugattuk Pudluk Tiktaalaaq Ungallaq
+		}
+	}
 }
 native_carribean = {
 	leader = nativeamerican
@@ -3581,6 +3626,41 @@ american_cultures = {
 		Nelson Randal Robertson Ross Rosser Scurry Steele Terrell Waterhouse Waul Wharton Whitfield Wigfall Young Bowie Travis Houston
 		}
 		radicalism = 10
+	}
+
+	platinean = {
+		color = {199 232 151}
+
+		first_names = { Augustus Antony Atanasio Bernard Cándido Karl Cecil
+		Cyril Claude Dominic Emil Eugene Faust Felix
+		Francis Gabriel Gaston Joseph "John Joseph"
+		"John Manuel" "John Raymond" Julius Justin Lawrence Louis Manuel Maximilian Michael
+		Nicolas Patrick Peter Raymond Robert 
+		}
+
+		last_names = { Aguirre Avellaneda Báez Balcarce Bareiro Berro Brown Caballero Cruz "de Alvear"
+		"de la Plaza" "de Rosas" "de Urquiza" Derqui Díaz Ellauri Escobar Flores González Jovellanos
+		Juárez Justo Latorre López Machaín Maza Meza Mitre Paz Pedernera
+		Pellegrini Pereira Quintana Rivarola Rivera Roca "Rodríguez de Francia" Rojas Rondeau Sáenz
+		Santos Sarmineto Solano Tajes Uriburu Viamonte Vidal Williman Wisner Yrigoyen
+		}
+	}
+	brazilian = {
+		color = {0 112 66}
+
+		first_names = { Alphonse Antony Arthur Augustus Aurel Benjamin Karl Celso Custódio
+		Delfim Deodoro Eduardo Emil Epitácio Ernest Fábio Ferdinand Philip Floriano
+		"Francisco de Paula" "Francisco Xavier" Federico Gaspar Gastão Getúlio Henrique Hermes Humberto Isaías
+		João Joaquim Josephn Julius Juscelino Louis Manuel "Mark Antony" Marius Michael
+		Nereu Nilo Paul Peter Prudence Silviano Tancredo Urban Venceslau Vital
+		}
+
+		last_names = { Barreto Bernardes Bittencourt Brandão Bras "Cabral da Silva" Caldwell Constant Costa "da Camara"
+		"da Costa" "da Fonseca" "de Aguiar" "de Barros" "de Beaurepaire-Rohan" "de Bragança" "de Carvalho" "de Itapevi" "de Lima e Silva" "de Melo"
+		"de Noronha" "de Oliveira" "de Orleans" "de Souza Neto" "de Suruf" Dutra Fragoso Frontin Galvão Jordão
+		Labatut Lopes Maciel Mallet Marques "Marques de Sousa" Maurity Moreira Osório Peixoto
+		Pena Pessoa Pinto Rondon "Saldanha da Gama" Santos Soares Tavares Vargas Wandenkolk
+		}
 	}
 	union = USA
 }
@@ -3657,6 +3737,58 @@ neo_european_cultures = {
 		}
 		radicalism = 10
 	}
+	neo_zelandais = { 
+		color = {209 232 255}
+		first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
+		
+		last_names = { Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
+	}
+	
+	louisianan = {
+		color = { 35  27  120 }
+		first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
+		
+		last_names = { Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
+	}
+	cajun = { 
+		color = {3 128 184}
+		first_names = { Onufre Amédée Arna Barthalame Bienvenu Boudreaux Comeaux Dar Gaudet Lézin Louis Onézime Rivet Theotis Thibodeaux Azaire Beausoleil Daqué Iry Léontel Pognon Soulougue Albin Bruno Thibaut Aristide Odeo Papite Theophile Placide
+		}
+		last_names = { Guidry Thibodeaux Boudreaux Deterville "de St.-Lézin" Mandrin Laviolette Doralise Lafayette Comeaux Lazare Thibaut Guilliot Dugas Breaux Borque Bergeron Babineaux Arceneaux Cyr Daigle Delcombre Dupre Girouard Herbert Olivier Prudhomme Richard Landry Delahoussaye Courville
+		}
+	}
+
+	french_australian = {
+		color = {94 177 229}
+		first_names = { Achille Adolphe Adrien Aimable Alphonse Amédée Antoine Armand August Augustin
+		Charles Daniel Denis Édouard Elie Éttiene Eugène Félicien Félix Fernand
+		François Frédéric Georges Guillaume Gustave Henri Hubert Hugo Jacques Jean
+		Joseph Jules Julien Lazare Léopold Leroy Louis Lucien Matthieu Michel
+		Napoléon Nicolas Patrice Paul Philippe Pierre Robert Thibaut Thierry Thomas }
+		
+		last_names = { Anthoine "Baraguey d'Hilliers" Bazaine Billot Bonaparte Bosquet "Boué de Lapeyrère" Bouët-Willaumez Boulanger Bourbaki
+		Bugeaud Caillard Canrobert Courbet Cousin-Mountauban Davout "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle" 
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" d'Orleans Dubail Dubois Duchêne Dupetit-Thouars Exelmans
+		Foch Forey "Franchet d'Espèrey" Gallieni Gouraud Guillaumat Hamelin Harispe Hoche Humbert
+		Jaurès Joffre Lebouef Lyautey Murat "Ney d'Elchingen" Nivelle Péllissier Petain Vaillant }
+	}
+	
 }
 
 latin_american_cultures = {
@@ -3749,40 +3881,7 @@ latin_american_cultures = {
 		Pezet Rebolledo Ruíz-Tagle Salaverry "Santa María" Siles Sotomayor Toro Valencia Zañartu Zapata
 		}
 	}
-	platinean = {
-		color = {199 232 151}
-
-		first_names = { Agustín Antonio Atanasio Baltasar Bartolomé Bernardino Bernardo Cándido Carlos Cecilio
-		Cirilo Claudio Domingo Emiliano Esteban Eugenio Evaristo Facundo Faustino Feliciano
-		Félix Francisco Fructuoso Gabriel Gaspar Guillermo Hipólito Ignacio José "Juan José"
-		"Juan Manuel" "Juan Ramón" Julio Justo Lorenzo Luis Manuel Marcial Máximo Miguel
-		Nicolás Patricio Pedro Ramón Roberto Roque Salvador Santiago Torcuato Venancio
-		}
-
-		last_names = { Aguirre Avellaneda Báez Balcarce Bareiro Berro Brown Caballero Cruz "de Alvear"
-		"de la Plaza" "de Rosas" "de Urquiza" Derqui Díaz Ellauri Escobar Flores González Jovellanos
-		Juárez Justo Latorre López Machaín Maza Meza Mitre Paz Pedernera
-		Pellegrini Pereira Quintana Rivarola Rivera Roca "Rodríguez de Francia" Rojas Rondeau Sáenz
-		Santos Sarmineto Solano Tajes Uriburu Viamonte Vidal Williman Wisner Yrigoyen
-		}
-	}
-	brazilian = {
-		color = {0 112 66}
-
-		first_names = { Afonso Antônio Artur Augusto Aurélio Benjamin Cândido Carlos Celso Custódio
-		Delfim Deodoro Eduardo Emílio Epitácio Ernesto Fábio Fernando Filipe Floriano
-		"Francisco de Paula" "Francisco Xavier" Federico Gaspar Gastão Getúlio Henrique Hermes Humberto Isaías
-		João Joaquim José Júlio Juscelino Luís Manuel "Marco Antônio" Mário Miguel
-		Nereu Nilo Paulo Pedro Prudente Silviano Tancredo Urbano Venceslau Vital
-		}
-
-		last_names = { Barreto Bernardes Bittencourt Brandão Bras "Cabral da Silva" Caldwell Constant Costa "da Camara"
-		"da Costa" "da Fonseca" "de Aguiar" "de Barros" "de Beaurepaire-Rohan" "de Bragança" "de Carvalho" "de Itapevi" "de Lima e Silva" "de Melo"
-		"de Noronha" "de Oliveira" "de Orleans" "de Souza Neto" "de Suruf" Dutra Fragoso Frontin Galvão Jordão
-		Labatut Lopes Maciel Mallet Marques "Marques de Sousa" Maurity Moreira Osório Peixoto
-		Pena Pessoa Pinto Rondon "Saldanha da Gama" Santos Soares Tavares Vargas Wandenkolk
-		}
-	}
+	
 	americano = {
 		color = {98 156 169}
 
@@ -4484,55 +4583,5 @@ southern_african = {
 
 		last_names = { kaMpande kaMahole KaMdlela waMswati Buthelezei Khoza kaSihayo kaMvundlana kaZikhala kaMaphitha
 		}
-	}
-}
-
-non_human = {
-	leader = polar_bear
-	unit = SwedishGC
-	polar_bears = {
-		radicalism = 100
-		primary = JAN
-		color = { 200 200 200}
-
-		first_names = { Nanuk Ursus Isbjorn Grrrowr Bjorn Grrgrrr Rawr Bamse }
-		
-		last_names = { Beliy Medved Bjorn Rawrrorr Rrrrr Grrr Gyp Qoi Styrbjorn Blomstfjellet }
-	}
-	horse = {
-		color = { 255 111 94}
-		radicalism = 100
-		primary = TRL
-
-		first_names = { Spot Star Spirit Blaze Lucky Chief Rain Stormy Duke Traveler "Clever Hans" Dreamer Midnight Twilight Arion Carlos Triumph }
-
-		last_names = { Glitterhoof Sparklemane Moontail Opaleye Silvercoat Goldmuzzle }
-	}
-	cat = {
-		color = { 25 75 25}
-		radicalism = 100
-		primary = MIA/Khawitmau
-
-		first_names = { Mittens Fluffy Tom Smudge Shadow }
-
-		last_names = { Miyau Nyan Meow Miao Goro Purr Puss Cat Chat }
-	}
-	undead = {
-		color = { 30 30 30 }
-		radicalism = 100
-		primary = UND
-
-		first_names = { General Doctor Leader Beknown Bespectacled Buried Befeared "Human-eater" }
-
-		last_names = { Banshee Ghost Poltergeist Draugr Ghoul Jiangshi Lich Mummy Revenant Spirit Skeleton Vampire Wight Zombie "the Undead" }
-	}
-	alien = {
-		color = { 0 150 0 }
-		radicalism = 100
-		primary = ALI
-
-		first_names = { Xirgliss Cathiox Zir Zarax Rekaxir Cax Zidlaxi Cabroxi Xidlor Zeraxim Moz Zoz Xaz Zax Zacadliss Cothaxir Xoblagiss Rezicax Morezac Midloxec }
-
-		last_names = { Flatwood Grey Gray Green Reptilian Martian Venusian Stargazer "Ford Prefect" "the AI" Blorg Demogorgon }
 	}
 }

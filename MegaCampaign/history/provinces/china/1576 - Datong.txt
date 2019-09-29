@@ -1,6 +1,6 @@
-owner=X08
-controller=X08
-add_core=X08
+owner=JIN
+controller=JIN
+add_core=JIN
 add_core=CHI
 add_core=MNG
 trade_goods = timber

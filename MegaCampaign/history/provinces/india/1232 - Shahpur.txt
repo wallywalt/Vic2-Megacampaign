@@ -1,7 +1,6 @@
-owner=AFG
-controller=AFG
+owner=PAN
+controller=PAN
 add_core=PAN
-add_core=PER
 add_core=AFG
 add_core=HND
 trade_goods = tea

@@ -1,7 +1,8 @@
 owner=LXA
 controller=LXA
+add_core=LXA
 add_core=LNA
 add_core=BUR
 add_core=SIA
 trade_goods = opium
-life_rating = 30
+life_rating = 35

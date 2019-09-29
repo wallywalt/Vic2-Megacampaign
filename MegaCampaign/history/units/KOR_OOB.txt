@@ -881,7 +881,7 @@ X10 = {
 
 #Armies
 army = {
-	name="1st Army"
+	name="Northern Army"
 	location=1631
 	regiment = {
 		name="1st Chongjin Infantry"
@@ -894,9 +894,44 @@ army = {
 		home=1631
 	}
 	regiment = {
+		name="1st Pyongyang Infantry"
+		type=infantry
+		home=1619
+	}
+	regiment = {
+		name="1st JilinInfantry"
+		type=infantry
+		home=1555
+	}
+	regiment = {
+		name="1st Hanseong Infantry"
+		type=infantry
+		home=1624
+	}
+	regiment = {
+		name="1st Inchon Infantry"
+		type=infantry
+		home=1628
+	}
+	regiment = {
+		name="1st Chonchon Artillery"
+		type=artillery
+		home=1620
+	}
+	regiment = {
+		name="1st Hanseong Artillery"
+		type=artillery
+		home=1624
+	}
+	regiment = {
 		name="1st Sariwon Artillery"
 		type=artillery
 		home=1627
+	}
+	regiment = {
+		name="1st Wonsan Artillery"
+		type=artillery
+		home=1629
 	}
 }
 

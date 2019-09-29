@@ -17,13 +17,25 @@ pensions = no_pensions
 school_reforms = no_schools
 # Political Reforms
 slavery=yes_slavery
-vote_franschise=none_voting
-upper_house_composition=appointed
+vote_franschise=wealth_voting
+upper_house_composition=state_equal_weight
 voting_system=jefferson_method
 public_meetings=yes_meeting
-press_rights=censored_press
-trade_unions=no_trade_unions
-political_parties=underground_parties
+press_rights=free_press
+trade_unions=non_socialist
+political_parties=non_secret_ballots
+
+
+#New Reforms
+conscription = two_year_draft
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+centralization = unitary
+colonial_policy = no_colonies
+
 ruling_party=CLM_anarcho_liberal
 upper_house=
 {

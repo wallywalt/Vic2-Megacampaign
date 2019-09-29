@@ -1,7 +1,7 @@
-owner=MSY
-controller=MSY
+owner=PER
+controller=PER
 add_core=ARD
-add_core=TUR
+add_core=PER
 add_core=BHT
 trade_goods = grain
 life_rating = 35

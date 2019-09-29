@@ -1,8 +1,10 @@
 owner=X03
 controller=X03
-add_core=AUS 
 add_core=X03
+add_core=AUS 
+
 add_core=ROM
+add_core=HUN
 add_core=HRE
 trade_goods = fruit
 life_rating = 35

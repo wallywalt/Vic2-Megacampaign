@@ -3232,7 +3232,7 @@ demand_concession_casus_belli = {
 					OR = {
 						capital_scope = { continent = south_america } 
 						capital_scope = { continent = north_america }
-						#capital_scope = { continent = australia_new_zealand }
+						#capital_scope = { continent = oceania }
 					}
 				}
 			}
@@ -3390,7 +3390,7 @@ demand_concession_NI_casus_belli = {
 					OR = {
 						capital_scope = { continent = south_america } 
 						capital_scope = { continent = north_america }
-						#capital_scope = { continent = australia_new_zealand }
+						#capital_scope = { continent = oceania }
 					}
 				}
 			}
@@ -3540,7 +3540,7 @@ demand_concession_BC_casus_belli = {
 					OR = {
 						capital_scope = { continent = south_america } 
 						capital_scope = { continent = north_america }
-						#capital_scope = { continent = australia_new_zealand }
+						#capital_scope = { continent = oceania }
 					}
 				}
 			}
@@ -3707,7 +3707,7 @@ establish_protectorate_casus_belli = {
 					OR = {
 						capital_scope = { continent = south_america } 
 						capital_scope = { continent = north_america }
-						#capital_scope = { continent = australia_new_zealand }
+						#capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -3866,7 +3866,7 @@ establish_protectorate_NI_casus_belli = {
 					OR = {
 						capital_scope = { continent = south_america } 
 						capital_scope = { continent = north_america }
-						#capital_scope = { continent = australia_new_zealand }
+						#capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -3991,7 +3991,7 @@ establish_protectorate_BC_casus_belli = {
 					OR = {
 						capital_scope = { continent = south_america } 
 						capital_scope = { continent = north_america }
-						#capital_scope = { continent = australia_new_zealand }
+						#capital_scope = { continent = oceania }
 						}
 					}
 				}

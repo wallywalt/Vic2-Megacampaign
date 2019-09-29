@@ -1,5 +1,5 @@
-owner=KRW
-controller=KRW
-add_core=KRW
+owner=BNY
+controller=BNY
+add_core=BNY
 trade_goods = cotton
 life_rating = 15

@@ -1,5 +1,5 @@
-owner=PRU
-controller=PRU
+owner=POL
+controller=POL
 add_core=PLC
 add_core=POL
 trade_goods = grain

@@ -319,21 +319,54 @@ political_decisions = {
 	}
 	border_conflict_NEN_DOM = {
 		potential = {
+			war = no
 			tag = NEN
 			DOM = { exists = yes }
 		allow = {
 			DOM = {
 				neighbour = NEN
-				NOT = { truce_with = THIS }
-				any_owned_province = {
-					region = USA_243
-				}
+				NOT = { truce_with = ENG }
+				#any_owned = {
+				#	limit = {
+				#		OR = {
+				#			region = USA_243
+				#			region = USA_2556
+				#			region = USA_211
+				#			region = USA_232
+				#		}
+				#	}
+				#}
 			}	
-			NOT = { has_global_flag = border_conflict_NEN_DOM }
 			is_secondary_power = yes
 		}
 		effect = {
-			set_global_flag = border_conflict_NEN_DOM
+			clr_country_flag = settled_border_dispute
+			war = {
+			target = DOM
+			attacker_goal = { 
+				casus_belli = humiliate
+			}
+			defender_goal = { 
+				casus_belli = status_quo 
+			}
+			call_ally = yes
+		}
+		}
+	}
+	border_conflict_GEO_DOM = {
+		potential = {
+			tag = GEO
+			DOM = { exists = yes }
+		allow = {
+			war = no
+			DOM = {
+				neighbour = GEO
+				NOT = { truce_with = ENG }
+			}	
+			is_secondary_power = yes
+		}
+		effect = {
+			clr_country_flag = settled_border_dispute
 			war = {
 			target = DOM
 			attacker_goal = { 
@@ -353,18 +386,47 @@ political_decisions = {
 		allow = {
 			NEN = {
 				neighbour = DOM
-				NOT = { truce_with = THIS }
-				any_owned_province = {
-					region = USA_243
-				}
+				NOT = { truce_with = POR }
+				#any_owned = {
+				#	OR = {
+				#		region = USA_243
+				#		region = USA_2556
+				#		region = USA_211
+				#		region = USA_232
+				#	}
+				#}
 			}	
-			NOT = { has_global_flag = border_conflict_NEN_DOM }
 			is_secondary_power = yes
 		}
 		effect = {
-			set_global_flag = border_conflict_NEN_DOM
+			clr_country_flag = settled_border_dispute
 			war = {
 			target = NEN
+			attacker_goal = { 
+				casus_belli = humiliate
+			}
+			defender_goal = { 
+				casus_belli = status_quo 
+			}
+			call_ally = yes
+		}
+		}
+	}
+	border_conflict_DOM_GEO = {
+		potential = {
+			tag = DOM
+			GEO = { exists = yes }
+		allow = {
+			GEO = {
+				neighbour = DOM
+				NOT = { truce_with = POR }
+			}	
+			is_secondary_power = yes
+		}
+		effect = {
+			clr_country_flag = settled_border_dispute
+			war = {
+			target = GEO
 			attacker_goal = { 
 				casus_belli = humiliate
 			}
@@ -381,10 +443,10 @@ political_decisions = {
 		DOM = { exists = yes }
 	}
 	allow = {
-		has_global_flag = border_conflict_NEN_DOM
 		NOT = { 
 			war_with = DOM
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		DOM = {
 			NOT = { war_with = NEN }
@@ -396,6 +458,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = DOM
@@ -416,6 +479,7 @@ political_decisions = {
 		NOT = { 
 			war_with = NEN
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		NEN = {
 			NOT = { war_with = DOM }
@@ -427,6 +491,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = NEN
@@ -442,10 +507,10 @@ political_decisions = {
 		DOM = { exists = yes }
 	}
 	allow = {
-		has_global_flag = border_conflict_NEN_DOM
 		NOT = { 
 			war_with = DOM
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		DOM = {
 			NOT = { war_with = NEN }
@@ -457,6 +522,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = DOM
@@ -473,10 +539,10 @@ political_decisions = {
 		NEN = { exists = yes }
 	}
 	allow = {
-		has_global_flag = border_conflict_NEN_DOM
 		NOT = { 
 			war_with = NEN
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		NEN = {
 			NOT = { war_with = DOM }
@@ -488,6 +554,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = NEN
@@ -503,10 +570,10 @@ political_decisions = {
 		DOM = { exists = yes }
 	}
 	allow = {
-		has_global_flag = border_conflict_NEN_DOM
 		NOT = { 
 			war_with = DOM
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		DOM = {
 			NOT = { war_with = NEN }
@@ -518,6 +585,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = DOM
@@ -534,10 +602,10 @@ political_decisions = {
 		NEN = { exists = yes }
 	}
 	allow = {
-		has_global_flag = border_conflict_NEN_DOM
 		NOT = { 
 			war_with = NEN
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		NEN = {
 			NOT = { war_with = DOM }
@@ -549,6 +617,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = NEN
@@ -564,10 +633,10 @@ political_decisions = {
 		DOM = { exists = yes }
 	}
 	allow = {
-		has_global_flag = border_conflict_NEN_DOM
 		NOT = { 
 			war_with = DOM
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		DOM = {
 			NOT = { war_with = NEN }
@@ -579,6 +648,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = DOM
@@ -595,10 +665,10 @@ political_decisions = {
 		NEN = { exists = yes }
 	}
 	allow = {
-		has_global_flag = border_conflict_NEN_DOM
 		NOT = { 
 			war_with = NEN
 			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
 		}
 		NEN = {
 			NOT = { war_with = DOM }
@@ -610,6 +680,7 @@ political_decisions = {
 		}
 	}
 	effect = {
+		set_country_flag = settled_border_dispute 
 		random_country = {
 			limit = {
 				tag = NEN
@@ -619,4 +690,129 @@ political_decisions = {
 			}
 		}
 	}
+	seize_georgia_DOM_GEO = {
+	potential = {
+		tag = DOM
+		GEO = { exists = yes }
+	}
+	allow = {
+		NOT = { 
+			war_with = GEO
+			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
+		}
+		GEO = {
+			NOT = { war_with = DOM }
+			has_recently_lost_war = yes
+			truce_with = THIS
+			any_owned_province = {
+				region = USA_201
+			}
+		}
+	}
+	effect = {
+		set_country_flag = settled_border_dispute 
+		random_country = {
+			limit = {
+				tag = GEO
+				exists = yes
+				}
+			any_owned = { limit = { region = USA_201 } secede_province = THIS }
+			}
+		}
+	}
+	seize_georgia_GEO_DOM = {
+	potential = {
+		tag = GEO
+		DOM = { exists = yes }
+	}
+	allow = {
+		NOT = { 
+			war_with = DOM
+			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
+		}
+		DOM = {
+			NOT = { war_with = GEO }
+			has_recently_lost_war = yes
+			truce_with = THIS
+			any_owned_province = {
+				region = USA_201
+			}
+		}
+	}
+	effect = {
+		set_country_flag = settled_border_dispute 
+		random_country = {
+			limit = {
+				tag = DOM
+				exists = yes
+				}
+			any_owned = { limit = { region = USA_201 } secede_province = THIS }
+			}
+		}
+	}
+	seize_kentucky_DOM_GEO = {
+	potential = {
+		tag = DOM
+		GEO = { exists = yes }
+	}
+	allow = {
+		NOT = { 
+			war_with = GEO
+			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
+		}
+		GEO = {
+			NOT = { war_with = DOM }
+			has_recently_lost_war = yes
+			truce_with = THIS
+			any_owned_province = {
+				region = USA_188
+			}
+		}
+	}
+	effect = {
+		set_country_flag = settled_border_dispute 
+		random_country = {
+			limit = {
+				tag = GEO
+				exists = yes
+				}
+			any_owned = { limit = { region = USA_188 } secede_province = THIS }
+			}
+		}
+	}
+	seize_kentucky_GEO_DOM = {
+	potential = {
+		tag = GEO
+		DOM = { exists = yes }
+	}
+	allow = {
+		NOT = { 
+			war_with = DOM
+			has_recently_lost_war = yes
+			has_country_flag = settled_border_dispute
+		}
+		DOM = {
+			NOT = { war_with = GEO }
+			has_recently_lost_war = yes
+			truce_with = THIS
+			any_owned_province = {
+				region = USA_188
+			}
+		}
+	}
+	effect = {
+		set_country_flag = settled_border_dispute 
+		random_country = {
+			limit = {
+				tag = DOM
+				exists = yes
+				}
+			any_owned = { limit = { region = USA_188 } secede_province = THIS }
+			}
+		}
+	}
+
 }

@@ -3,7 +3,9 @@ primary_culture = french
 culture = occitan
 culture = wallonian
 culture = catalan
-religion = catholic
+culture = picard
+culture = breton
+religion = protestant
 government = absolute_monarchy
 plurality=0.000000
 nationalvalue=nv_order
@@ -27,6 +29,18 @@ public_meetings=yes_meeting
 press_rights=free_press
 trade_unions=non_socialist
 political_parties=non_secret_ballots
+
+
+#New Reforms
+conscription = two_year_draft
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+centralization = unitary
+colonial_policy = no_colonies
+
 ruling_party=FRA_conservative_2
 upper_house=
 {
@@ -61,13 +75,9 @@ alphabetic_flag_signaling = 1
 battleship_column_doctrine = 1
 steamers = 1
 naval_professionalism = 1
-no_standard = 1
 guild_based_production = 1
-private_banks = 1
 early_classical_theory_and_critique = 1
 freedom_of_trade = 1
-stock_exchange = 1
-ad_hoc_money_bill_printing = 1
 market_structure = 1
 classicism_n_early_romanticism = 1
 late_enlightenment_philosophy = 1

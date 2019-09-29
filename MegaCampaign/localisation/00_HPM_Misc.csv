@@ -66,6 +66,9 @@ native_enslavement;Native Enslavement;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 NO_RAIL_YET;We can not encourage railroad building when we do not know how to build them yet.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 CAN_NOT_BUILD_FACTORY;Can not build factory.\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 CAN_BUILD_FACTORY;Can build factory.\n;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+trinket_wage;Trinket Minimum Wage;Salaire minimum de pacotille;Sach-Mindestlohn;;;;;;;;;;;
+trinket_wage_l;Trinket Min. Wage;Salaire min. dérisoire;Sach-Mindestlohn;;;;;;;;;;;
+trinket_wage_desc;Minimum wages are very low.;Les salaires minimum sont très bas.;Die Mindestlöhne sind äußerst niedrig.;;;;;;;;;;;
 no_safety;No Safety Regulations;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 no_safety_desc;Death or grievous injuries in the workplace isn't a rare occurrence as employers don't need to think about safety, only profit. The government has no governing legislation covering safety in the workplace and workers rarely manage to sue their employers over accidents.;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 trinket_safety;Minimal Safety Regulations;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -92,10 +95,10 @@ POLITICS_UPPERHOUSE_CHART_TOOLTIP;$PERCENT$% of the Upper House are $IDEOLOGY$\n
 POLITICS_UPPERHOUSE;Upper House;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 HAVE_INDUSTRIAL_SCORE_LESS_THAN;Have less Industrial Score than: ;;;;;;;;;;;;;;;;;;;;;;;;;x
 CHANGE_GOODS;Change trade goods in §Y$PROV$§W to §Y$GOOD$§W.\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
-HAVE_LESS_TOTAL_PORTS_THAN;Have equal or less ports than: ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
+HAVE_LESS_TOTAL_PORTS_THAN;Have equal or fewer ports than: ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 HAVE_MORE_TOTAL_PORTS_THAN;Have equal or more ports than: ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 TOTAL_AMOUNT_OF_SHIPS;Total amount of ships: §Y$COUNT$§W \n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
-LESS_AMOUNT_OF_SHIPS;Less amount of ships than: §Y$COUNT$§W \n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
+LESS_AMOUNT_OF_SHIPS;Lower number of ships than: §Y$COUNT$§W \n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 ibadi;Ibadi;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 HAS_RECENTLY_LOST_WAR;Have lost a war in the last five years.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 NOT_IN_ELECTION_CAMPAIGN;is NOT in an election campaign.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
@@ -445,6 +448,14 @@ no_foreign_navies;Locally Produced Ships;;;;;;;;;;;;;;;;;;;;;;;x
 yes_foreign_navies;Imported Ships;;;;;;;;;;;;;;;;;;;;;;;x
 no_foreign_navies_desc;Locally manufactured ships.;;;;;;;;;;;;;;;;;;;;;;;x
 yes_foreign_navies_desc;We import strong ships designs from the west.;;;;;;;;;;;;;;;;;;;;;;;x
+western_shipyards;Shipyards;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;
+western_shipyards_l;Shipyards;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;
+no_western_shipyards;Traditional Shipyards;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;
+no_western_shipyards_l;Traditional Shipyards;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;
+no_western_shipyards_desc;Our shipyards are built according to our old traditions.;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;
+yes_western_shipyards;Western Shipyards;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;
+yes_western_shipyards_l;Western Shipyards;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;
+yes_western_shipyards_desc;Our shipyards are built by foreign experts, allowing for the construction of ships of a much higher tonnage.;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;
 foreign_training;Training Methods;;;;;;;;;;;;;;;;;;;;;;x
 foreign_training_l;Training Methods;;;;;;;;;;;;;;;;;;;;;;x
 no_foreign_training;Local Training Methods;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -774,5 +785,7 @@ nihonjin;Nihonjin;;;;;;;;;;;;x,,
 chugokujin;Chugokujin;;;;;;;;;;;;x,,
 gyushuan;Gyushuan;;;;;;;;;;;;x,,
 kirishitan;Kirishitan;;;;;;;;;;;;x,,
+new_orleans;The Mouth of the Mississippi;;;;;;;;;;;;x,,
 beijing_imperial_palace;The Beijing Imperial Complex;;;;;;;;;;;;x,,
+nanjing_imperial_palace;The Nanjing Imperial Complex;;;;;;;;;;;;x,,
 kyoto_imperial_palace;The Kyoto Imperial Complex;;;;;;;;;;;;x,,

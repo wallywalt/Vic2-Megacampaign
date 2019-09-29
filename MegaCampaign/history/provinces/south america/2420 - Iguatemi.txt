@@ -1,5 +1,7 @@
-owner=ENG
-controller=ENG
+owner=BRZ
+controller=BRZ
+add_core=BRZ
+add_core=ENG
 trade_goods = sulphur
 life_rating = 25
 colonial=2

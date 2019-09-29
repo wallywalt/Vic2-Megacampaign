@@ -1,5 +1,6 @@
-owner=ENG
-controller=ENG
-add_core=GRI
+owner=ARG
+controller=ARG
+add_core=ARG
+add_core=ENG
 trade_goods = cattle
 life_rating = 30

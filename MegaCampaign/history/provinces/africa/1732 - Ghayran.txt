@@ -1,7 +1,7 @@
 owner=ITA
 controller=ITA
 add_core=FZA
-add_core=ARA
+
 trade_goods = fruit
 life_rating = 35
 colonial=2

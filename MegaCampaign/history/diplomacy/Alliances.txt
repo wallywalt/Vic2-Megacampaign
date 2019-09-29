@@ -1,5 +1,13 @@
 alliance=
 {
+	first="FRA"
+	second="X03"
+	start_date="1792.9.22"
+	end_date="1936.1.1"
+}
+
+alliance=
+{
 	first="KNI"
 	second="ITA"
 	start_date="1792.9.22"
@@ -400,14 +408,6 @@ alliance=
 
 alliance=
 {
-	first="ANN"
-	second="BUR"
-	start_date="1792.9.23"
-	end_date="1936.1.1"
-}
-
-alliance=
-{
 	first="ATJ"
 	second="BUR"
 	start_date="1792.9.22"
@@ -643,14 +643,6 @@ alliance=
 	first="TPR"
 	second="ASS"
 	start_date="1792.9.22"
-	end_date="1936.1.1"
-}
-
-alliance=
-{
-	first="DGL"
-	second="MYS"
-	start_date="1792.10.5"
 	end_date="1936.1.1"
 }
 

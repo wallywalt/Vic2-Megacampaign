@@ -1,7 +1,7 @@
-owner=X10
-controller=X10 
-add_core=X10
+owner=POL
+controller=POL
 add_core=PLC
+add_core=POL
 add_core=BYE
 add_core=RUS
 trade_goods = cattle
@@ -12,4 +12,3 @@ state_building=
 	building = small_arms_factory
 	upgrade = yes
 }
-colonial=2

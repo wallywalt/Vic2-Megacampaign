@@ -2,7 +2,7 @@ owner=POR
 controller=POR
 add_core=TLC
 add_core=MOR
-add_core=ARA
+
 trade_goods = grain
 life_rating = 35
 colonial=2

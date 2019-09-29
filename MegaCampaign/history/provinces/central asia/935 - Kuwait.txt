@@ -1,6 +1,6 @@
-owner=ALH
-controller=ALH
-add_core=ALH
+owner=MSY
+controller=MSY
+add_core=MSY
 add_core=ARA
 trade_goods = fruit
 life_rating = 35

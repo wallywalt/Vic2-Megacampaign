@@ -2,6 +2,6 @@ owner=X06
 controller=X06
 add_core=EGY
 add_core=KOJ
-add_core=ARA
+
 trade_goods = cotton
 life_rating = 35

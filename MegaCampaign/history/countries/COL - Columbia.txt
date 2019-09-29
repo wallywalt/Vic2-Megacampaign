@@ -1,12 +1,11 @@
-capital=14
-primary_culture = anglo_canadian
-culture = british
-culture = french_canadian
+capital=2295
+primary_culture = british
+culture = south_andean
 religion = protestant
-government = democracy
+government = hms_government
 plurality=0.000000
 nationalvalue=nv_liberty
-literacy=0.000000
+literacy=0.100000
 civilized=yes
 
 # Social Reforms
@@ -26,6 +25,18 @@ public_meetings=yes_meeting
 press_rights=censored_press
 trade_unions=no_trade_unions
 political_parties=underground_parties
+
+
+#New Reforms
+conscription = two_year_draft
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+centralization = unitary
+colonial_policy = no_colonies
+
 ruling_party=COL_liberal
 upper_house=
 {

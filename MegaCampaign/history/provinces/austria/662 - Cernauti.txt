@@ -2,5 +2,6 @@ owner=KOJ
 controller=KOJ
 add_core=MOL
 add_core=ROM
+add_core=HUN
 trade_goods = fruit
 life_rating = 35

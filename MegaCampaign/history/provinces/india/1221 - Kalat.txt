@@ -1,5 +1,6 @@
-owner=BCS
-controller=BCS
+owner=PAN
+controller=PAN
+add_core=PAN
 add_core=BCS
 trade_goods = wool
 life_rating = 32

@@ -1,7 +1,8 @@
 owner=X03
 controller=X03
-add_core=AUS 
 add_core=X03
+add_core=AUS 
+
 add_core=YUG
 add_core=SLO
 add_core=HRE

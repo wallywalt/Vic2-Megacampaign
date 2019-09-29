@@ -1,5 +1,6 @@
 owner=SCA
 controller=SCA
+add_core=SCA
 add_core=X13
 add_core=RUS
 add_core=EST

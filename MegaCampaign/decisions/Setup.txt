@@ -33,29 +33,7 @@ political_decisions = {
 			1723 = { set_province_flag = panama_canal }
 		}
 	}
-	setup_FRA = { 
-		potential = {
-			tag = FRA
-			always = no
-		}
-		allow = {
-			tag = FRA
-		}
-		effect = {
-			any_owned = {
-					limit = {
-						any_neighbor_province = { 
-							owned_by = BUR
 
-						}
-					}
-					add_province_modifier = {
-						name = highlander_raids
-						duration = -1
-					}
-				}
-		}
-	}
 
 	setup_MNG = {
 		potential = {
@@ -89,29 +67,14 @@ political_decisions = {
 				name = global_baby_boom
 				duration = 3650
 			}
-		}
-	}
-
-	setup_unciv = {
-		potential = {
-			civilized = no
-			always = no
-		}
-		allow = {
-			civilized = no
-		}
-		effect ={
-			any_owned = {
-				limit = {
-					is_overseas = no
-				}
-				add_province_modifier = {
-					name = low_carrying_capacity
-					duration = -1
-				}
+			set_variable = {
+				which = mandate_of_heaven
+				value = 50
 			}
 		}
 	}
+
+	
 	setup_kor = {
 		potential = {
 			primary_culture = korean

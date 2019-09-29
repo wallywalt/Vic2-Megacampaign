@@ -2,7 +2,6 @@ owner=MNG
 controller=MNG
 add_core=MNG
 add_core=MIN
-add_core=CXI
 add_core=CHI
 trade_goods = tea
 life_rating = 32

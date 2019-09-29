@@ -1,6 +1,8 @@
-owner=KOJ
-controller=KOJ
+owner=X10
+controller=X10
+add_core=X10
 add_core=ZAZ
 add_core=RUS
 trade_goods = coal
 life_rating = 35
+colonial=2

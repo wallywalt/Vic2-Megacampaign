@@ -1,5 +1,5 @@
-owner=MSY
-controller=MSY
+owner=PER
+controller=PER
 add_core=X12
 add_core=MSY
 add_core=PER

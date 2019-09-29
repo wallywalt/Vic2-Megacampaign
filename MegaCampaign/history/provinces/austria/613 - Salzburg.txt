@@ -1,5 +1,6 @@
 owner=X03
 controller=X03
+add_core=X03
 add_core=SLZ
 add_core=GER
 add_core=HRE

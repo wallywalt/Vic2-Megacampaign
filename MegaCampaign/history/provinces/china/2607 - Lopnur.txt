@@ -4,6 +4,7 @@ add_core=YRK
 add_core=ZUN
 add_core=KHA
 add_core=MGL
+add_core=X10
 add_core=XIN
 trade_goods = cotton
 life_rating = 32

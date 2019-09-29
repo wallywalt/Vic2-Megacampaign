@@ -1,6 +1,8 @@
 owner=X10
-controller=X10 
-add_core=X10
+controller=X10
+add_core=X10 
+ 
+
 add_core=RUS
 trade_goods = sulphur
 life_rating = 35

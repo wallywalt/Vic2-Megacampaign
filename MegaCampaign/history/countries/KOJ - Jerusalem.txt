@@ -1,11 +1,11 @@
 capital=917
-primary_culture = french
+primary_culture = norman
 culture = greek
 religion = coptic
 government = theocracy
 plurality=0.000000
 nationalvalue=nv_order
-literacy=46.700000
+literacy=0.450000
 civilized=yes
 
 # Social Reforms
@@ -25,6 +25,16 @@ public_meetings=yes_meeting
 press_rights=state_press
 trade_unions=no_trade_unions
 political_parties=underground_parties
+#New Reforms
+conscription = two_year_draft
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+centralization = unitary
+colonial_policy = no_colonies
+
 ruling_party=ISR_conservative
 upper_house=
 {

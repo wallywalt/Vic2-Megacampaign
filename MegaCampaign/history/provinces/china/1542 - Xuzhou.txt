@@ -2,7 +2,7 @@ owner=X08
 controller=X08
 add_core=MNG
 add_core=X08
-add_core=CXI
+
 add_core=CHI
 trade_goods = silk
 life_rating = 32

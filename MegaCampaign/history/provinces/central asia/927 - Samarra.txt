@@ -1,8 +1,7 @@
-owner=KOJ
-controller=KOJ
+owner=PER
+controller=PER
 add_core=IRQ
-add_core=TUR
-add_core=BAB
+add_core=PER
 add_core=ARA
 trade_goods = grain
 life_rating = 35

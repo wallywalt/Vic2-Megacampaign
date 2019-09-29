@@ -1,12 +1,10 @@
 capital=664
 primary_culture = hungarian
-culture = romanian
-culture = slovak
 religion = catholic
 government = absolute_monarchy
 plurality=0.000000
 nationalvalue=nv_order
-literacy=0.700000
+literacy=0.200000
 civilized=yes
 
 # Social Reforms
@@ -26,6 +24,16 @@ public_meetings=yes_meeting
 press_rights=censored_press
 trade_unions=no_trade_unions
 political_parties=underground_parties
+#New Reforms
+conscription = two_year_draft
+debt_law = serfdom
+penal_system = capital_punishment
+child_labor = child_labor_legal
+citizens_rights = primary_culture_only
+border_policy = open_borders
+centralization = unitary
+colonial_policy = no_colonies
+
 ruling_party=HUN_liberal
 upper_house=
 {
@@ -58,5 +66,5 @@ army_schools=no_army_schools
 foreign_naval_officers=no_foreign_naval_officers
 naval_schools=no_naval_schools
 foreign_navies=no_foreign_navies
-prestige=1.000000
+prestige=8.000000
 oob = "HUN_OOB.txt"

@@ -1,5 +1,6 @@
-owner=BCS
-controller=BCS
+owner=PER
+controller=PER
+add_core=PER
 add_core=BCS
 trade_goods = fish
 life_rating = 35

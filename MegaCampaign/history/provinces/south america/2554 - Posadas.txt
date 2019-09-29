@@ -1,5 +1,7 @@
-owner=ENG
-controller=ENG
-add_core=GRI
+owner=BRZ
+controller=BRZ
+add_core=BRZ
+add_core=ENG
 trade_goods = cattle
 life_rating = 30
+colonial = 2

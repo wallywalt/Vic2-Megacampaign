@@ -1,6 +1,6 @@
 owner=X10
 controller=X10
-add_core=SHU
+
 add_core=CHI
 add_core=MNG
 trade_goods = silk

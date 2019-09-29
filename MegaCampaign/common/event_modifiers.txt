@@ -1965,7 +1965,7 @@ chinese_floods = {
 taiping_draft = {
 	land_organisation = -0.1
 	org_regain = -0.1
-	mobilisation_size = 0.15
+	mobilisation_size = 0.40
 	prestige = -0.02
 	icon = 18
 }
@@ -2444,6 +2444,8 @@ low_carrying_capacity = {
 	icon = 14
 }
 
+##East Asia setup##
+
 korean_occupation = {
 	non_accepted_pop_consciousness_modifier = 0.02
 	non_accepted_pop_militancy_modifier = 0.01
@@ -2455,6 +2457,26 @@ korean_advance = {
 	icon = 18
 }
 
+low_mandate = {
+	icon = 18
+	tax_efficiency = -0.1
+	administrative_efficiency_modifier = -0.1
+	tariff_efficiency_modifier = -0.1
+}
+
+medium_mandate = {
+	icon = 18
+	administrative_efficiency_modifier = 0.05
+}
+
+high_mandate = {
+	icon = 18
+	tax_efficiency = 0.05
+	administrative_efficiency_modifier = 0.3
+	tariff_efficiency_modifier = 0.3
+	min_military_spending = 0.33
+}
+
 ### Neutrality ###
 neutrality = {
 	max_military_spending = -0.10
@@ -2464,6 +2486,8 @@ neutrality = {
 	global_immigrant_attract = 0.2
 	icon = 7
 }
+
+##British Colonies##
 
 benign_neglect = {
 	global_pop_consciousness_modifier = -0.10
@@ -2497,3 +2521,51 @@ government_act = {
 	icon = 9
 }
 
+##Chinese Princes##
+
+count_of_shu = {
+	leadership_modifier = 0.5
+	land_organisation = 0.15
+	supply_consumption = 0.2
+	icon = 9
+}
+
+duke_of_zhou = {
+	leadership_modifier = 0.25
+	land_organisation = 0.25
+	supply_consumption = 0.2
+	icon = 9
+}
+
+prince_of_wu = {
+	prestige = 0.05
+	tariff_efficiency_modifier = 0.25
+	naval_organisation = 0.1
+	icon = 9
+}
+
+prince_of_yue = {
+	tariff_efficiency_modifier = 0.1
+	diplomatic_points_modifier = 0.25
+	naval_organisation = 0.1
+	icon = 9
+}
+
+marquis_of_min = {
+	naval_organisation = 0.25
+	global_pop_consciousness_modifier = -0.01
+	global_pop_militancy_modifier = -0.01
+	diplomatic_points_modifier = -0.25
+	icon = 9
+}
+
+viscount_of_xi = {
+	tax_efficiency = 0.1
+	administrative_efficiency_modifier = 0.1
+	global_pop_consciousness_modifier = 0.01
+	icon = 9
+}
+
+reintegrating_territory = {
+	icon = 9
+}

@@ -1,7 +1,7 @@
-owner=AFG
-controller=AFG
+owner=PAN
+controller=PAN
 add_core=KAS
-add_core=AFG
+add_core=PAN
 add_core=HND
 trade_goods = silk
 life_rating = 32

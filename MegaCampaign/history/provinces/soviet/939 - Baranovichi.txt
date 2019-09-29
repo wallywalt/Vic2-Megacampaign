@@ -1,6 +1,7 @@
-owner=POL
-controller=POL
+owner=PRU
+controller=PRU
 add_core=PLC
+add_core=POL
 add_core=UKR
 add_core=BYE
 add_core=RUS
