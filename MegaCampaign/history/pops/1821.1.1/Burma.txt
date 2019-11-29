@@ -8,6 +8,18 @@
 		size = 200
 	}
 
+	aristocrats = {
+		culture = french
+		religion = protestant
+		size = 1000
+	}
+
+	clergymen = {
+		culture = french
+		religion = protestant
+		size = 250
+	}
+
 	clergymen = {
 		culture = karen
 		religion = theravada
@@ -94,6 +106,18 @@
 		size = 300
 	}
 
+	aristocrats = {
+		culture = french
+		religion = protestant
+		size = 1000
+	}
+
+	clergymen = {
+		culture = french
+		religion = protestant
+		size = 250
+	}
+
 	clergymen = {
 		culture = burmese
 		religion = theravada
@@ -148,6 +172,18 @@
 		culture = karen
 		religion = theravada
 		size = 400
+	}
+
+	aristocrats = {
+		culture = french
+		religion = protestant
+		size = 1000
+	}
+
+	clergymen = {
+		culture = french
+		religion = protestant
+		size = 250
 	}
 
 	clergymen = {
@@ -1025,9 +1061,9 @@
 	}
 
 	bureaucrats = {
-		culture = british
+		culture = occitan
 		religion = protestant
-		size = 25
+		size = 250
 	}
 }
 #Mergui (332000/83000 POPS)

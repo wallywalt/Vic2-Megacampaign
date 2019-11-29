@@ -1,5 +1,70 @@
 country_event = {
 
+	id = 7780000
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	title = "EVTNAME7780000"
+	desc = "EVTDESC7780000"
+	picture = "black_flag_army"
+
+	option = {
+		name = "EVTOPT7780000" 
+		relation = { who = BUR value = -50 }
+		set_country_flag = highland_raids
+	}
+}
+
+province_event = {
+	id = 7780001
+	title = "EVTNAME7780001" #highland raiding
+	desc = "EVTDESC7780001"
+	
+	trigger = {
+		owner = {
+			tag = FRA
+			has_country_flag = highland_raids
+		}
+		controlled_by = FRA
+		any_neighbor_province = { is_core = BUR }
+		NOT = { has_province_modifier = highlander_raids }
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	option = {
+		name = "EVTOPT7780001"
+		add_province_modifier = {
+			name = highlander_raids
+			duration = 100
+		}	
+		FRA = { 
+			prestige = -2 
+			treasury = -100
+		}
+		BUR = {
+			treasury = 100
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = french
+					has_pop_culture = occitan
+				}
+			}
+			random = {
+				chance = 70
+				move_pop = 1334
+			}
+		}
+	}
+}
+
+country_event = {
+
 	id = 7790001
 
 	is_triggered_only = yes
@@ -168,6 +233,9 @@ country_event = {#The Treaty of Taungoo (French Victory)
 		set_global_flag = treaty_of_taungoo
 		prestige = 25
 		inherit = BUR
+		any_owned = {
+			remove_province_modifier = highlander_raids
+		}
 		MNG = {
 			country_event = 7790006
 		}
@@ -189,7 +257,11 @@ country_event = {#The Treaty of Taungoo (Ming Defeat)
 
 	option = {
 		name = "EVTOPT7790006" 
-		prestige = -25		
+		prestige = -25	
+		change_variable = {
+			which = mandate_of_heaven
+			value = -10
+		}	
 	}
 }
 
@@ -222,8 +294,15 @@ country_event = {#The Treaty of Rangoon (Chinese Victory)
 	option = {
 		name = "EVTOPT7790007" 
      	set_global_flag = treaty_of_rangoon
-		prestige = 25		
+		prestige = 25
+		change_variable = {
+			which = mandate_of_heaven
+			value = 10
+		}		
 		FRA = {
+			any_owned = {
+				remove_province_modifier = highlander_raids
+			}
 			country_event = 7790008
 		}
 	}
@@ -330,5 +409,22 @@ country_event = {#Selling Espange
 		459 = { remove_core = POR }
 		460 = { remove_core = POR }
 
+	}
+}
+
+country_event = {
+	id = 190101
+	title = "EVTNAME190101"
+	desc = "EVTDESC190101"
+	picture = "thelastbonaparte"
+	trigger = {
+		year = 1901
+		tag = FRA
+		has_country_flag = swan_song
+	}
+	option = {
+		name = "EVTOPT190101"
+		set_country_flag = and_then_there_were_none
+		
 	}
 }

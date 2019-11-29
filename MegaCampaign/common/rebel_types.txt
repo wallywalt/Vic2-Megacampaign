@@ -807,12 +807,12 @@ anarcho_liberal_rebels = {
 		}
 	}
 	demands_enforced_effect = {
-		political_reform = none_voting
-		political_reform = party_appointed
-		political_reform = no_meeting
-		political_reform = state_press
-		political_reform = no_trade_unions
-		political_reform = underground_parties
+		political_reform = universal_weighted_voting
+		political_reform = population_equal_weight
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = non_socialist
+		political_reform = gerrymandering
 	}
 }
 
@@ -957,7 +957,7 @@ nationalist_rebels = {
 			is_accepted_culture = yes
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.52
 			is_accepted_culture = no
 		}
 		modifier = {

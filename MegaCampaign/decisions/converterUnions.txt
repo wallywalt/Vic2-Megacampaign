@@ -130,138 +130,6 @@ political_decisions = {
 		}
 	}
 
-	taiping_and_csa = { #creates Taiping and the CSA to prevent bugs in converted games
-		potential = {
-			is_greater_power = yes
-			ai = yes
-			NOT = {
-				has_global_flag = taiping_and_csa
-			}
-		}
-		allow = {
-			ai = yes		
-		}
-
-		effect = {
-			USA_129 = { add_core = CSA } #Dixieland for the ACW
-			
-			CHI_1476 = { add_core = TPG } #Taiping Heavenly Kingdom (for event)
-			any_country = { #Trapalandia
-				limit = {
-					tag = TRL
-					NOT = { exists = TRL }
-				}
-				primary_culture = horse
-				religion = animist
-				government = theocracy
-				civilized = yes
-				capital = 2131
-			}
-			any_country = { #Alaska
-				limit = {
-					tag = LSK
-					NOT = { exists = LSK }
-				}
-				primary_culture = yankee
-				religion = protestant
-				government = democracy
-				civilized = yes
-				capital = 3
-			}
-			any_country = { #Macedonia
-				limit = {
-					tag = MKD
-					NOT = { exists = MKD }
-				}
-				primary_culture = macedonian
-				religion = orthodox
-				government = democracy
-				civilized = yes
-				capital = 806
-			}
-			any_country = { #Alien Invaders
-				limit = {
-					tag = ALI
-					NOT = { exists = ALI }
-				}
-				primary_culture = alien
-				religion = noreligion
-				government = theocracy
-				civilized = yes
-				capital = 1077
-			}
-			any_country = { #Cats
-				limit = {
-					tag = MIA
-					NOT = { exists = MIA }
-				}
-				primary_culture = cat
-				religion = kemetic
-				government = theocracy
-				civilized = yes
-				capital = 1767
-			}
-			any_country = { #Undead Horde
-				limit = {
-					tag = UND
-					NOT = { exists = UND }
-				}
-				primary_culture = undead
-				religion = noreligion
-				government = theocracy
-				civilized = yes
-				capital = 744
-			}
-			any_country = { #Kurdistan
-				limit = {
-					tag = BHT
-					NOT = { exists = BHT }
-				}
-				primary_culture = kurdish
-				religion = sunni
-				government = democracy
-				civilized = yes
-				capital = 924
-			}
-			any_country = { #Andalusia
-				limit = {
-					tag = ADU
-					NOT = { exists = ADU }
-				}
-				primary_culture = andalucian
-				religion = sunni
-				government = theocracy
-				civilized = yes
-				capital = 510
-			}
-			any_country = { #Malta
-				limit = {
-					tag = MLT
-					NOT = { exists = MLT }
-				}
-				primary_culture = maltese
-				religion = catholic
-				government = democracy
-				civilized = yes
-				capital = 854
-			}
-			any_country = { #Langobardia
-				limit = {
-					tag = LGB
-					NOT = { exists = LGB }
-				}
-				primary_culture = lombard
-				religion = catholic
-				civilized = yes
-				capital = 726
-			}
-			set_global_flag = taiping_and_csa
-		}
-		ai_will_do = {
-			factor = 1
-		}
-			
-	}
 
 	
 	form_china = {
@@ -271,7 +139,6 @@ political_decisions = {
 		news_desc_short = "form_china_NEWS_SHORT"
 		potential = {
 			OR = {
-				primary_culture = manchu
 				primary_culture = nanfaren
 				primary_culture = beifaren
 				primary_culture = min
@@ -1060,7 +927,6 @@ political_decisions = {
 					}
 					capital_scope = { continent = asia }
 					OR = {
-						primary_culture = manchu
 						primary_culture = nanfaren
 						primary_culture = beifaren
 						primary_culture = min

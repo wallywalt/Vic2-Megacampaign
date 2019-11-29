@@ -43,13 +43,13 @@ post_napoleonic_thought = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -190,13 +190,13 @@ strategic_mobility = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -338,13 +338,13 @@ point_defense_system = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -487,13 +487,13 @@ deep_defense_system = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -705,13 +705,13 @@ modern_army_doctrine = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -843,13 +843,13 @@ flintlock_rifles = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -983,13 +983,13 @@ muzzle_loaded_rifles = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -1132,13 +1132,13 @@ breech_loaded_rifles = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -1265,13 +1265,13 @@ machine_guns = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -1396,13 +1396,13 @@ bolt_action_rifles = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -1531,13 +1531,13 @@ modern_divisional_structure = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -1711,13 +1711,13 @@ iron_muzzle_loaded_artillery = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -1847,13 +1847,13 @@ iron_breech_loaded_artillery = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -1984,13 +1984,13 @@ steel_breech_loaded_artillery = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -2122,13 +2122,13 @@ indirect_artillery_fire = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -2260,13 +2260,13 @@ heavy_armament_dunno = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -2400,13 +2400,13 @@ military_staff_system = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -2537,13 +2537,13 @@ military_plans = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -2674,13 +2674,13 @@ military_statistics = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -2812,13 +2812,13 @@ military_logistics = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -2948,13 +2948,13 @@ military_directionism = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -3085,13 +3085,13 @@ aeronautics = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}
@@ -3231,13 +3231,13 @@ army_command_principle = {
 					is_greater_power = yes
 					OR = {
 						capital_scope = { continent = asia }
-						capital_scope = { continent = australia_new_zealand }
+						capital_scope = { continent = oceania }
 					}
 					any_greater_power = {
 						military_score = THIS
 						OR = {
 							capital_scope = { continent = asia }
-							capital_scope = { continent = australia_new_zealand }
+							capital_scope = { continent = oceania }
 						}
 					}
 				}

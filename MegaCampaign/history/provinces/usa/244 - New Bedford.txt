@@ -1,8 +1,8 @@
 owner=DOM
 controller=DOM
 add_core=DOM
-add_core=USA
+
 trade_goods = grain
 life_rating = 35
-colonial=2
+
 railroad = 1

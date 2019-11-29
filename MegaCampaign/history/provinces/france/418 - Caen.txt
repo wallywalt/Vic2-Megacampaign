@@ -4,3 +4,8 @@ add_core=FRA
 add_core=NRM
 trade_goods = cotton
 life_rating = 31
+state_building = {
+	level = 3
+	building = fabric_factory
+	upgrade = yes
+}

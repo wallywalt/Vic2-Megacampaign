@@ -4,7 +4,7 @@ The 3rd installment of another CK2=>EU4=>Victoria 2 Megacampaign.
 
 The world of Beyond the Barricade in the year 1821:
 
-Having suffering decades of religious disunity and economic chaos, the Kingdom of France fell to Revolution, shifting from kingdom to republic to empire in the course of a few years. Under the House of Bonaparte, the French Empire clawed its way from the brink, pushing its borders in every direction, and has cemented its place as the predominant, though far from uncontested, global power. 
+Having suffered decades of religious disunity and economic chaos, the Kingdom of France fell to Revolution, shifting from kingdom to republic to empire in the course of a few years. Under the House of Bonaparte, the French Empire clawed its way from the brink, pushing its borders in every direction, and has cemented its place as the predominant, though far from uncontested, global power. 
 
 Across the Dover Strait, the United Kingdom of England, Scotland, and Ireland has spent the last few centuries in relative isolation from the mainland, instead focusing on dominating the New World from Philadelphia to the Falkland Islands. Yet, such colonial growth is not without consequence as the New World's population and economic output is starting to rival that of the metropole. Colonial policy and identity will be put to the test as the UK proceeds into the era of nationalism and liberalism.
 

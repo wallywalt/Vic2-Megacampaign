@@ -1,6 +1,8 @@
-owner=LDK
-controller=LDK
+owner=X10
+controller=X10
+add_core=X10
 add_core=LDK
 add_core=HND
 trade_goods = grain
 life_rating = 35
+colonial = 2

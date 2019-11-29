@@ -1,4 +1,4 @@
-country_event= { 
+country_event = { 
 	id = 132138
 	title = "EVTNAME132138" 
 	desc = "EVTDESC132138"
@@ -20,7 +20,7 @@ country_event= {
 	}
 }
 
-country_event= { 
+country_event = { 
 	id = 132139
 	title = "EVTNAME132139" 
 	desc = "EVTDESC132139"
@@ -31,7 +31,7 @@ country_event= {
 	}
 	fire_only_once = yes
 	mean_time_to_happen = {
-	months = 1
+		months = 1
 	}
 	option = {
 		name = "EVTOPTA132139"
@@ -44,5 +44,29 @@ country_event= {
 		random_owned = { limit = { province_id = 915 has_building = fort } fort = -6 }
 		random_owned = { limit = { province_id = 915 has_building = naval_base } naval_base = -6 }
 		915 = { add_province_modifier = { name = earthquake_devastation duration = 365 } any_pop = { reduce_pop = 0.99 } }
+		set_country_flag = kingdom_of_god
+	}
+}
+
+country_event = { 
+	id = 132425
+	title = "EVTNAME132425"
+	desc = "EVTDESC132425"
+	picture = "1882eclipsecomet"
+	trigger = {
+		year = 1882
+		tag = KOJ
+		has_country_flag = kingdom_of_god
+	}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = "EVTOPTA132425"
+		any_pop = {
+			limit = { is_primary_culture = no }
+			militancy = 10
+		}
 	}
 }

@@ -1,5 +1,5 @@
-owner=BCS
-controller=BCS
+owner=PER
+controller=PER
 add_core=KHO
 add_core=BCS
 add_core=PER

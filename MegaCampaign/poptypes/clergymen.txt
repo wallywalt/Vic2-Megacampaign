@@ -1,4 +1,4 @@
-sprite = 3
+hsprite = 3
 color = { 234 227 40 }
 strata = middle
 
@@ -575,7 +575,7 @@ modifier = {
 	modifier = {
 		factor = 5.01
 		OR = {
-			continent = australia_new_zealand
+			continent = oceania
 			continent = north_america
 			state_id = 254
 			state_id = 263
@@ -615,7 +615,7 @@ modifier = {
 			is_core = LUX
 			is_core = CAT
 			is_core = SWI
-			continent = australia_new_zealand
+			continent = oceania
 			continent = north_america
 			continent = africa
 			continent = indochina

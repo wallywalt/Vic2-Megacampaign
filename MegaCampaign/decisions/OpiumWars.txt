@@ -1,4 +1,24 @@
 political_decisions = {
+	launch_highland_raids = {
+		potential = {	
+			tag = BUR
+			NOT = {has_country_flag = highland_raiding}
+		}
+		allow = {
+			war = no
+			
+		}
+		effect = {
+			set_country_flag = highland_raiding
+			FRA = {
+				prestige = -5
+				country_event = 7780000
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	ultraindia = {
 		potential = {	
 			tag = FRA
@@ -26,4 +46,30 @@ political_decisions = {
 		}
 	}
 
+	reclaim_chinese_cores = {
+		potential = {
+			tag = MNG
+		}
+		allow = {
+			NOT = { has_country_modifier = reintegrating_territory }
+			check_variable = {
+				which = mandate_of_heaven
+				value = 40
+			}			
+			any_neighbor_country = { OR = { vassal_of = THIS substate_of = THIS in_sphere = THIS } }
+		}
+	}
+	effect = {
+		MNG = country_event = 1600134
+	}
+	ai_will_do = {
+		factor = 0.3
+		modifier = {
+			factor = 1
+			check_variable = {
+				which = mandate_of_heaven
+				value = 60
+			}	
+		}
+	}
 }

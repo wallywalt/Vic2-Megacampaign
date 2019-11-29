@@ -3,7 +3,7 @@ controller=DOM
 add_core=DOM
 add_core=CRK
 add_core=CHE
-add_core=USA
+
 trade_goods = cotton
 life_rating = 35
-colonial=2
+

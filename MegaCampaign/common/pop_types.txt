@@ -649,7 +649,7 @@ migration_chance = {
 			OR = {
 				has_pop_culture = north_german
 				has_pop_culture = south_german
-				has_pop_culture = swiss_german
+				#has_pop_culture = swiss_german
 			}
 		}
 		location = { 
@@ -659,9 +659,9 @@ migration_chance = {
 			}
 			NOT = { province_id = 3250 }
 		}
-		country = { 
-			primary_culture = swiss_german
-		}
+		#country = { 
+		#	primary_culture = swiss_german
+		#}
 	}
 	
 	modifier = {
@@ -669,7 +669,7 @@ migration_chance = {
 		THIS = { 
 			OR = {
 				has_pop_culture = french
-				has_pop_culture = swiss_french
+				#has_pop_culture = swiss_french
 			}
 		}
 		location = { 
@@ -679,7 +679,7 @@ migration_chance = {
 			}
 			NOT = { province_id = 3250 }
 		}
-		country = { primary_culture = swiss_german }
+		#country = { primary_culture = swiss_german }
 	}
 	
 	modifier = {
@@ -1759,11 +1759,56 @@ conversion_chance = {
 		state_scope = { is_colonial = yes }
 	}
 	
-		
+	modifier = {
+		factor = -0.75
+		OR = {
+			country = { capital_scope = { pop_majority_religion = sunni } }
+			country = { capital_scope = { pop_majority_religion = shiite } }
+			country = { capital_scope = { pop_majority_religion = ibadi } }
+			country = { primary_culture = turkish }
+		}
+		OR = {
+			has_pop_religion = orthodox
+			has_pop_religion = catholic
+			has_pop_religion = protestant
+			has_pop_religion = coptic
+		}
+		has_culture_core = yes
+	}
+	
+	modifier = {
+		factor = -0.75
+		OR = {
+			country = { capital_scope = { pop_majority_religion = protestant } }
+			country = { capital_scope = { pop_majority_religion = catholic } }
+			country = { capital_scope = { pop_majority_religion = orthodox } }
+			country = { capital_scope = { is_culture_group = southeast_asian } }
+		}
+		OR = {
+			has_pop_religion = catholic
+			has_pop_religion = protestant
+			has_pop_religion = orthodox
+		}
+	}
+			
 	modifier = {
 		factor = 0.8
 		has_pop_religion = animist
 		location = { continent = africa }
+		country = { civilized = yes }
+	}
+	
+	modifier = {
+		factor = 0.05
+		has_pop_religion = animist
+		location = { 
+			OR = {
+				continent = asia
+				#continent = indochina
+				#continent = east_indies
+			} 
+		}
+		state_scope = { is_colonial = yes }
 		country = { civilized = yes }
 	}
 	

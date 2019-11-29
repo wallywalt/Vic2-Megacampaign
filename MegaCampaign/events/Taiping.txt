@@ -3,6 +3,7 @@ country_event= {
 	title = "EVTNAME1600030" 
 	desc = "EVTDESC1600030"
 	picture = "taiping"
+	major = yes
 	trigger={
 		tag=MNG
 		NOT = {
@@ -14,7 +15,7 @@ country_event= {
 			}
 		}
 	mean_time_to_happen = {
-	months = 2
+		months = 2
 	}
 	option = {
 	name = "EVTOPT1600030"
@@ -32,6 +33,7 @@ country_event= {
 	title = "EVTNAME1600031" 
 	desc = "EVTDESC1600031"
 	picture = "taiping"
+	major = yes
 	trigger={
 		tag=MNG
 		check_variable = {
@@ -41,7 +43,7 @@ country_event= {
 		NOT = { has_country_modifier = medium_mandate }
 	}
 	mean_time_to_happen = {
-	months = 2
+		months = 2
 	}
 	option = {
 	name = "EVTOPT1600031"
@@ -59,6 +61,7 @@ country_event= {
 	title = "EVTNAME1600031" 
 	desc = "EVTDESC1600031"
 	picture = "taiping"
+	major = yes
 	trigger={
 		tag=MNG
 		check_variable = {
@@ -68,7 +71,7 @@ country_event= {
 		NOT = { has_country_modifier = low_mandate }
 	}
 	mean_time_to_happen = {
-	months = 2
+		months = 2
 	}
 	option = {
 	name = "EVTOPT1600031"
@@ -361,8 +364,8 @@ province_event = {
 			MNG = { 
 				NOT = {
 					check_variable = {
-					which = mandate_of_heaven
-					value = 40
+						which = mandate_of_heaven
+						value = 40
 					}
 				}
 			}
@@ -668,5 +671,574 @@ country_event = {
 			name = marquis_of_min
 			duration = -1
 		}
+	}
+}
+
+country_event = {
+	id = 1600134
+	title = "EVTNAME1600134" 
+	desc = "EVTDESC1600134"
+	picture = "taiping"
+	is_triggered_only = yes
+	
+	
+	option = {		
+		name = "EVTOPTA1600134"
+		CWU = {
+			country_event = 1600135
+		}
+	}
+	option = {		
+		name = "EVTOPTB1600134"
+		YUE = {
+			country_event = 1600135
+		}
+	}	
+	option = {		
+		name = "EVTOPTC1600134"
+		ZHO = {
+			country_event = 1600135
+		}
+	}
+	option = {		
+		name = "EVTOPTD1600134"
+		SHU = {
+			country_event = 1600135
+		}
+	}
+	option = {		
+		name = "EVTOPTE1600134"
+		CXI = {
+			country_event = 1600135
+		}
+	}
+	option = {		
+		name = "EVTOPTF1600134"
+		MIN = {
+			country_event = 1600135
+		}
+	}
+}
+
+country_event = {
+	id = 1600135
+	title = "EVTNAME1600135" 
+	desc = "EVTDESC1600135"
+	picture = "taiping"
+	is_triggered_only = yes
+	
+	option = {		
+		name = "EVTOPTA1600135"
+		random_owned = { limit = { is_core = MNG } secede_province = MNG }
+		change_variable = {
+			which = mandate_of_heaven
+			value = -1
+		}
+		MNG = {
+			add_country_modifier = {
+			name = reintegrating_territory
+			duration = 100
+			}
+		}
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 0
+				MNG = {
+					brigades_compare = 1
+				}
+			}
+		}
+	}
+	option = {		
+		name = "EVTOPTB1600135"
+		MNG = {
+			random_owned = { limit = { owner = { is_our_vassal = THIS } } owner = { leave_alliance = THIS release_vassal = THIS } }
+			war = {
+			target = THIS
+			attacker_goal = { 
+				casus_belli = annex_core_country
+			}
+			defender_goal = { 
+				casus_belli = status_quo 
+			}
+			call_ally = no
+		}
+		}
+		change_variable = {
+			which = mandate_of_heaven
+			value = 5
+		}
+	}	
+}
+
+#Main Rebellion Event
+country_event = {
+	id = 160001
+	title = "EVTNAME160001" #The Taiping Rebellion
+	desc = "EVTDESC160001"
+	picture = "taiping_attack"
+	news = yes
+	news_desc_long = "EVTDESC160001_NEWS_LONG"
+	news_desc_medium = "EVTDESC160001_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC160001_NEWS_SHORT"
+	major = yes	
+
+
+
+	trigger = {
+		year = 1851
+		tag = QNG
+		NOT = { has_global_flag = taiping_has_happened }
+		check_variable = {
+			which = taiping_provinces
+			value = 5
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.75
+			year = 1850
+			NOT = { year = 1852 }
+		}
+		modifier = {
+			factor = 0.3
+			year = 1853
+			NOT = { year = 1860 }
+		}
+		modifier = {
+			factor = 0.1
+			year = 1855
+			NOT = { year = 1860 }
+		}
+		modifier = {
+			factor = 0.01
+			year = 1860
+		}
+	}
+	
+	option = {
+		name = "EVT160001OPTA"
+		remove_country_modifier = the_female_shortage
+		any_owned = {
+			remove_province_modifier = christian_pamphlets
+			remove_province_modifier = christian_repression
+		}
+
+		QNG = {
+			add_country_modifier = {
+				name = no_more_war
+				duration = 120
+			}
+			country_event = { id=99931 days=120 }
+		}
+		
+		any_owned = {
+			limit = {
+				is_core = TPG
+				not = { province_id = 1616 }
+			}
+			secede_province = TPG
+		}
+		capital = 1616
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = nanfaren
+					has_pop_culture = zhuang
+					has_pop_culture = yue
+					has_pop_religion = sunni
+					has_pop_religion = protestant
+				}
+			}
+			militancy = 3
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = GXI
+					is_core = XBI
+					is_core = GNG
+					region = CHI_1559
+				}
+			}
+			add_province_modifier = {
+				name = anti_manchu_sentiment
+				duration = 730
+			}
+		}
+		any_country = {
+			limit = { substate_of = THIS }
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = nanfaren
+						has_pop_culture = zhuang
+						has_pop_culture = yue
+						has_pop_religion = sunni
+						has_pop_religion = protestant
+					}
+				}
+				militancy = 4
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = GXI
+						is_core = XBI
+						is_core = GNG
+						region = CHI_1559
+					}
+				}
+				add_province_modifier = {
+					name = anti_manchu_sentiment
+					duration = 730
+				}
+			}
+		}
+		set_global_flag = taiping_has_happened
+		
+		TPG = {
+			grain = 250
+			treasury = 100000
+			capital = 2221
+			any_pop = {
+				consciousness = -5
+				militancy = -5
+			}
+
+			add_country_modifier = {
+				name = no_more_war
+				duration = 90
+			}
+			
+			add_country_modifier = { name = fanatic_army duration = 1825 }
+			
+			define_general = {
+				name = "Li Xiucheng"
+				personality = stout
+				background = innovative_tactician
+			}
+			
+			define_general = {
+				name = "Feng Yunshan"
+				personality = spirited
+				background = gifted_administrator
+			}
+			
+			define_general = {
+				name = "Xiao Chaogui"
+				personality = deeply_religious
+				background = incompetent
+			}
+			
+			define_general = {
+				name = "Shi Dakai"
+				personality = audacious
+				background = expert_raider
+			}
+		}
+		
+		random_owned = {
+			limit = { owner = { land_reform = yes_land_reform } }
+			TPG = { economic_reform = yes_land_reform }
+		}
+		
+		random_owned = {
+			limit = { owner = { admin_reform = yes_admin_reform } }
+			TPG = { economic_reform = yes_admin_reform }
+		}
+		
+		random_owned = {
+			limit = { owner = { finance_reform = yes_finance_reform } }
+			TPG = { economic_reform = yes_finance_reform }
+		}
+		
+		random_owned = {
+			limit = { owner = { finance_reform = finance_reform_two } }
+			TPG = { economic_reform = finance_reform_two }
+		}
+		
+		random_owned = {
+			limit = { owner = { monetary_reform = yes_monetary_reform } }
+			TPG = { economic_reform = yes_monetary_reform }
+		}
+		
+		random_owned = {
+			limit = { owner = { monetary_reform = monetary_reform_two } }
+			TPG = { economic_reform = monetary_reform_two activate_technology = no_standard }
+		}
+		
+		random_owned = {
+			limit = { owner = { education_reform = yes_education_reform } }
+			TPG = { economic_reform = yes_education_reform }
+		}
+		
+		random_owned = {
+			limit = { owner = { research_reform = yes_research_reform } }
+			TPG = { economic_reform = yes_research_reform activate_technology = late_enlightenment_philosophy }
+		}
+		
+		random_owned = {
+			limit = { owner = { foreign_training = yes_foreign_training } }
+			TPG = { military_reform = yes_foreign_training }
+		}
+		
+		random_owned = {
+			limit = { owner = { foreign_weapons = yes_foreign_weapons } }
+			TPG = { military_reform = yes_foreign_weapons activate_technology = flintlock_rifles }
+		}
+		
+		random_owned = {
+			limit = { owner = { foreign_officers = yes_foreign_officers } }
+			TPG = { military_reform = yes_foreign_officers activate_technology = military_staff_system }
+		}
+		
+		random_owned = {
+			limit = { owner = { army_schools = yes_army_schools } }
+			TPG = { military_reform = yes_army_schools }
+		}
+		
+		random_owned = {
+			limit = { owner = { foreign_naval_officers = yes_foreign_naval_officers } }
+			TPG = { military_reform = yes_foreign_naval_officers }
+		}
+		
+		random_owned = {
+			limit = { owner = { naval_schools = yes_naval_schools } }
+			TPG = { military_reform = yes_naval_schools }
+		}
+		
+		random_owned = {
+			limit = { owner = { foreign_navies = yes_foreign_navies } }
+			TPG = { military_reform = yes_foreign_navies activate_technology = clipper_design activate_technology = steamers }
+		}
+		
+		random_owned = {
+			limit = { owner = { western_shipyards = yes_western_shipyards } }
+			TPG = { military_reform = yes_western_shipyards activate_technology = post_nelsonian_thought }
+		}
+		
+		random_owned = {
+			limit = { owner = { foreign_artillery = yes_foreign_artillery } }
+			TPG = { military_reform = yes_foreign_artillery activate_technology = bronze_muzzle_loaded_artillery }
+		}
+		
+
+		
+		random_owned = {
+			limit = { owner = { ai = yes } }
+			owner = { grain = 250 }
+		}
+		grain = 250
+		
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVT160001OPTB"
+		any_owned = {
+			remove_province_modifier = christian_pamphlets
+			remove_province_modifier = christian_repression
+		}
+		
+		any_owned = {
+			limit = {
+				is_core = TPG
+				not = { province_id = 1616 }
+			}
+			secede_province = TPG
+		}
+		capital = 1616
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = nanfaren
+					has_pop_culture = zhuang
+					has_pop_culture = yue
+					has_pop_religion = sunni
+					has_pop_religion = protestant
+				}
+			}
+			militancy = 3
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = GXI
+					is_core = XBI
+					is_core = GNG
+					region = CHI_1559
+				}
+			}
+			add_province_modifier = {
+				name = anti_manchu_sentiment
+				duration = 730
+			}
+		}
+		any_country = {
+			limit = { substate_of = THIS }
+			any_pop = {
+				limit = {
+					OR = {
+						has_pop_culture = nanfaren
+						has_pop_culture = zhuang
+						has_pop_culture = yue
+						has_pop_religion = sunni
+						has_pop_religion = protestant
+					}
+				}
+				militancy = 4
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						is_core = GXI
+						is_core = XBI
+						is_core = GNG
+						region = CHI_1559
+					}
+				}
+				add_province_modifier = {
+					name = anti_manchu_sentiment
+					duration = 730
+				}
+			}
+		}
+		war = {
+			target = TPG
+			attacker_goal = {
+				casus_belli = civil_war
+			}		
+			defender_goal = {
+				casus_belli = civil_war
+			}
+		}
+		set_global_flag = taiping_has_happened
+		
+		TPG = {
+			capital = 2221
+			any_pop = {
+				consciousness = -5
+				militancy = -5
+			}
+			
+			add_country_modifier = { name = fanatic_army duration = 1825 }
+			
+			define_general = {
+				name = "Li Xiucheng"
+				personality = stout
+				background = innovative_tactician
+			}
+			
+			define_general = {
+				name = "Feng Yunshan"
+				personality = spirited
+				background = gifted_administrator
+			}
+			
+			define_general = {
+				name = "Xiao Chaogui"
+				personality = deeply_religious
+				background = incompetent
+			}
+			
+			define_general = {
+				name = "Shi Dakai"
+				personality = audacious
+				background = expert_raider
+			}
+		}
+		
+		random_owned = {
+			limit = { owner = { land_reform = yes_land_reform } }
+			TPG = { economic_reform = yes_land_reform }
+		}
+		
+		random_owned = {
+			limit = { owner = { admin_reform = yes_admin_reform } }
+			TPG = { economic_reform = yes_admin_reform }
+		}
+		
+		random_owned = {
+			limit = { owner = { finance_reform = yes_finance_reform } }
+			TPG = { economic_reform = yes_finance_reform }
+		}
+		
+		random_owned = {
+			limit = { owner = { finance_reform = finance_reform_two } }
+			TPG = { economic_reform = finance_reform_two }
+		}
+		
+		random_owned = {
+			limit = { owner = { monetary_reform = yes_monetary_reform } }
+			TPG = { economic_reform = yes_monetary_reform }
+		}
+		
+		random_owned = {
+			limit = { owner = { monetary_reform = monetary_reform_two } }
+			TPG = { economic_reform = monetary_reform_two activate_technology = no_standard }
+		}
+		
+		random_owned = {
+			limit = { owner = { education_reform = yes_education_reform } }
+			TPG = { economic_reform = yes_education_reform }
+		}
+		
+		random_owned = {
+			limit = { owner = { research_reform = yes_research_reform } }
+			TPG = { economic_reform = yes_research_reform activate_technology = late_enlightenment_philosophy }
+		}
+		
+		random_owned = {
+			limit = { owner = { foreign_training = yes_foreign_training } }
+			TPG = { military_reform = yes_foreign_training }
+		}
+		
+		random_owned = {
+			limit = { owner = { foreign_weapons = yes_foreign_weapons } }
+			TPG = { military_reform = yes_foreign_weapons activate_technology = flintlock_rifles }
+		}
+		
+		random_owned = {
+			limit = { owner = { foreign_officers = yes_foreign_officers } }
+			TPG = { military_reform = yes_foreign_officers activate_technology = military_staff_system }
+		}
+		
+		random_owned = {
+			limit = { owner = { army_schools = yes_army_schools } }
+			TPG = { military_reform = yes_army_schools }
+		}
+		
+		random_owned = {
+			limit = { owner = { foreign_naval_officers = yes_foreign_naval_officers } }
+			TPG = { military_reform = yes_foreign_naval_officers }
+		}
+		
+		random_owned = {
+			limit = { owner = { naval_schools = yes_naval_schools } }
+			TPG = { military_reform = yes_naval_schools }
+		}
+		
+		random_owned = {
+			limit = { owner = { foreign_navies = yes_foreign_navies } }
+			TPG = { military_reform = yes_foreign_navies activate_technology = clipper_design activate_technology = steamers }
+		}
+		
+		random_owned = {
+			limit = { owner = { western_shipyards = yes_western_shipyards } }
+			TPG = { military_reform = yes_western_shipyards activate_technology = post_nelsonian_thought }
+		}
+		
+		random_owned = {
+			limit = { owner = { foreign_artillery = yes_foreign_artillery } }
+			TPG = { military_reform = yes_foreign_artillery activate_technology = bronze_muzzle_loaded_artillery }
+		}
+		
+		change_tag_no_core_switch = TPG
+		
+		ai_chance = { factor = 0 }
 	}
 }

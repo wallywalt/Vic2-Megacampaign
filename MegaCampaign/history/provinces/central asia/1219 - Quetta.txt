@@ -1,6 +1,7 @@
-owner=AFG
-controller=AFG
+owner=PAN
+controller=PAN
 add_core=BCS
+add_core=PAN
 add_core=AFG
 trade_goods = wool
 life_rating = 35

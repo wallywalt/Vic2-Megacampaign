@@ -2,7 +2,7 @@ owner=NEN
 controller=NEN
 add_core=ENG
 add_core=NEN
-add_core=USA
+
 trade_goods = tobacco
 life_rating = 35
 

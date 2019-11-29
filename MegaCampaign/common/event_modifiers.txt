@@ -2566,3 +2566,6 @@ viscount_of_xi = {
 	icon = 9
 }
 
+reintegrating_territory = {
+	icon = 9
+}

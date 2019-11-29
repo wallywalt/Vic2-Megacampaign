@@ -8969,32 +8969,12 @@
 	}	
 	farmers = {
 		culture = beifaren
-		religion = daoism
-		size = 126560
-	}
-	farmers = {
-		culture = beifaren
-		religion = confucian
-		size = 126560
-	}
-	farmers = {
-		culture = beifaren
 		religion = shenism
 		size = 126560
 	}
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 126560
-	}
-	farmers = {
-		culture = beifaren
-		religion = mahayana
-		size = 126560
-	}
-	farmers = {
-		culture = beifaren
-		religion = shenism
 		size = 126560
 	}
 	farmers = {
@@ -9164,7 +9144,7 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 827200
+		size = 427200
 	}
 }
 #Qingdao (24000/6000 POPS)

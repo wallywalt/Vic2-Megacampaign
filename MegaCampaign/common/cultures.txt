@@ -2636,6 +2636,7 @@ east_asian = {
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
+		radicalism = 10
 	}
 	korean = {
 		color = {0 10 175}
@@ -4582,55 +4583,5 @@ southern_african = {
 
 		last_names = { kaMpande kaMahole KaMdlela waMswati Buthelezei Khoza kaSihayo kaMvundlana kaZikhala kaMaphitha
 		}
-	}
-}
-
-non_human = {
-	leader = polar_bear
-	unit = SwedishGC
-	polar_bears = {
-		radicalism = 100
-		primary = JAN
-		color = { 200 200 200}
-
-		first_names = { Nanuk Ursus Isbjorn Grrrowr Bjorn Grrgrrr Rawr Bamse }
-		
-		last_names = { Beliy Medved Bjorn Rawrrorr Rrrrr Grrr Gyp Qoi Styrbjorn Blomstfjellet }
-	}
-	horse = {
-		color = { 255 111 94}
-		radicalism = 100
-		primary = TRL
-
-		first_names = { Spot Star Spirit Blaze Lucky Chief Rain Stormy Duke Traveler "Clever Hans" Dreamer Midnight Twilight Arion Carlos Triumph }
-
-		last_names = { Glitterhoof Sparklemane Moontail Opaleye Silvercoat Goldmuzzle }
-	}
-	cat = {
-		color = { 25 75 25}
-		radicalism = 100
-		primary = MIA/Khawitmau
-
-		first_names = { Mittens Fluffy Tom Smudge Shadow }
-
-		last_names = { Miyau Nyan Meow Miao Goro Purr Puss Cat Chat }
-	}
-	undead = {
-		color = { 30 30 30 }
-		radicalism = 100
-		primary = UND
-
-		first_names = { General Doctor Leader Beknown Bespectacled Buried Befeared "Human-eater" }
-
-		last_names = { Banshee Ghost Poltergeist Draugr Ghoul Jiangshi Lich Mummy Revenant Spirit Skeleton Vampire Wight Zombie "the Undead" }
-	}
-	alien = {
-		color = { 0 150 0 }
-		radicalism = 100
-		primary = ALI
-
-		first_names = { Xirgliss Cathiox Zir Zarax Rekaxir Cax Zidlaxi Cabroxi Xidlor Zeraxim Moz Zoz Xaz Zax Zacadliss Cothaxir Xoblagiss Rezicax Morezac Midloxec }
-
-		last_names = { Flatwood Grey Gray Green Reptilian Martian Venusian Stargazer "Ford Prefect" "the AI" Blorg Demogorgon }
 	}
 }

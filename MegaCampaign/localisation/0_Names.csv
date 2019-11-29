@@ -339,8 +339,8 @@ KOL;Cologne;Eau de Cologne;Köln;Kolonia;Colonia;Colonia;kölni;kolínská;kölni;Keu
 KOL_ADJ;Colognian;Colognien;Kölnisch;Colognian;Colognian;Colono;Colognian;Colognian;Colognian;kölsch;Colognian;?????????;Colognian;x;;
 KON;Kongo;Kongo;Kongo;Kongo;Kongo;Kongo;Kongo;Kongo;Kongo;Kongo;Kongo;?????;Kongo;x;;
 KON_ADJ;Kongolese;Kongolais;Kongolese;Kongolese;Kongolese;Kongolese;Kongolese;Kongolese;Kongolese;Kongolese;Congolês;?????????;Kongolese;x;;
-KOR;Hwaryeong;;;;;;;;;;;;;x;;;;
-KOR_ADJ;Korean;;;;;;;;;;;;;x;;;;
+KOR;Balhae;;;;;;;;;;;;;x;;;;
+KOR_ADJ;Balhaean;;;;;;;;;;;;;x;;;;
 KRK;Carnatic;Carnatic;Karnisch;Carnatic;Carnal;Carnatic;Carnatic;Carnatic;Carnatic;Carnatic;Carnal;????????;Carnatic;x;;
 KRK_ADJ;Carnatic;Carnatic;Karnisch;Carnatic;Carnal;Carnatic;Carnatic;Carnatic;Carnatic;Carnatic;Carnal;????????;Carnatic;x;;
 KRW;Karagwe;Karagwe;Karagwe;Karagwe;Karagwe;Karagwe;Karagwe;Karagwe;Karagwe;Karagwe;Karagwe;???????;Karagwe;x;;
@@ -728,6 +728,8 @@ ULS;Ulster;Ulster;Ulster;Ulster;Ulster;Ulster;Ulster;Ulster;Ulster;Ulster;Ulster
 ULS_ADJ;Ulstrian;Ulstrien;Ulstrische;Ulstrian;Ulstrian;Ulstriano;Ulstrian;Ulstrian;Ulstrian;Ulstrian;Ulstrian;????????;Ulstrian;x;;
 URB;Urbino;Urbino;Urbino;Urbino;Urbino;Urbino;Urbino;Urbino;Urbino;Urbino;Urbino;??????;Urbino;x;;
 URB_ADJ;Urbinian;Urbain;Urbinisch;Urbinian;Urbano;Urbinese;Urbinian;Urbinian;Urbinian;Urbinian;Urbano;????????;Urbinian;x;;
+USA;Usonia;;;;;;;;;;;;;x;;;;
+USA_ADJ;Usonian;;;;;;;;;;;;;x;;;;
 UTR;Utrecht;Utrecht;Utrecht;Utrecht;Utrecht;Utrecht;Utrecht;Utrecht;Utrecht;Utrecht;Utrecht;??????;Utrecht;x;;
 UTR_ADJ;Utrechtian;Utrechtien;Utrechtisch;Utrechtian;Utrechtian;Utrechtiano;Utrechtian;Utrechtian;Utrechtian;Utrechtse;Utrechtian;?????????;Utrechtian;x;;
 VIJ;Vijayanagar;Vijayanagar;Vijayanagar;Vijayanagar;Vijayanagar;Vijayanagar;Vijayanagar;Vijayanagar;Vijayanagar;Vijayanagar;Vijayanagar;???????????;Vijayanagar;x;;
